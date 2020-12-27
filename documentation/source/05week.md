@@ -50,6 +50,11 @@ Cheers,
 
 ## IT Security and Compliance Part II
 
+- Paul Exter Email
+    - SSM Agent and auto Updates
+    - AmazonSSMManagedInstanceCore IAM Policy  attached to ec2 instances
+
+
 [Shared+Responsibility+Model](https://support.chs.usgs.gov/display/CHSKB/Shared+Responsibility+Model)
 
 - lower server footprint and vulnerability attack surface
@@ -81,6 +86,8 @@ Cheers,
 - "Third most, actually." -- :-)
 
 ---
+
+![](Assets/eco-custom-chs.jpg)
 
 ## Logan Data Wrangling, S3 and early validation notebooks
 - S3 buckets view from the AWS Console
