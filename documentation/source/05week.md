@@ -50,6 +50,8 @@ Cheers,
 
 ## IT Security and Compliance Part II
 
+[Shared+Responsibility+Model](https://support.chs.usgs.gov/display/CHSKB/Shared+Responsibility+Model)
+
 - lower server footprint and vulnerability attack surface
 - reduce user numbers in my Landsat mini-pangeos
 - migrate users to big pangeo; teach cookbook examples in the Big Pangeo
