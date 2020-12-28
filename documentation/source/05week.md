@@ -104,6 +104,25 @@ Cheers,
 - https://github.com/tonybutzer/logan/blob/main/00-notebooks/00-portal-scraping/00-MRLC-Notebooks/00-data-scraping-grab-zips.ipynb
 - [LINK HERE](https://github.com/tonybutzer/logan/blob/main/00-notebooks/00-portal-scraping/00-MRLC-Notebooks/00-data-scraping-grab-zips.ipynb)
 
+### A note about pangeo forge data wrangling shared code
+- Pangeo realizes that public data is slowly being organized in buckets and data wrangling still needs to be done.
+- https://medium.com/pangeo/pangeo-2-0-2bedf099582d
+    - [2016 Schedule of Pangeo genesis](https://rabernat.github.io/aospy-workshop/posts/workshop-program/)
+    - cultivate ecosystem nextgen open-source tools, scalable, leverage geeks outside science
+    - grassroots - scientists coming together - no silos
+    - EarthCube - funded via NSF - long-term dialog between NSF and scientific communities
+    - Originally HPC focused - but quickly gaining momentum in cloud computing and 
+        - `"we quickly realized that cloud offered unprecedented ability to experiment with new modes of computing and data access."` - Ryan Abernathey
+        - Zarr is on track to become an OGC Community Standard.
+        - drive the adoption of and experimentation with new cloud-native array formats like Zarr, TileDB, and Cloud Optimized Geotiffi.
+        - LCMAP investigating TileDB
+        - We have also worked to improve tools related to loading and cataloging data, including fsspec, intake, intake-stac, intake-esm, etc.) 
+        - Contribution to the development of interactive visualization tools as the Holoviz suite of tools, which allow interaction with massive data through the use of Datashader and Bokeh.
+        - I would include panel and other dashboarding libraries/packages/modules HERE
+        - Sophisticated CI systems - IaC.
+        - Dozens of educational / training events around the world. (partial list, Pangeo YouTube playlist)
+            - [Unorganized List Here](https://github.com/pangeo-data/pangeo/issues/440)
+
 ## Featured Notebook in Big Pangeo pangeo.chs.usgs.gov
 
 - Steve Labahn got a Pangeo account at the click of a button
