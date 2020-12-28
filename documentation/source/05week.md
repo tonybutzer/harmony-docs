@@ -62,7 +62,11 @@ Cheers,
 - migrate users to big pangeo; teach cookbook examples in the Big Pangeo
 - migrate eco users to the eco VPC mini-pangeo
 - add encryption where i have to - or decomission less important services
-- kelcy - where do you author notebooks? - use teams
+
+
+## Kelcy - where do you author notebooks? 
+- Where is your S3 bucket?
+- You are working on a STAC Collection 2 Example - Right?
 
 ### IT Security Goal
 > Improve IT Security Compliance - with minor impacts to creativity, scaling and science
