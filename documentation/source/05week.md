@@ -1,7 +1,7 @@
 
 # WEEK 5 - Data Wrangling is Underway - Understanding S3
 
-## HapPY Holidays
+## Happy Holidays
 - looking forward to 2021
 - thanks for particpating in these cloud activities - this effort is important
 
@@ -23,15 +23,26 @@
 - lets work together
 - "many hands make light work"
 - Good communication with CHS  - Eric Driscoll Larson's team
-    - EROS cloud pilot projects are very imporatnt toward shaping science 
+    - Thanks Neal
+    - EROS cloud pilot projects are very important toward shaping science 
+        - EROS is a WORLD CLASS DATA CENTER - we need to exert our influence
     - PANGEO, CHS Custom Pilots, CHS Science Data Lake, ESRI Integration
+    - AI/ML
+- Steffi Kagone - talk about the model we just ran over the weekend
+    - The pontential for using Docker to scale in the cloud
+    - Visualization effort - and outside synergies - Gabe, Darin
+    - Sharing data between Science elements - Terry Sohl, Ward Sanford - Wes Zell - Greg Rouze
+    - In the Cloud Queue
+        - VegDyn - Trenton, Dinesh
+        - LandFire
+        - LCMAP
+        - WaterSmart
 
 [CHS SERVICE LINK](https://taskmgr.chs.usgs.gov/servicedesk/customer/portal/10)
 
 
 ## Understanding COGs and NonCOGs
 - data sizes and overviews
-
 
 ### A word about Data Compression
 
@@ -53,7 +64,8 @@ Below is a summary of the compression ratios of each method in the worst case:
 ---
 
 
-### Email from my OpenDataCube Tasmanian Friend
+### Email from my OpenDataCube Tasmanian Friend - Alex Leith
+- Aussie lessons learned will likely influence LCMAP
 
 Hey Tony
 
