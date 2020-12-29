@@ -109,6 +109,12 @@ Cheers,
 - migrate eco users to the eco VPC mini-pangeo
 - add encryption where i have to - or decomission less important services
 
+### IAM - things you will never, ever, need to know - Whew!
+- but if you do there's an app for that - I mean a Jupyter Notebook for that!
+- aws iam list-attached-role-policies --role-name lsds-developer-ec2
+- Jupyter notebooks simplify every complex concept :-)
+
+
 
 ## Kelcy - where do you author notebooks? 
 - Answer: pangeo.cr.usgs.gov
@@ -189,11 +195,9 @@ Cheers,
 
 [ simple example plots big pangeo here](https://pangeo.chs.usgs.gov/user/butzer@contractor.usgs.gov/notebooks/opt/Oldstuff/notebook/00-Tutorial/01-Basic-Plotting-Python/00-example-plots-tony.ipynb)
 
-## IAM - things you will never, ever, need to know - Whew!
-- but if you do there's an app for that - I mean a Jupyter Notebook for that!
-- aws iam list-attached-role-policies --role-name lsds-developer-ec2
-- Jupyter notebooks simplify every complex concept :-)
 
+## Superheros Notebook
+- http://10.12.69.233/user/harmony/notebooks/opt/harmony-notebooks/00-pandas/00-demos/02-plotly-express/super_heros_pandas_plotly_espress_demo.ipynb
 ---
 
 ## END of WEEK 5
