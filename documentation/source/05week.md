@@ -1,6 +1,10 @@
 
 # WEEK 5 - Data Wrangling is Underway - Understanding S3
 
+## HapPY Holidays
+- looking forward to 2021
+- thanks for particpating in these cloud activities - this effort is important
+
 
 ## Topics covered today
     
@@ -15,13 +19,12 @@
     
      
 
-
-
 ## No silos; No Silos; NO SILOS!
 - lets work together
 - "many hands make light work"
-- Good communication with CHS 
+- Good communication with CHS  - Eric Driscoll Larson's team
     - EROS cloud pilot projects are very imporatnt toward shaping science 
+    - PANGEO, CHS Custom Pilots, CHS Science Data Lake, ESRI Integration
 
 [CHS SERVICE LINK](https://taskmgr.chs.usgs.gov/servicedesk/customer/portal/10)
 
