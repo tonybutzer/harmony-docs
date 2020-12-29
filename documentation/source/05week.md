@@ -39,6 +39,7 @@
         - LCMAP
         - WaterSmart
     - Logan to train Steffi's team on VDI meets FileZilla and the cloud EC2 - ssh key managment etc.
+        - Barter system for skill exchange - new staffing models needed to address the pace of change in technology
 
 [CHS SERVICE LINK](https://taskmgr.chs.usgs.gov/servicedesk/customer/portal/10)
 
