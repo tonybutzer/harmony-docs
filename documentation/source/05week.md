@@ -6,7 +6,7 @@
 - thanks for particpating in these cloud activities - this effort is important
 
 
-## Topics covered today
+## Topics covered today - Major Theme - Data in S3
     
 1. Silo Busting
 1. IT Security in the Cloud - strategy/impacts
@@ -91,7 +91,7 @@ Cheers,
 
 ## IT Security and Compliance Part II
 
-### Logan and Tony - we got this
+### Logan and Tony - "WE GOT THIS!"
 
 ### IT Security is way easier in the cloud
 
@@ -111,13 +111,14 @@ Cheers,
 
 ## Kelcy - where do you author notebooks? 
 - Answer: pangeo.cr.usgs.gov
+- PANGEO  manged service - is nice because IT Security is someone elses problem
 - Where is your S3 bucket?
 - You are working on a STAC Collection 2 Example - Right?
 
 ### IT Security Goal
 > Improve IT Security Compliance - with minor impacts to creativity, scaling and science
 
-> Keep our eyes on the mission - not the distractions
+> Keep our eyes on the mission - not the distractions.
 
 ---
 
