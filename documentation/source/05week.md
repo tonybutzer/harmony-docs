@@ -1,9 +1,29 @@
 
 # WEEK 5 - Data Wrangling is Underway - Understanding S3
 
+
+## Topics covered today
+    
+1. Silo Busting
+1. IT Security in the Cloud - strategy/impacts
+1. Pangeo and mini-pangeo when to use 
+1. Logan demonstrates - viewing buckets via the AWS Console
+1. Logan's notebook for examining a COG/nonCOG - xarray
+1. Logan's methods for scaling/resampling vs. windowing/clipping
+1. Tony - adventures in portal scraping for rapv2 and BITv3 - range-land herbs
+1. Tony - presents notebook of the week - Pandas and Violin Graphs
+    
+     
+
+
+
 ## No silos; No Silos; NO SILOS!
 - lets work together
 - "many hands make light work"
+- Good communication with CHS 
+    - EROS cloud pilot projects are very imporatnt toward shaping science 
+
+[CHS SERVICE LINK](https://taskmgr.chs.usgs.gov/servicedesk/customer/portal/10)
 
 
 ## Understanding COGs and NonCOGs
