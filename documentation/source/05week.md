@@ -32,11 +32,13 @@
     - The pontential for using Docker to scale in the cloud
     - Visualization effort - and outside synergies - Gabe, Darin
     - Sharing data between Science elements - Terry Sohl, Ward Sanford - Wes Zell - Greg Rouze
+    - how it would be nice to have ESRI tools in the cloud with direct access for s3 bucket data/data lakes
     - In the Cloud Queue
         - VegDyn - Trenton, Dinesh
         - LandFire - Anyone in class from Landfire? - Neal invited as a consultant.
         - LCMAP
         - WaterSmart
+    - Logan to train Steffi's team on VDI meets FileZilla and the cloud EC2 - ssh key managment etc.
 
 [CHS SERVICE LINK](https://taskmgr.chs.usgs.gov/servicedesk/customer/portal/10)
 
@@ -63,6 +65,10 @@ Below is a summary of the compression ratios of each method in the worst case:
 
 ---
 
+## In the cloud you can test all compression techniques
+- and change your mind - its fast and cheap to reprocess to other formats
+- zarr is an interesting technology as well
+
 
 ### Email from my OpenDataCube Tasmanian Friend - Alex Leith
 - Aussie lessons learned will likely influence LCMAP
@@ -85,6 +91,10 @@ Cheers,
 
 ## IT Security and Compliance Part II
 
+### Logan and Tony - we got this
+
+### IT Security is way easier in the cloud
+
 - Paul Exter Email
     - SSM Agent and auto Updates
     - AmazonSSMManagedInstanceCore IAM Policy  attached to ec2 instances
@@ -100,11 +110,14 @@ Cheers,
 
 
 ## Kelcy - where do you author notebooks? 
+- Answer: pangeo.cr.usgs.gov
 - Where is your S3 bucket?
 - You are working on a STAC Collection 2 Example - Right?
 
 ### IT Security Goal
 > Improve IT Security Compliance - with minor impacts to creativity, scaling and science
+
+> Keep our eyes on the mission - not the distractions
 
 ---
 
@@ -129,6 +142,11 @@ Cheers,
 ![](Assets/eco-custom-chs.jpg)
 
 ## Logan Data Wrangling, S3 and early validation notebooks
+
+1. Logan demonstrates - viewing buckets via the AWS Console
+1. Logan's notebook for examining a COG/nonCOG - xarray
+1. Logan's methods for scaling/resampling vs. windowing/clipping
+
 - S3 buckets view from the AWS Console
 - Quick Sanity Check of NED Data
 - in0 --> in1 (COGs) Model Ready Data Perhaps   `s3://eco-w1/in0/rapv2`; etc ....
@@ -139,7 +157,7 @@ Cheers,
 - https://github.com/tonybutzer/logan/blob/main/00-notebooks/00-portal-scraping/00-MRLC-Notebooks/00-data-scraping-grab-zips.ipynb
 - [LINK HERE](https://github.com/tonybutzer/logan/blob/main/00-notebooks/00-portal-scraping/00-MRLC-Notebooks/00-data-scraping-grab-zips.ipynb)
 
-### A note about pangeo forge data wrangling shared code
+### A note about PANGEO FORGE data wrangling shared code
 - Pangeo realizes that public data is slowly being organized in buckets and data wrangling still needs to be done.
 - https://medium.com/pangeo/pangeo-2-0-2bedf099582d
     - [2016 Schedule of Pangeo genesis](https://rabernat.github.io/aospy-workshop/posts/workshop-program/)
@@ -160,6 +178,8 @@ Cheers,
 
 ## Featured Notebook in Big Pangeo pangeo.chs.usgs.gov
 
+- I have an account in pangeo.chs.usgs.gov
+    - this is a nice capability for basic jupyter notebook training
 - Steve Labahn got a Pangeo account at the click of a button
 - This is a managed service and there are benefits - since many items are taken care of.
 - I think you can request a bucket to go with your user ???
