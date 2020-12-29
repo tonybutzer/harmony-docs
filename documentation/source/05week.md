@@ -34,7 +34,7 @@
     - Sharing data between Science elements - Terry Sohl, Ward Sanford - Wes Zell - Greg Rouze
     - In the Cloud Queue
         - VegDyn - Trenton, Dinesh
-        - LandFire
+        - LandFire - Anyone in class from Landfire? - Neal invited as a consultant.
         - LCMAP
         - WaterSmart
 
