@@ -22,6 +22,7 @@ The subjects include:
     - Creating NDVI with Landsat 8 - public data sets and Xarray
 
 #### Tensorflow
+[http://10.12.68.150:8080/tree/tensorflow-tutorials](http://10.12.68.150:8080/tree/tensorflow-tutorials)
 - Run from a container on the mini-pangeo
 - Training example shoes and shirts
 - The sandal looks like a sneaker to me
