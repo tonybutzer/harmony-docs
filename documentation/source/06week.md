@@ -9,6 +9,33 @@ The subjects include:
 - orchestration - its not just for clarinets and violins
 - how to cheat at AWS S3 bucketology with import fsspec
 
+## Birds-of-a-feather groupings
+#### Phenology
+[https://afternoon-crag-97068.herokuapp.com/](https://afternoon-crag-97068.herokuapp.com/)
+- *Points*
+    - python app written in Plotly Dash
+    - phenology based on landcover
+    - interactive - good responsiveness
+    - serverless - heroku, binder, AWS lambda - AWS Batch(quasi)
+- more to come.
+    - next week a discussion on HLS - NDVI Dev/Logan/Mike
+    - Creating NDVI with Landsat 8 - public data sets and Xarray
+
+#### Tensorflow
+- Run from a container on the mini-pangeo
+- Training example shoes and shirts
+- The sandal looks like a sneaker to me
+- Movie sentiment analysis
+- tensorflow for dummies - on kbr - skillport - free free free
+- Machine learning research to be actively funded by USGS - Sunne has teh contact -
+
+```
+/opt/logan/tools/tensorflow$ more Makefile
+
+        docker run -it -p 8080:8888 tensorflow/tensorflow:nightly-jupyter
+```
+
+
 ## Case Studies Eco - Data Wrangling
 
 - RAPV2
