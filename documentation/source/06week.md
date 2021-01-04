@@ -56,12 +56,30 @@ poor mans version here:
 [etm-conductor-orchestration-v2](https://github.com/tonybutzer/etm/blob/master/02-orchestration-launcher/etm-conductor-orchestration-v2.py)
 
 
-## Docker
+## Docker Uses
 
 - demo cog generation from sapv2 tif
 - demo unzip convert from .img and make cog mrlc-BITv3 
 - both of these from custom docker containers and simple docker heuristics
 
 ### Viz app for etasw
+[http://10.12.68.246/user/butzer/tree/opt/etviz/0-application-et-view](http://10.12.68.246/user/butzer/tree/opt/etviz/0-application-et-view)
+
 [http://10.12.68.246/user/butzer/notebooks/opt/etviz/0-application-et-view/99-vrt-fail.ipynb#](http://10.12.68.246/user/butzer/notebooks/opt/etviz/0-application-et-view/99-vrt-fail.ipynb#)
+
+
+
+
+## Next Week
+
+#### Data Wrangling of MRLC Data
+####  Harmonized Landsat and Sentinel HLS
+- Cole Krehbiel
+- [HLS and geoviews]
+    - https://www.google.com/search?client=firefox-b-1-d&q=lp+daac+jupyter+gallery
+    - [E-Learning](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwicntnyqILuAhWl1VkKHUF4CHsQFjAAegQIAhAC&url=https%3A%2F%2Flpdaac.usgs.gov%2Fresources%2Fe-learning%2F&usg=AOvVaw1DcNWio_vq98aIUFLDZ5on)
+
+
+
+
 
