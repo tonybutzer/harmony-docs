@@ -21,6 +21,8 @@ The subjects include:
     - next week a discussion on HLS - NDVI Dev/Logan/Mike
     - Creating NDVI with Landsat 8 - public data sets and Xarray
 
+[https://www.usgs.gov/core-science-systems/eros/phenology/science/ndvi-foundation-remote-sensing-phenology?qt-science_center_objects=0#qt-science_center_objects](https://www.usgs.gov/core-science-systems/eros/phenology/science/ndvi-foundation-remote-sensing-phenology?qt-science_center_objects=0#qt-science_center_objects)
+
 #### Tensorflow
 [http://10.12.68.150:8080/tree/tensorflow-tutorials](http://10.12.68.150:8080/tree/tensorflow-tutorials)
 - Run from a container on the mini-pangeo
@@ -43,7 +45,11 @@ The subjects include:
 - HLS
 - MRLZ - unzip pipeline
 
+Consider this web app:
 [https://rangelands.app](https://rangelands.app)
+
+poor mans version here:
+[http://10.12.68.150/user/butzer/tree/opt/logan/00-notebooks/02-eco-viz](http://10.12.68.150/user/butzer/tree/opt/logan/00-notebooks/02-eco-viz)
 
 
 ### Data Pipelines and Orchestration
