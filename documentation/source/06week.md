@@ -86,3 +86,6 @@ poor mans version here:
 
 
 
+### From Rich Signell's ocean example
+[geoviews example and cog overviews](https://nbviewer.jupyter.org/gist/rsignell-usgs/f4dd62ad1274c5b5ed69e5a6b81c1295)
+
