@@ -30,7 +30,8 @@ The subjects include:
 - The sandal looks like a sneaker to me
 - Movie sentiment analysis
 - tensorflow for dummies - on kbr - skillport - free free free
-- Machine learning research to be actively funded by USGS - Sunne has teh contact -
+- Machine learning research to be actively funded by USGS - Sunne has the contact -
+    - Matthew Kuckuk - Reno Nevada
 
 ```
 /opt/logan/tools/tensorflow$ more Makefile
@@ -77,8 +78,10 @@ poor mans version here:
 - Cole Krehbiel
 - [HLS and geoviews]
     - https://www.google.com/search?client=firefox-b-1-d&q=lp+daac+jupyter+gallery
-    - [E-Learning](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwicntnyqILuAhWl1VkKHUF4CHsQFjAAegQIAhAC&url=https%3A%2F%2Flpdaac.usgs.gov%2Fresources%2Fe-learning%2F&usg=AOvVaw1DcNWio_vq98aIUFLDZ5on)
+    - [E-Learning](https://lpdaac.usgs.gov/resources/e-learning/)
+    - [Getting Started with Cloud-Native HLS Data in Python](https://lpdaac.usgs.gov/resources/e-learning/getting-started-cloud-native-hls-data-python/)
 
+    - [iowa plotting EVI](https://lpdaac.usgs.gov/resources/e-learning/masking-visualizing-and-plotting-appeears-output-geotiff-time-series-python/)
 
 
 
