@@ -1,6 +1,8 @@
 
 # WEEK 6 - Case Studies ECO & ET
 
+### Death by Demo
+
 The subjects include:
 
 - phenology - dashboards are nifty.
