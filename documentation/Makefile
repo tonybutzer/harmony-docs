@@ -8,7 +8,7 @@ webServer:
 	docker run --name harmony-web -p 80:80 -v `pwd`/build/html:/usr/share/nginx/html:ro -d nginx
 
 joseWeb:
-	docker run --name harmony-web -p 7778:80 -v `pwd`/build/html:/usr/share/nginx/html:ro -d nginx
+	docker run --rm --name harmony-web -p 7778:80 -v `pwd`/build/html:/usr/share/nginx/html:ro -d nginx
 
 
 git:
