@@ -11,14 +11,19 @@ The subjects include:
     - Mike Oimoen, Logan etc 
     - CHS sponsored science
     - Steffi Kagone working on getting her own CHS Custom space - Just like Neal's
+        - Kagone modeled 150 years of Delaware River - now wants to do CONUS.
+            - Scientists think big - Science has the answers!
     - Danielson, Postma et al have 
     - Doucette encourages cloud AI/ML and python at EROS.
     - A CHS Data Lake is needed
+    - Tony freigtens Neal with a half-backed cost analyzer Notebook
+    - Aaron Friez and Cole K. are planning advanced Pangeo/DASK classes in CHS - using this class as a springboard. - You should attend when it pops up on the calendar,
 - phenology - dashboards are nifty.
 - machine learning with Tensorflow - what kind of shoe is this?
 - evaporation and transpiration for 150 flippin years -- NO SWEAT!
-- orchestration - its not just for clarinets and violins
+- orchestration - its not just for clarinets and violins - DEFER
 - how to cheat at AWS S3 bucketology with import fsspec
+- AMAZED at how Many items in this python eco-system boil down to one-line of code.
 
 ## Birds-of-a-feather groupings
 #### Phenology
