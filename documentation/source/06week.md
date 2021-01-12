@@ -15,6 +15,8 @@ The subjects include:
             - Scientists think big - Science has the answers!
     - Danielson, Postma, Neal et al have Tensorflow experience!
     - Doucette encourages cloud AI/ML and python at EROS.
+        - move science into the cloud - I agree obviously
+        - Kelcy made the comment that AI/ML is a field where we should share knowledge across projects
     - A CHS Data Lake is needed
     - Tony offers to alpha-test Q-GIS and arcGIS in the cloud. - stay tuned ...
     - Tony frightens Neal with a half-backed cost analyzer Notebook
