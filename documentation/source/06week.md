@@ -5,6 +5,15 @@
 
 The subjects include:
 
+- cloud activity continues to GROW
+    - Dinesh, Trenton
+        - next week we will do a STAC/sat-search and xarray using the landsat-pds bucket - PUBLIC, PUBLIC PUBLIC - some buckets are almost Public
+    - Mike Oimoen, Logan etc 
+    - CHS sponsored science
+    - Steffi Kagone working on getting her own CHS Custom space - Just like Neal's
+    - Danielson, Postma et al have 
+    - Doucette encourages cloud AI/ML and python at EROS.
+    - A CHS Data Lake is needed
 - phenology - dashboards are nifty.
 - machine learning with Tensorflow - what kind of shoe is this?
 - evaporation and transpiration for 150 flippin years -- NO SWEAT!
