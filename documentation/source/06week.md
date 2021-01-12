@@ -13,11 +13,11 @@ The subjects include:
     - Steffi Kagone working on getting her own CHS Custom space - Just like Neal's
         - Kagone modeled 150 years of Delaware River - now wants to do CONUS.
             - Scientists think big - Science has the answers!
-    - Danielson, Postma et al have 
+    - Danielson, Postma, Neal et al have Tensorflow experience!
     - Doucette encourages cloud AI/ML and python at EROS.
     - A CHS Data Lake is needed
     - Tony offers to alpha-test Q-GIS and arcGIS in the cloud. - stay tuned ...
-    - Tony freigtens Neal with a half-backed cost analyzer Notebook
+    - Tony frightens Neal with a half-backed cost analyzer Notebook
     - Aaron Friez and Cole K. are planning advanced Pangeo/DASK classes in CHS - using this class as a springboard. - You should attend when it pops up on the calendar,
 - phenology - dashboards are nifty.
 - machine learning with Tensorflow - what kind of shoe is this?
