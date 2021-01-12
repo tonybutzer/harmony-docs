@@ -16,6 +16,7 @@ The subjects include:
     - Danielson, Postma et al have 
     - Doucette encourages cloud AI/ML and python at EROS.
     - A CHS Data Lake is needed
+    - Tony offers to alpha-test Q-GIS and arcGIS in the cloud. - stay tuned ...
     - Tony freigtens Neal with a half-backed cost analyzer Notebook
     - Aaron Friez and Cole K. are planning advanced Pangeo/DASK classes in CHS - using this class as a springboard. - You should attend when it pops up on the calendar,
 - phenology - dashboards are nifty.
