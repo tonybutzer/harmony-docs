@@ -33,7 +33,7 @@ The subjects include:
     - python app written in Plotly Dash
     - phenology based on landcover
     - interactive - good responsiveness
-    - serverless - heroku, binder, AWS lambda - AWS Batch(quasi)
+    - serverless(CATTLE) - heroku, binder, AWS lambda - AWS Batch(quasi)
 - more to come.
     - next week a discussion on HLS - NDVI Dev/Logan/Mike
     - Creating NDVI with Landsat 8 - public data sets and Xarray
