@@ -32,7 +32,7 @@
 # Take it away Nathan
 
 
-## Tony leverages Nathan's work fro Class
+## Tony leverages Nathan's work for Class
 ### Demos
 
 
