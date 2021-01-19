@@ -1,6 +1,14 @@
 
 # WEEK 7
 
+## Overview
+
+1. Focus on Public Data 
+2. Demo of S3, STAC and Collection 2 in pangeo.chs.usgs.gov
+3. Repeat Demo of S3 from the mini-pangeo - with animations
+4. Talk about class-project synergies
+5. Adjourn
+
 ## Nathan Roberts Collection-2 at your Fingertips
 
 - Nathans role at EROS
@@ -35,10 +43,39 @@
 ## Tony leverages Nathan's work for Class
 ### Demos
 
+## Class-Project Synergies
+1. All hands - all of these projects are connected in this class
+    - Landfire
+    - LCMAP
+    - NLCD
+    - Evapotranspiration
+    - Invasive Species - Cheatgrass
+    - Fews - geoserver/geoengine
+2. Composites
+    - We should pilot some of this work using Open Data Cube examples as a starting point.
+    - NLCD
+    - Brett Bunde interest
+
+
+## Public Data Most Notable
+
+1. Landsat-8 PDS - Development Data - Proof of Concept
+2. Landsat Collection-2 ARD CARD4L - soon to replace the above data - for real science
+3. Sentinel data and now in COGS vs. JPEG2000 format
+4. Harmonized Landsat and Sentinel - version 1.5
+    - Logan and Devandra - exploring this now.
+
 
 ## Sentinel 2 Public Data
-- more to come on public data acess via STAC
 
+### I FOUND SOME SENTINEL-2 COGS!!!!!!
+- more to come on public data access via STAC
+
+- https://registry.opendata.aws/sentinel-2-l2a-cogs/
+
+- https://registry.opendata.aws/
+
+- https://registry.opendata.aws/sentinel-2/
 
 
 ## AWS S3 Pricing
@@ -64,7 +101,12 @@ Based on volume and region the actual prices differs a bit, but optimization tec
 
 [cube-in-a-box sentinel-2 example](https://github.com/opendatacube/cube-in-a-box/blob/2a6fd9c34a2ea2e24a124548ac359092d4082d11/notebooks/Sentinel_2.ipynb)
 
+---
 
+## END OF Week7
+---
+
+---
 
 ## Harmony Cookbook
 
