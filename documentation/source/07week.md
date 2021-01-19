@@ -6,6 +6,7 @@
 1. Focus on Public Data 
 2. Demo of S3, STAC and Collection 2 in pangeo.chs.usgs.gov
 3. Repeat Demo of S3 from the mini-pangeo - with animations
+    - Dinesh, Trenton and Pat Danielson - used this for self-directed study
 4. Talk about class-project synergies
 5. Adjourn
 
