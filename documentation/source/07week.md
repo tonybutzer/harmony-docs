@@ -1,5 +1,70 @@
 
-## WEEK 7
+# WEEK 7
+
+## Nathan Roberts Collection-2 at your Fingertips
+
+- Nathans role at EROS
+- Other Training Opportunities
+- Synergies with the LPDAAC Trainers
+- Past Pangeo Courses and Future Plans
+- Nathan's Masters Thesis with and without Cloud based Landsat
+
+
+
+## THE DEMO
+
+- https://www.usgs.gov/center-news/eros-releases-collection-2-boosting-cloud-access-accuracy-value-landsat-archive?qt-news_science_products=1#qt-news_science_products
+[LINK](https://www.usgs.gov/center-news/eros-releases-collection-2-boosting-cloud-access-accuracy-value-landsat-archive?qt-news_science_products=1#qt-news_science_products)
+
+> Director Loria said the movement to cloud processing and cloud data access reflects a significant paradigm shift for the USGS and DOI with regard to how Landsat data products will be accessed and used for science research and applications.
+
+> Collection 2 offers cloud access to Landsat’s nearly 50-year record of Earth surface conditions, alongside a host of improvements to data quality and easier access to Level-2 data products.
+
+- Collection2 - 5 weeks total - 450,000 scenes/day
+- Collection1 - 18 Months total -- 25,000 scenes each day
+
+> As a result of those efforts, the release of Collection 2 on December 1, 2020 will mark a new era for users of Landsat data. Collection 2 also features improved geodetic and geometric accuracy across the archive using the European Space Agency (ESA) Ground Reference Image, which will bolster efforts to harmonize Landsat data and data collected by Europe’s Copernicus Sentinel-2 satellites. The Landsat Level-2 products—surface temperature and surface reflectance—from 1984 through the present are also available without special requests, offering instant access to Landsat geophysical science products that will power energy balance or urban heat island studies as application examples.
+
+
+- https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/atoms/files/LSDS-1388-Landsat-Cloud-Optimized-GeoTIFF_DFCB-v2.0.pdf
+
+
+# Take it away Nathan
+
+
+## Tony leverages Nathan's work fro Class
+### Demos
+
+
+## Sentinel 2 Public Data
+- more to come on public data acess via STAC
+
+
+
+## AWS S3 Pricing
+
+There are three major costs associated with S3:
+
+- Storage cost: charged per GB / month. ~ $0.03 / GB / month, charged hourly
+- API cost for operation of files: ~$0.005 / 10000 read requests, write requests are 10 times more expensive
+- `Data transfer outside of AWS region:` ~$0.02 / GB to different AWS region, ~$0.06 / GB to the internet.
+
+Based on volume and region the actual prices differs a bit, but optimization techniques stay the same. I will use the above prices in following cost estimates.
+
+
+## Open Data Cube Advertisement
+
+#### Abstractions make science simpler
+
+- Using Jupyter and python will increase international cooperation for EROS
+- In global change science we cannot be xenophobic
+    - Rejoining Paris Climate Agreement - 197 countries
+
+> Rarely is there consensus among nearly all nations on a single topic. But with the Paris Agreement, leaders from around the world collectively agreed that climate change is driven by human behavior, that it’s a threat to the environment and all of humanity, and that global action is needed to stop it. It also created a clear framework for all countries to make emissions reduction commitments and strengthen those actions over time. 
+
+[cube-in-a-box sentinel-2 example](https://github.com/opendatacube/cube-in-a-box/blob/2a6fd9c34a2ea2e24a124548ac359092d4082d11/notebooks/Sentinel_2.ipynb)
+
+
 
 ## Harmony Cookbook
 

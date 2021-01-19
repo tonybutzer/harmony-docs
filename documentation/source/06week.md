@@ -1,5 +1,5 @@
 
-# WEEK 6 - Case Studies ECO & ET
+## WEEK 6 - Case Studies ECO & ET
 
 ### Death by Demo
 
