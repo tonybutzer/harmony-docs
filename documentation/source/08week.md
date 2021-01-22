@@ -13,6 +13,9 @@
 - HLS (BOF) birds-of-a-feather working group
     - Need to have Cole K go thru his notebook and what he knows - Aaron Friez as well
 
+---
+[https://earthdata.nasa.gov/esds/harmonized-landsat-sentinel-2](https://earthdata.nasa.gov/esds/harmonized-landsat-sentinel-2)
+
 ## STAC Catalog - high level collections
 [http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/01-composites-Albers-new/00-list-STAC-Catalog-Collections.ipynb](http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/01-composites-Albers-new/00-list-STAC-Catalog-Collections.ipynb)
 
