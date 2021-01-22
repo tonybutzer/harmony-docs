@@ -32,9 +32,18 @@
     - uses sat-search
     - Dinesh this is a good way to play with moving the AOI
 
+[http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/00-A-waubay-simple/0-waubay-simple-via-open-data-cube-lite.ipynb](http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/00-A-waubay-simple/0-waubay-simple-via-open-data-cube-lite.ipynb)
+
 
 ## Git Repo Tour
 
+- tensorflow
+- composit
+    - [https://www.usgs.gov/core-science-systems/nli/landsat/landsat-shapefiles-and-kml-files](https://www.usgs.gov/core-science-systems/nli/landsat/landsat-shapefiles-and-kml-files)
+
+
+## Netflix Distration 20
+http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/01-composites-Albers-new/00-list-STAC-Catalog-Collections.ipynb
 
 ## Validating Input Data via YML Config
     - Pandas
