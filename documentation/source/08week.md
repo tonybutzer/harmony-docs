@@ -48,4 +48,6 @@ http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/01-composites-
 
 ## Validating Input Data via YML Config
     - Pandas
+
+[https://nbviewer.jupyter.org/github/tonybutzer/etviz/blob/master/0-0-10-degree-viz/99-yaml-input-pandas.ipynb](https://nbviewer.jupyter.org/github/tonybutzer/etviz/blob/master/0-0-10-degree-viz/99-yaml-input-pandas.ipynb)
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/600px-Pandas_logo.svg.png)
