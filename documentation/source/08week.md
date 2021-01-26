@@ -21,7 +21,7 @@
 > for next tuesdays class - I am working on a simplified waubay example using landsat-8 only from a mature catalog as well as more explanations on pandas, xarray, and STAC catalogs - we will have some AI plans and composite plans in Git that I will glide thru as well ... more to come. lots of training and practical examples are emerging ... some data wrangling for Steffi as well
 
 
-## Purpose of This Class
+## Purpose of the WEEK8 Class
 
 - More examples of notebooks building xarrays
     - wuabay without all of the sat-api in your face
