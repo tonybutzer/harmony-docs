@@ -46,7 +46,7 @@
 - Initial glimpse into the challanges of compositing
 - Projections hurt my brain - Albers, UTM and 4326
 - Emerging, nascent data inputs - landsat[utm,albers], sentinel, - climate, soils, etc ...
-    - spreadsheet - show it now?
+    - `spreadsheet` - show it now?
 - one on one or small splinter sessions on cloud meets python meets - data - meets scientist are happening - 
 
 
