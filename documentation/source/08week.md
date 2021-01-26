@@ -1,4 +1,8 @@
-# WEEK 8
+# WEEK 8 - Remote Sensing is Hard
+
+- Making it easy will challenge us
+- We will naive ambition and energy to conquer this
+
 ## Intro Paragraph
 > for next tuesdays class - I am working on a simplified waubay example using landsat-8 only from a mature catalog as well as more explanations on pandas, xarray, and STAC catalogs - we will have some AI plans and composite plans in Git that I will glide thru as well ... more to come. lots of training and practical examples are emerging ... some data wrangling for Steffi as well
 
