@@ -41,7 +41,7 @@
 - more data wrangling of Cheatgrass - unzipping pipeline ... cflux
 - HLS trials and tribulations
 - ... AI .. 
-
+- compare/collaborate Aussie composite methods with US EROS methods - develop best-of-breed
 
 > The World Geodetic System (WGS) is a standard for use in cartography, geodesy, and satellite navigation including GPS. This standard includes the definition of the coordinate system's fundamental and derived constants, the ellipsoidal (normal) Earth Gravitational Model (EGM), a description of the associated World Magnetic Model (WMM), and a current list of local datum transformations.
 
