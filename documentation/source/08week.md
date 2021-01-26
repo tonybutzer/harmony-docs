@@ -40,7 +40,7 @@
     - Invasive
     - AI tensorflow - meets NLCD - Rangelands
     - Geomedian, Euclidean Composites as base inputs to land classifiers
-    - 4 sandboxes - 2 in landsat (need to go away) 1 in science(invasive) a few(4) in the queue and bigPangeo
+    - 4 jupyter/pangeo(mini) sandboxes - 2 in landsat (need to go away) 1 in science(invasive) a few(4) in the queue and bigPangeo
 - 50 greatest western movies - into a pandas data frame - how do folks manage streaming decision fatigue
 - pandas and xarray and geopandas - have similar slicing methods - raster and vector spaces
 - Initial glimpse into the challanges of compositing
