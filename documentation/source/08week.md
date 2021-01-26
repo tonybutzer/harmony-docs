@@ -45,9 +45,9 @@
 - pandas and xarray and geopandas - have similar slicing methods - raster and vector spaces
 - Initial glimpse into the challanges of compositing
 - Projections hurt my brain - Albers, UTM and 4326
+- one on one or small splinter sessions on cloud meets python meets - data - meets scientist are happening - 
 - Emerging, nascent data inputs - landsat[utm,albers], sentinel, - climate, soils, etc ...
     - `spreadsheet` - show it now?
-- one on one or small splinter sessions on cloud meets python meets - data - meets scientist are happening - 
 
 
 ## Coming Soon
