@@ -3,6 +3,20 @@
 - Making it easy will challenge us
 - We will need naive ambition and energy to conquer this
 
+## How will we ever make science easy
+1. Move data - all data into shared data lakes - prewrangled - WIP
+2. Move the Scientist to the data
+3. Build easy software eco-system in python
+4. Teach the scientists just enuf python
+5. Teach the library builders and devops people lots of python
+6. Build middleware that deals with all the nuances of Remote Sensed Data
+    - Open Data Cube ?
+7. Understand the trade-offs and adapt our thinking accordingly
+8. Communicate like crazy - Collaborate like the human race depends on it
+9. Buy water futures over California on the CBOE
+
+### TL;DR - Evangelize and implement the Pangeo Vision
+
 ## Intro Paragraph
 > for next tuesdays class - I am working on a simplified waubay example using landsat-8 only from a mature catalog as well as more explanations on pandas, xarray, and STAC catalogs - we will have some AI plans and composite plans in Git that I will glide thru as well ... more to come. lots of training and practical examples are emerging ... some data wrangling for Steffi as well
 
