@@ -2,6 +2,47 @@
 ## Intro Paragraph
 > for next tuesdays class - I am working on a simplified waubay example using landsat-8 only from a mature catalog as well as more explanations on pandas, xarray, and STAC catalogs - we will have some AI plans and composite plans in Git that I will glide thru as well ... more to come. lots of training and practical examples are emerging ... some data wrangling for Steffi as well
 
+
+## Purpose of This Class
+
+- More examples of notebooks building xarrays
+    - wuabay without all of the sat-api in your face
+    - how cloudy is it - Maine?
+    - Albers is alright, UTM is alright 'They just seem a little weird', 'surrender, surrender' - 4326
+    - using lite-stac - little cube - open data cube lite - limited utility
+        - smaller memory AOI's only - works with 4326 AOI and UTM data
+        - ad-hoc science - quick demos
+        - heavier science likely needs 
+            - open data cube
+            - or something like lcmaps interface via ChipMunk, aardvark - http ... # perhaps sped up
+            - we will play (R&D) with open data cube and sentinel - over Maine - and deal with projections
+- Gentle introduction into Open Data Cube abtractions and middleware
+- Visualize and verify Steffi's new input data for full CONUS Models
+- Identify the R&D cloud efforts and try to tie them together into a theme
+    - Invasive
+    - AI tensorflow - meets NLCD - Rangelands
+    - Geomedian, Euclidean Composites as base inputs to land classifiers
+    - 
+- 50 greatest western movies - into a pandas data frame - how do folks manage streaming decision fatigue
+- pandas and xarray and geopandas - have similar slicing methods - raster and vector spaces
+- Initial glimpse into the challanges of compositing
+- Projections hurt my brain - Albers, UTM and 4326
+- Emerging, nascent data inputs - landsat[utm,albers], sentinel, - climate, soils, etc ...
+    - spreadsheet - 
+- 
+
+
+## Coming Soon
+
+- more data wrangling of Cheatgrass - unzipping pipeline ... cflux
+- HLS trials and tribulations
+- ... AI .. 
+
+
+> The World Geodetic System (WGS) is a standard for use in cartography, geodesy, and satellite navigation including GPS. This standard includes the definition of the coordinate system's fundamental and derived constants, the ellipsoidal (normal) Earth Gravitational Model (EGM), a description of the associated World Magnetic Model (WMM), and a current list of local datum transformations.
+
+> The latest revision is WGS 84 (also known as WGS 1984, EPSG:4326), established and maintained by the United States National Geospatial-Intelligence Agency since 1984, and last revised in 2004
+
 ## Overview
 
 - git
@@ -51,3 +92,11 @@ http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/01-composites-
 
 [https://nbviewer.jupyter.org/github/tonybutzer/etviz/blob/master/0-0-10-degree-viz/99-yaml-input-pandas.ipynb](https://nbviewer.jupyter.org/github/tonybutzer/etviz/blob/master/0-0-10-degree-viz/99-yaml-input-pandas.ipynb)
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/600px-Pandas_logo.svg.png)
+
+
+---
+
+---
+
+## END OF WEEK8
+---
