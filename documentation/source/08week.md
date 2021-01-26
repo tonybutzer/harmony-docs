@@ -83,6 +83,8 @@
 - repeat cycle - revisits
 - covid-sats
 
+![](http://www.beyondgeek.com/wp-content/uploads/2013/02/Sputnik_670.jpg)
+
 ## STAC Catalog - high level collections
 [http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/01-composites-Albers-new/00-list-STAC-Catalog-Collections.ipynb](http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/01-composites-Albers-new/00-list-STAC-Catalog-Collections.ipynb)
 
