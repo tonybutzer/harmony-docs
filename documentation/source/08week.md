@@ -56,7 +56,10 @@
 - HLS trials and tribulations - Devandra?
     - Opportunities to work with the LPDAAC ['Cole K.', 'Aaron F.']
 - ... AI .. tensorflow ... into git ....
-- compare/collaborate Aussie composite methods with US EROS methods - develop best-of-breed
+- composite NLDC Rangeland Pat, Brett, Kory
+    - compare/collaborate Aussie composite methods with US EROS methods - develop best-of-breed
+    - young github repo exists here
+        - [https://github.com/tonybutzer/composite/tree/main/10-code-reference](https://github.com/tonybutzer/composite/tree/main/10-code-reference)
 
 > The World Geodetic System (WGS) is a standard for use in cartography, geodesy, and satellite navigation including GPS. This standard includes the definition of the coordinate system's fundamental and derived constants, the ellipsoidal (normal) Earth Gravitational Model (EGM), a description of the associated World Magnetic Model (WMM), and a current list of local datum transformations.
 
