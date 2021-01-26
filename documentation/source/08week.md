@@ -52,7 +52,7 @@
 
 ## Coming Soon
 
-- more data wrangling of Cheatgrass - unzipping pipeline ... cflux AGAIN - Logan?
+- more data wrangling of Cheatgrass - unzipping pipeline ... cflux AGAIN - `Logan?`
 - HLS trials and tribulations - Devandra?
     - Opportunities to work with the LPDAAC ['Cole K.', 'Aaron F.']
 - ... AI .. tensorflow ... into git ....
