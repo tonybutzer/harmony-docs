@@ -6,14 +6,14 @@
 ## How will we ever make science easy
 1. Move data - all data into shared data lakes - prewrangled - WIP
 2. Move the Scientist to the data
-3. Build easy software eco-system in python
+3. Build an easy ito use software eco-systemi/set-of-libraries in python
 4. Teach the scientists just enuf python
-5. Teach the library builders and devops people lots of python
+5. Teach the library builders and devops people lots of python and the details of remotely sensed data
 6. Build middleware that deals with all the nuances of Remote Sensed Data
     - Open Data Cube ?
 7. Understand the trade-offs and adapt our thinking accordingly
 8. Communicate like crazy - Collaborate like the human race depends on it
-9. Buy water futures over California on the CBOE
+9. Buy water futures over California on the NASDAQ
 
 ### TL;DR - Evangelize and implement the Pangeo Vision
 
@@ -40,13 +40,13 @@
     - Invasive
     - AI tensorflow - meets NLCD - Rangelands
     - Geomedian, Euclidean Composites as base inputs to land classifiers
-    - 
+    - 4 sandboxes - 2 in landsat (need to go away) 1 in science(invasive) a few(4) in the queue and bigPangeo
 - 50 greatest western movies - into a pandas data frame - how do folks manage streaming decision fatigue
 - pandas and xarray and geopandas - have similar slicing methods - raster and vector spaces
 - Initial glimpse into the challanges of compositing
 - Projections hurt my brain - Albers, UTM and 4326
 - Emerging, nascent data inputs - landsat[utm,albers], sentinel, - climate, soils, etc ...
-    - spreadsheet - 
+    - spreadsheet - show it now?
 - 
 
 
