@@ -53,7 +53,8 @@
 ## Coming Soon
 
 - more data wrangling of Cheatgrass - unzipping pipeline ... cflux AGAIN - Logan?
-- HLS trials and tribulations - Dev
+- HLS trials and tribulations - Devandra?
+    - Opportunities to work with the LPDAAC ['Cole K.', 'Aaron F.']
 - ... AI .. tensorflow ... into git ....
 - compare/collaborate Aussie composite methods with US EROS methods - develop best-of-breed
 
