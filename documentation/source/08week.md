@@ -125,3 +125,8 @@ http://10.12.69.233/user/butzer/notebooks/opt/notebook/00-Harmony/01-composites-
 
 ## END OF WEEK8
 ---
+
+## Future Classes
+### Docker
+### STAC, sat-api, sat-search  --> curators, end-points, catalogs, items, assets ... more json than you can stand
+### Data Transfer to the Denali ... ??? ??? ???
