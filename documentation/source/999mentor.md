@@ -39,9 +39,9 @@ It is suggested that the document be thoroughly reviewed and completed by the me
 16. How will assignments and deadlies be tracked and managed?
 
 ---
-Mentee Signature & Date 
-Mentor Signature & Date
-Mentor Signature & Date
+- Mentee Signature & Date 
+- Mentor Signature & Date
+- Mentor Signature & Date
 
 Hook, Edward W III and Audrey Wrenn.UAB Center for Clinical and Translational Science Mentoring Contract. (http://www.uab.edu/ccts/TrainingAndEduc/Documents/Mentor%20Contract%20-%203%20pages.pdf)
 
