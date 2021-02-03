@@ -25,6 +25,7 @@ Welcome to AWS -- PANGEO Onboarding Training
    14project_plan
    27DEVOPS.md
    30DataOps.md
+   999mentor.md
 .. 15conops.md
 .. 18sandbox.md
 .. 20infra.md
