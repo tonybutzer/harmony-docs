@@ -36,7 +36,7 @@ It is suggested that the document be thoroughly reviewed and completed by the me
 ### Focus and Scope
 14. We have agreed that our initial meetings will focus on these three topics:a.   
 15. Any additional areas/issues you want to discuss and agree to?
-16. How will assignments and deadlies be tracked and managed?
+16. How will assignments and deadlines be tracked and managed?
 
 ---
 - Mentee Signature & Date 
