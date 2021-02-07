@@ -1,7 +1,7 @@
-# Week 9
+# WEEK 9 Docker Week
 
 
-## Guest Notebook
+## From Medium Article Guest Notebook
 
 [https://github.com/shakasom/zonalstatistics](https://github.com/shakasom/zonalstatistics)
 
