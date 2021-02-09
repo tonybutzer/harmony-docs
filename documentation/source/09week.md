@@ -12,6 +12,9 @@
 | pangeo.chs | AWS CHS Cloud | Jupyter Linux| DASK | Training |
 | LSRD | llsrlscd04, on-prem | Linux | Docker, VM | Development|
 
+
+## Data at our Fingertips in the cloud 
+### A short informal list
 | Curator | Catalog | Collection | Assets | Format | POC |
 | ---- | ---- | ---- | ---- | --- | --- |
 | EROS | STAC 0.7 | C2 utm and albers | bands, metadata | COG | N. Roberts
