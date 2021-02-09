@@ -16,7 +16,7 @@
 | ---- | ---- | ---- | ---- | --- | --- |
 | EROS | STAC | C2 utm and albers | bands, metadata | COG | N. Roberts
 | LPDAAC | cmrSTAC | HLS v1.5 utm and albers | bands, metadata | COG | A. Friesz
-| Joe Flasher | STAC | Linux | sentinel-2 | bands, resolution, repeat | COG | Aussies |
+| (AWS) Joe Flasher | STAC | sentinel-2 | bands, resolution, repeat | COG | Aussies |
 
 
 [https://nbviewer.jupyter.org/github/tonybutzer/harmony/blob/main/class/01-docker-container-class/docker-tony-tutorial-aws-onboard.ipynb](https://nbviewer.jupyter.org/github/tonybutzer/harmony/blob/main/class/01-docker-container-class/docker-tony-tutorial-aws-onboard.ipynb)
