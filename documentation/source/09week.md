@@ -1,5 +1,16 @@
 # WEEK 9 Docker Week
 
+## Freedom of Religion - Infrastructure Agnostic
+
+| ---- | ---- | ---- | ---- | --- |
+| Account | Location | OS | Scaling | Application |
+
+| LCMAP | AWS Custom | Linux | Docker, k8s | lcmap |
+| Landsat | AWS Big | Linux | all | Collection-2 |
+| Invasive | AWS Custom | Linux | TBD | Cheatgrass |
+| WaterSmart | Not Yet :-( | Linux| Docker | ET |
+
+
 [https://nbviewer.jupyter.org/github/tonybutzer/harmony/blob/main/class/01-docker-container-class/docker-tony-tutorial-aws-onboard.ipynb](https://nbviewer.jupyter.org/github/tonybutzer/harmony/blob/main/class/01-docker-container-class/docker-tony-tutorial-aws-onboard.ipynb)
 
 
