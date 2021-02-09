@@ -4,7 +4,6 @@
 
 | Account | Location | OS | Scaling | Application |
 | ---- | ---- | ---- | ---- | --- |
-
 | LCMAP | AWS Custom | Linux | Docker, k8s | lcmap |
 | Landsat | AWS Big | Linux | all | Collection-2 |
 | Invasive | AWS Custom | Linux | TBD | Cheatgrass |
