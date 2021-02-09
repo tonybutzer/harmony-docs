@@ -8,6 +8,8 @@
 | Landsat | AWS Big | Linux | all | Collection-2 |
 | Invasive | AWS Custom | Linux | TBD | Cheatgrass |
 | WaterSmart | Not Yet :-( | Linux| Docker | ET |
+| pangeo.chs | AWS CHS Cloud | Jupyter Linux| DASK | Training |
+| LSRD | llsrlscd04, on-prem | Linux | Docker, VM | Development|
 
 
 [https://nbviewer.jupyter.org/github/tonybutzer/harmony/blob/main/class/01-docker-container-class/docker-tony-tutorial-aws-onboard.ipynb](https://nbviewer.jupyter.org/github/tonybutzer/harmony/blob/main/class/01-docker-container-class/docker-tony-tutorial-aws-onboard.ipynb)
