@@ -14,9 +14,12 @@
 
 | Curator | Catalog | Collection | Assets | Format | POC |
 | ---- | ---- | ---- | ---- | --- | --- |
-| EROS | STAC | C2 utm and albers | bands, metadata | COG | N. Roberts
-| LPDAAC | cmrSTAC | HLS v1.5 utm and albers | bands, metadata | COG | A. Friesz
+| EROS | STAC 0.7 | C2 utm and albers | bands, metadata | COG | N. Roberts
+| LPDAAC | cmrSTAC | HLS v1.5 | bands, metadata | COG | A. Friesz
 | (AWS) Joe Flasher | STAC | sentinel-2 | bands, resolution, repeat | COG | Aussies |
+| Flasher,Planet | STAC | Landsat-8 TOA | bands, pilot | COG | Tony |
+| Flasher,ESA | STAC | sentinel-2 | bands, resolution, repeat | jpeg2000(yuck) | ESA |
+
 
 
 [https://nbviewer.jupyter.org/github/tonybutzer/harmony/blob/main/class/01-docker-container-class/docker-tony-tutorial-aws-onboard.ipynb](https://nbviewer.jupyter.org/github/tonybutzer/harmony/blob/main/class/01-docker-container-class/docker-tony-tutorial-aws-onboard.ipynb)
