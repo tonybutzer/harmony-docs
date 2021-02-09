@@ -1,4 +1,4 @@
-# WEEK 9 Docker Week - lightning talk
+# WEEK 9 Docker Week - lightning talk EDITED
 
 ## Faking it with docker
 - what if we built a docker image and launched a bunch of containers?
