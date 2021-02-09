@@ -1,5 +1,9 @@
 # WEEK 9 Docker Week - lightning talk
 
+## Faking it with docker
+- what if we built a docker image and launched a bunch of containers?
+- will that scale?
+
 ## BUILDING An aws pricing docker image
 - tbutzer/aws-price
 - python app
