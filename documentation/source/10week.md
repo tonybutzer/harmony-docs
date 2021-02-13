@@ -5,7 +5,8 @@
 - Remote Sensing Catalogs of pixels at our service
 - Synergies with google maps and geojson.io
 - NO LICENSE FEES
-- A support group and a PANGEO community with really smart people to cheet off
+- A support group and a PANGEO community with really smart people to cheat off
 - A talented pool of folks from SD Universities - pride
+- Scientists with noble missions - wonderful!
 
 [https://www.google.com/maps/d/?hl=en](https://www.google.com/maps/d/?hl=en)
