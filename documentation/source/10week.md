@@ -31,6 +31,10 @@
 
 ## Composite Work
 
+### Pangeo Startup Sequence
+
+![pang](./Assets/pangeo-k8s-startup-event-log.PNG)
+
 
 ## Simple Animations using Landsat-8 TOC
 
