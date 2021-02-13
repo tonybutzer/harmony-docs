@@ -15,5 +15,26 @@
 - A talented pool of folks from SD Universities - pride
 - Scientists with noble missions - wonderful!
 - We can write `our own apps` that do just what we want them to do!
+- get rid of WINDOWS and all of its poor engineering.
+
+
+## Brave Sir Logan and The CMR 
+- Common Metadata Repository (CMR) - Earthdata - NASA
+- Logan says register here:
+    - I think you just need an earth data log in 
+    - https://urs.earthdata.nasa.gov/
+
 
 [https://www.google.com/maps/d/?hl=en](https://www.google.com/maps/d/?hl=en)
+
+
+## Composite Work
+
+
+## Simple Animations using Landsat-8 TOC
+
+
+## Denali integration Scenarios
+
+- composite on AWS --- Characterize on Denali or Tallgrass
+- Water Evaporation and Runoff on AWS --- Evaluate Water Balance Model fidelity on Denali using Stream Guage Data
