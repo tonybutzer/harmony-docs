@@ -8,5 +8,6 @@
 - A support group and a PANGEO community with really smart people to cheat off
 - A talented pool of folks from SD Universities - pride
 - Scientists with noble missions - wonderful!
+- We can write `our own apps` that do just what we want them to do!
 
 [https://www.google.com/maps/d/?hl=en](https://www.google.com/maps/d/?hl=en)
