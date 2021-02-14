@@ -48,7 +48,7 @@
 
 [https://www.google.com/maps/d/?hl=en](https://www.google.com/maps/d/?hl=en)
 
-![hls](./Assets/hls-grid.conus.PNG)
+![hls](./Assets/hls-grid-conus.PNG)
 
 
 ---
