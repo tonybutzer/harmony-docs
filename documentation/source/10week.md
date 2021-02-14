@@ -1,4 +1,4 @@
-# Week 10 - We are Really on to SOmething Here:
+# Week 10 - We are Really on to Something Here:
 
 - synergies between the cloud and hpc
 - high speed data movement
@@ -19,6 +19,7 @@
 - get rid of WINDOWS and all of its poor engineering.
 
 
+## HLS
 ## Brave Sir Logan and The CMR 
 - Common Metadata Repository (CMR) - Earthdata - NASA
 - Logan says register here:
@@ -29,6 +30,7 @@
 [https://www.google.com/maps/d/?hl=en](https://www.google.com/maps/d/?hl=en)
 
 
+## Sentinel
 ## Composite Work
 
 ### Pangeo Startup Sequence
@@ -36,6 +38,7 @@
 ![pang](./Assets/pangeo-k8s-startup-event-log.PNG)
 
 
+## 
 ## Simple Animations using Landsat-8 TOC
 
 
@@ -43,3 +46,11 @@
 
 - composite on AWS --- Characterize on Denali or Tallgrass
 - Water Evaporation and Runoff on AWS --- Evaluate Water Balance Model fidelity on Denali using Stream Guage Data
+
+## scp push and pull
+
+- scp push from cloud to denali - 20 MB/sec
+- scp push from desktop/vpn to cloud - .08 MB/sec
+    - likely better performance from the VDI to and from the
+        - ssh keys are easy after you create and add them a few times - esp. on linux
+
