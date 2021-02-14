@@ -32,6 +32,9 @@
 
 - Pangeo Objects - STAC - Xarray
 - Map Projections - warp speed
+    - geopandas intersections - operations- 
+        - new_gdf = gdf.loc[gdf.within(atlanta_shapely)]
+        - new_gdf = gdf.loc[gdf.intersects(atlanta_shapely)]
 - Compositing using cloud assets
 - Water model evaluation on Denali with stream guage integration and using PANGEO - open source!
 
@@ -46,7 +49,17 @@
     - https://urs.earthdata.nasa.gov/
 
 
+## geojson.io and google - measure distances - klm 
+
+- demo cut and paste into geojson.io
+- talk about importing as a kml in google maps
+- all you need is a chromebook to do science.
+
+
 [https://www.google.com/maps/d/?hl=en](https://www.google.com/maps/d/?hl=en)
+
+
+### HLS GRID
 
 ![hls](./Assets/hls-grid-conus.PNG)
 
