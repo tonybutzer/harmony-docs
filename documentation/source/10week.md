@@ -17,6 +17,7 @@
 - Scientists with noble missions - wonderful!
 - We can write `our own apps` that do just what we want them to do!
 - get rid of WINDOWS and all of its poor engineering.
+- tell Claudia - we can and do run PANGEOi/jupyter on Denali and Tallgrass
 
 
 ## HLS
