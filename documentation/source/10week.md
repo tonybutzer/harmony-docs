@@ -37,6 +37,12 @@
         - new_gdf = gdf.loc[gdf.intersects(atlanta_shapely)]
 - Compositing using cloud assets
 - Water model evaluation on Denali with stream guage integration and using PANGEO - open source!
+- Managing python packages in the evolving Pangeo opinionated ecosystem
+    - docker, conda, pip -- "GDAL" -- "GDAL"
+    - Do not pip install gdal, do not install GDAL inside a virtual-env. Instead, use Conda.
+---
+![](Assets/pip-install-meme.PNG)
+
 
 
 ---
