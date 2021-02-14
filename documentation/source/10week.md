@@ -23,6 +23,13 @@
 - get rid of WINDOWS and all of its poor engineering.
 - tell Claudia - we can and do run PANGEOi/jupyter on Denali and Tallgrass
 
+## Future Classes
+
+- Pangeo Objects - STAC - Xarray
+- Map Projections - warp speed
+- Compositing using cloud assets
+- Water model evaluation on Denali with stream guage integration and using PANGEO - open source!
+
 
 ## HLS
 ![a](https://cdn.earthdata.nasa.gov/conduit/upload/14905/CMR_Overview.png)
