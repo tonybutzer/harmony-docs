@@ -4,6 +4,9 @@
 
 - Remember: - Tony does topical small sessions on specific topics as part of the Pangeo/Open Data Cube outreach project
 
+---
+---
+
 - synergies between the cloud and hpc
 - high speed data movement
 - Remote Sensing Catalogs of pixels at our service
@@ -23,6 +26,8 @@
 - get rid of WINDOWS and all of its poor engineering.
 - tell Claudia - we can and do run PANGEOi/jupyter on Denali and Tallgrass
 
+---
+
 ## Future Classes
 
 - Pangeo Objects - STAC - Xarray
@@ -31,6 +36,7 @@
 - Water model evaluation on Denali with stream guage integration and using PANGEO - open source!
 
 
+---
 ## HLS
 ![a](https://cdn.earthdata.nasa.gov/conduit/upload/14905/CMR_Overview.png)
 ## Brave Sir Logan and The CMR 
@@ -43,6 +49,7 @@
 [https://www.google.com/maps/d/?hl=en](https://www.google.com/maps/d/?hl=en)
 
 
+---
 ## Sentinel
 - klm grid and google maps
 
@@ -55,10 +62,12 @@
 ![pang](./Assets/pangeo-k8s-startup-event-log.PNG)
 
 
-## 
-## Simple Animations using Landsat-8 TOC
+---
+## Landsat-8 TOA
+## Simple Animations using Landsat-8 TOA
 
 
+---
 ## Denali integration Scenarios
 
 - composite on AWS --- Characterize on Denali or Tallgrass
