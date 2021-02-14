@@ -1,5 +1,9 @@
 # Week 10 - We are Really on to Something Here:
 
+### A lot to cover today
+
+- Remember: - Tony does topical small sessions on specific topics as part of the Pangeo/Open Data Cube outreach project
+
 - synergies between the cloud and hpc
 - high speed data movement
 - Remote Sensing Catalogs of pixels at our service
@@ -21,6 +25,7 @@
 
 
 ## HLS
+![a](https://cdn.earthdata.nasa.gov/conduit/upload/14905/CMR_Overview.png)
 ## Brave Sir Logan and The CMR 
 - Common Metadata Repository (CMR) - Earthdata - NASA
 - Logan says register here:
