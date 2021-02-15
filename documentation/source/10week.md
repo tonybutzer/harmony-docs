@@ -90,7 +90,7 @@ Python_Packages:
   - pandas
 ```
 
-### Demo 2 
+### Demo 2 - flip thru aoi's i have shown off - waubay, rumira 
 
 http://www.yamllint.com/
 
@@ -109,6 +109,49 @@ github: composite
 path: opt/composite00-notebooks/00-wip-geojson-viewer
 ```
 
+### Demo 3 clouds and coverage and browse images - 
+
+
+```
+--- 
+Notebook: 10-less-clouds-display-thumbnails-jpg-maine-with-sentinel
+Purpose: "Gentle intro to Sentinel Assets (COGs) in us-west-2"
+Python_Packages: 
+  - geopandas
+  - folium
+  - geojson
+  - satsearch
+  - intake
+  
+Sandbox: pangeo.chs.usgs.gov
+User: butzer@contractor.usgs.gov
+github: composite
+path: opt/composite00-notebooks/00-wip-geojson-viewer
+Opinion: "Clouds - who needs them"
+```
+
+
+```
+DETAILS
+{'datetime': '2020-05-02T15:50:34Z',
+ 'platform': 'sentinel-2b',
+ 'constellation': 'sentinel-2',
+ 'instruments': ['msi'],
+ 'gsd': 10,
+ 'data_coverage': 39.35,
+ 'view:off_nadir': 0,
+ 'eo:cloud_cover': 0.84,
+ 'proj:epsg': 32619,
+ 'sentinel:latitude_band': 'T',
+ 'sentinel:grid_square': 'DK',
+ 'sentinel:sequence': '0',
+ 'sentinel:product_id': 'S2B_MSIL2A_20200502T153809_N0214_R011_T19TDK_20200502T194632',
+ 'created': '2020-09-18T23:16:32.727Z',
+ 'updated': '2020-09-18T23:16:32.727Z',
+ 'sentinel:valid_cloud_cover': True,
+ 'sentinel:utm_zone': 19,
+ 'sentinel:data_coverage': 39.35}
+```
 ## END OF WEEK10
 
 ---
