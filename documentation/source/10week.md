@@ -214,12 +214,18 @@ User: butzer@contractor.usgs.gov
 github: composite
 path: opt/composite00-notebooks/00-wip-geojson-viewer
 Opinion: "geoviews base * maine layers cool - zoom them"
+
+COOL_FEATURES:
+  - prune by geometric intesection operation with state of maine
+  - save as geojson --> geojson.io
+  - save as klm --> maps    https://www.google.com/maps/d/home
 ```
 
 ### Demo geojson.io - reads geopandas - intersecting with maine
 
 - Why did you work so hard in jupyter tony
 - file: Downloads: maine_s2_tiles.json
+
 
 
 ## Google Maps - this is Soooooo COOOOL - COOL KOOL KLM noice
