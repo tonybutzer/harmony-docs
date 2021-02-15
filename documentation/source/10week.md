@@ -195,6 +195,36 @@ https://www.usgs.gov/centers/eros/science/usgs-eros-archive-sentinel-2?qt-scienc
 - The Sentinel-2 tiling grid is referenced to the U.S. Military Grid Reference System (MGRS). 
 - Tiles can be fully or `partially` covered by image data. 
     - Partially covered tiles correspond to those at the edge of the swath.
+
+
+### Demo - klm - shapefiles - geoviews - maps
+
+```
+--- 
+Notebook: 00-sentinel-klm-study
+Purpose: "geometry vector intersection example"
+AOI: "Maine and tiles"
+Python_Packages: 
+  - geopandas
+  - shapely
+  - feona
+  
+Sandbox: pangeo.chs.usgs.gov
+User: butzer@contractor.usgs.gov
+github: composite
+path: opt/composite00-notebooks/00-wip-geojson-viewer
+Opinion: "geoviews base * maine layers cool - zoom them"
+```
+
+### Demo geojson.io - reads geopandas - intersecting with maine
+
+- Why did you work so hard in jupyter tony
+- file: Downloads: maine_s2_tiles.json
+
+
+## Google Maps - this is Soooooo COOOOL - COOL KOOL KLM noice
+[map](https://www.google.com/maps/d/edit?mid=18I407FsgH_r1yYjnPMUprXVkWkZFSIpk&usp=sharing)
+
 ## END OF WEEK10
 
 ---
