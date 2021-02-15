@@ -1,5 +1,11 @@
 # Week 10 - We are Really on to Something Here:
 
+---
+![](http://ontheworldmap.com/usa/state/maine/map-of-maine.jpg)
+
+
+---
+
 ### A lot to cover today
 
 - Remember: - Tony does topical small sessions on specific topics as part of the Pangeo/Open Data Cube outreach project
