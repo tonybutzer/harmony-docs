@@ -151,7 +151,38 @@ DETAILS
  'sentinel:valid_cloud_cover': True,
  'sentinel:utm_zone': 19,
  'sentinel:data_coverage': 39.35}
+
+
+more ...
+
+B02:
+              eo:bands:
+              - center_wavelength: 0.4966
+                common_name: blue
+                full_width_half_max: 0.098
+                name: B02
+              gsd: 10
+              roles:
+              - data
+              title: Band 2 (blue)
+              type: image/tiff; application=geotiff; profile=cloud-optimized
 ```
+---
+
+
+---
+
+## Everyone loves a Grid
+![a](https://dragon3.esa.int/documents/247904/266366/Sentinel-2-MSI_Product_Types_Figure_1_v3/262f604c-de1e-4cf7-b4f6-abdd7f0dc5fd?t=1523262257162)
+https://earth-info.nga.mil/GandG/update/index.php?action=home#tab_coord-data
+
+![](https://earth-info.nga.mil/GandG/update/img/MGRS_1km_Polygon_Shapefiles_Coverage.jpg)
+
+https://www.usgs.gov/centers/eros/science/usgs-eros-archive-sentinel-2?qt-science_center_objects=0#qt-science_center_objects
+
+- The Sentinel-2 tiling grid is referenced to the U.S. Military Grid Reference System (MGRS). 
+- Tiles can be fully or `partially` covered by image data. 
+    - Partially covered tiles correspond to those at the edge of the swath.
 ## END OF WEEK10
 
 ---
