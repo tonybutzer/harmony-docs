@@ -39,6 +39,10 @@
 - more to come ...
 
 
+### Tony yamls on 
+- http://www.yamllint.com/
+- https://jsonlint.com/
+
 ## Next 2 classes - Yaml
 ```
 Today: '2-16-2021'
