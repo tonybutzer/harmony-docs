@@ -247,6 +247,8 @@ COOL_FEATURES:
 - Why did you work so hard in jupyter tony
 - file: Downloads: maine_s2_tiles.json
 
+[geojson pop up](http://geojson.io/#map=7/44.840/-72.762)
+
 
 
 ## Google Maps - this is Soooooo COOOOL - COOL KOOL KLM noice
