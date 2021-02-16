@@ -99,7 +99,8 @@ Python_Packages:
 
 ## Message from Woods Hole Oceanographic Institute
 
-[6:42 AM] Signell, Richard P
+[6:42 AM] `Signell, Richard P`
+---
     Tony, thanks for the update!   I have been wondering about how things were going!  I'm excited we have an updated environment now at pangeo.chs.usgs.gov with the latest async capabilities for xarray/fsspec/zarr that make many things much faster. 
 
 
