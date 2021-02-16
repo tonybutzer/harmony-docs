@@ -42,6 +42,7 @@
 ## Next 2 classes - Yaml
 ```
 Today: '2-16-2021'
+  Theme: 'Sentinel Data Exploration and Discovery'
   Title: 'Cloud Based Sentinel CogS'
   Sensor: 'Sentinel'
   Data_Tier: 'L2A'
