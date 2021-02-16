@@ -33,7 +33,7 @@
 - tell Claudia - we can and do run PANGEO/jupyter on Denali and Tallgrass
 
 ---
-![svg](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#/media/File:Universal_Transverse_Mercator_zones.svg)
+[UTM Link svg](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system#/media/File:Universal_Transverse_Mercator_zones.svg)
 
 # Introducing Self-Directed Labs
 - more to come ...
