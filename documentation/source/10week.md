@@ -118,6 +118,12 @@ path: opt/composite00-notebooks/00-wip-geojson-viewer
 
 ### Demo 3 clouds and coverage and browse images - 
 
+- free pangeo
+- cheap chromebook
+- free sentinel - cloud COGs
+
+### Science its like magic only real!
+- Did you know Geographers smile way more than ordinary folks.
 
 ```
 --- 
