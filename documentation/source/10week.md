@@ -97,6 +97,12 @@ Python_Packages:
   - pandas
 ```
 
+## Message from Woods Hole Oceanographic Institute
+
+[6:42 AM] Signell, Richard P
+    Tony, thanks for the update!   I have been wondering about how things were going!  I'm excited we have an updated environment now at pangeo.chs.usgs.gov with the latest async capabilities for xarray/fsspec/zarr that make many things much faster. 
+
+
 ### Demo 2 - flip thru aoi's i have shown off - waubay, rumira 
 
 http://www.yamllint.com/
