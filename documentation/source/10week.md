@@ -114,6 +114,7 @@ Sandbox: pangeo.chs.usgs.gov
 User: butzer@contractor.usgs.gov
 github: composite
 path: opt/composite00-notebooks/00-wip-geojson-viewer
+prototype: "For Danielsons - Auto Composite/Animator and Dwyer Cube Tool"
 ```
 
 ### Demo 3 clouds and coverage and browse images - 
