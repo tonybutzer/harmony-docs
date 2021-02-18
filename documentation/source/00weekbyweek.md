@@ -40,7 +40,7 @@
 
 	- I will move some of these to Neal's interim web servers
 - Discuss the Student cross section
-	- http://10.12.69.216/00define_ET.html#students
+	- http://http://184.83.30.149:57778/00define_ET.html#students
 	- http://10.12.69.216/00define_ET.html#student-individual-goals
 <img src="https://raw.githubusercontent.com/tonybutzer/etscrum/main/00-presentation/bonus-slides/case-study-1.PNG">
 
