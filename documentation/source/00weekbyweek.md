@@ -40,8 +40,8 @@
 
 	- I will move some of these to Neal's interim web servers
 - Discuss the Student cross section
-	- http://http://184.83.30.149:57778/00define_ET.html#students
-	- http://10.12.69.216/00define_ET.html#student-individual-goals
+	- http://184.83.30.149:57778/00define_ET.html#students
+	- http://184.83.30.149:57778/00define_ET.html#student-individual-goals
 <img src="https://raw.githubusercontent.com/tonybutzer/etscrum/main/00-presentation/bonus-slides/case-study-1.PNG">
 
 - Discuss two Case Studies - Commonalities and Not
@@ -52,8 +52,8 @@
 	- its just a tool; "you're a tool tony"
 	- `There will be lots and lots of notebooks in this class`
 - Point to the two computers - field any questions
-	- web 10.12.69.216 hweb
-		- [AWS on-boarding website paper --LINK](http://10.12.69.216)
+	- web http://184.83.30.149:57778 hweb
+		- [AWS on-boarding website paper --LINK](http://http://184.83.30.149:57778)
 	- mini-pangeo 10.12.69.233 harmony
 		- [mini-pangeo --LINK](http://10.12.69.233)
 - Computer Access Methods
@@ -69,7 +69,7 @@
 	- use of `tmux` for session preservation across network/VPN failures/timeouts - long running jobs
 
 - Point to the website - nginx/sphinx driven
-	- [AWS on-boarding The website paper --LINK](http://10.12.69.216)
+	- [AWS on-boarding The website paper --LINK](http://http://184.83.30.149:57778)
 - Point to the github - 
 	- [https://github.com/tonybutzer/harmony](https://github.com/tonybutzer/harmony)
 - Quick Jupyter Session - jupyter fitting from single jupyter -- to self scaling hubs
@@ -123,11 +123,11 @@
 		- the littleist jupyter hub - intro
 	- Neal wanted a kanban too/also
 	- SEE DEVOPS WEEKLY
-		- [DEVOPS LINK](http://10.12.69.216/27etops.html?highlight=devops)
+		- [DEVOPS LINK](http://184.83.30.149:57778/27etops.html?highlight=devops)
 
 ## Teams Note
 Hey Class: - the course website is starting to take shape and is here:
-- http://10.12.69.216/
+- http://184.83.30.149:57778
 	
 we will fill in more color/detail as we go through our CASE Studies.
 - our companion github repo is here - can't live in the cloud without github/dockerhub.
@@ -182,7 +182,7 @@ we will fill in more color/detail as we go through our CASE Studies.
 	- Motivating words to inspire the troops to forge ahead.
 	- CHS CUSTOM Account status
 		- next steps
-		- [terraform](http://10.12.69.216/13glossary.html?highlight=terraform)
+		- [terraform](http://184.83.30.149:57778/13glossary.html?highlight=terraform)
 	- Phases for the Data and Processing from:
 		- portal scraping, ftp transfers to buckets `this is mostly a solved problem`
 			- this is also easier in the cloud - can be done in parallel -- multithreaded
