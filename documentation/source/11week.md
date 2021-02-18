@@ -6,8 +6,56 @@
 ---
 ![https://www.usgs.gov/center-news/doucette-discusses-future-eros-science-earthmap-new-branch-chief](https://www.usgs.gov/center-news/doucette-discusses-future-eros-science-earthmap-new-branch-chief)
 
+## Now a word from ssh - its the key to every door
+
+### ssh keys
+
+- nice article here
+- [https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys)
+
+
+#### SSH Summary
+
+- SSH is a secure protocol used as the primary means of connecting to Linux servers remotely.
+    - and github and gitlab -- code.usgs.gov
+- SSH is a secure protocol used as the primary means of connecting to Linux servers remotely.
+- you will be dropped into a shell session, which is a text-based interface where you can interact with your server.
+- Clients generally authenticate either using passwords (less secure and not recommended) or SSH keys, which are very secure.
+    - I miss usercode and password - sometimes
+- SSH keys are a matching set of cryptographic keys which can be used for authentication.
+    - public --- share with everyone
+    - private - never share or you will get in trouble
+
+
+- ssh-keygen ---- # generates a key pair PAIR
+    - ~/.ssh/id_rsa: The private key. DO NOT SHARE THIS FILE!
+    - ~/.ssh/id_rsa.pub: The associated public key. This can be shared freely without consequence.
+
+#### Where they go
+- the public key must be copied to a file within the user’s home directory at `~/.ssh/authorized_keys`
+- or in a github/gitlab - central repository  using settings --> keys ... 
+#### They look like this
+
+```
+tony@jose ~ $ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDcy3arx6+bW7LIVtgRgkfB/1tGieIVt6Id90qMnve2kRBBK3qlzEFgtwIsl8Io8Rr9Ip3e0apJQwSw3rTXkLd11J6xDLjkRBKWU2jsaYOn8iSfbaHT5JHMEAfTEZ49AELjdMNSBTb0TYw/cmKE9bLNMchmYNvfPnCidv/TakOY+DB1ZdSfDgI+NKoPZQ+Y9sK4Hl8xIEevwR2C0oP7S4+ekU9Fd3tx34R66vDyeCQeJItFp9Q1a7mW+wmulafAdr/Y3vxcEe4ArCPsDRgs8ElT0mrYD7csXZGNjqBxmSe/rNvknD/byE7SgMWvodWOpWRdN8/0eHzSsPJ1zvfnAW49 tony@jose
+```
+
+#### The belong here
+- the public key must be copied to a file within the user’s home directory at `~/.ssh/authorized_keys`
+- or in a github/gitlab - central repository  using settings --> keys ... 
+
+- 
+
+
 ## Github and code.usgs.gov
 
+### Create a repo - add a file - edit a file - git add - git push
+
+### Windows Git Tools
+- git bash
+- git gui tools
+- pycharm git integration - IDE based
 
 ## HLS - Next WEEK
 ![a](https://cdn.earthdata.nasa.gov/conduit/upload/14905/CMR_Overview.png)
