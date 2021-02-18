@@ -427,7 +427,7 @@ So, there are several aspects that I'm interested in.
 - Just start a chat with tony butzer anytime - I will add the question and maybe the solution to this pangeo-cloud-web-training-student-teacher-guide-roadmap-sphinx-thingy.
 
 ### Niche/Esoteric Jargon can be a real turn-off!
-- So I will grow a glossary here [GLOSSARY LINK](http://10.12.69.216/13glossary.html?highlight=glossary)
+- So I will grow a glossary here [GLOSSARY LINK](http://184.83.30.149:57778/13glossary.html)
 
 ## References
 
