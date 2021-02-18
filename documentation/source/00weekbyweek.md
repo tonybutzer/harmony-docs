@@ -53,7 +53,7 @@
 	- `There will be lots and lots of notebooks in this class`
 - Point to the two computers - field any questions
 	- web http://184.83.30.149:57778 hweb
-		- [AWS on-boarding website paper --LINK](http://http://184.83.30.149:57778)
+		- [AWS on-boarding website paper --LINK](http://184.83.30.149:57778)
 	- mini-pangeo 10.12.69.233 harmony
 		- [mini-pangeo --LINK](http://10.12.69.233)
 - Computer Access Methods
