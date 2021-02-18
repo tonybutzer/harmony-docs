@@ -1,7 +1,7 @@
 ---
 # Week 11
 
-> One of the advantages of doing science in general in the cloud is the potential to facilitate interagency collaboration in terms of people and data sets. That is a fundamental objective of new analysis environments coming on the scene, such as PANGEO and Open Data Cube. And because these are open source, they can operate on any cloud or on-prem platform. In late 2019, we (NLI, EROS, and CHS folks) began discussing these kinds of joint development opportunities with NASA and NOAA, which are continuing. That’s a pretty exciting prospect for EROS.” -- Pete Doucette 
+> "One of the advantages of doing science in general in the cloud is the potential to facilitate interagency collaboration in terms of people and data sets. That is a fundamental objective of new analysis environments coming on the scene, such as PANGEO and Open Data Cube. And because these are open source, they can operate on any cloud or on-prem platform. In late 2019, we (NLI, EROS, and CHS folks) began discussing these kinds of joint development opportunities with NASA and NOAA, which are continuing. That’s a pretty exciting prospect for EROS.” -- Pete Doucette 
 
 ---
 ![https://www.usgs.gov/center-news/doucette-discusses-future-eros-science-earthmap-new-branch-chief](https://www.usgs.gov/center-news/doucette-discusses-future-eros-science-earthmap-new-branch-chief)
