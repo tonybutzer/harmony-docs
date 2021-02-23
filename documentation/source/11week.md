@@ -1,8 +1,57 @@
 ---
 # Week 11
 
-> "One of the advantages of doing science in general in the cloud is the potential to facilitate interagency collaboration in terms of people and data sets. That is a fundamental objective of new analysis environments coming on the scene, such as PANGEO and Open Data Cube. And because these are open source, they can operate on any cloud or on-prem platform. In late 2019, we (NLI, EROS, and CHS folks) began discussing these kinds of joint development opportunities with NASA and NOAA, which are continuing. That’s a pretty exciting prospect for EROS.” -- Pete Doucette 
+> "One of the advantages of doing science in general in the cloud is the potential to facilitate interagency collaboration in terms of people and data sets. That is a fundamental objective of new analysis environments coming on the scene, such as `PANGEO` and Open Data Cube. And because these are open source, they can operate on any cloud or on-prem platform. In late 2019, we (NLI, EROS, and CHS folks) began discussing these kinds of joint development opportunities with NASA and NOAA, which are continuing. That’s a pretty exciting prospect for EROS.” -- Pete Doucette 
 
+
+## Class Recap
+
+- I want to demystify the cloud.
+- I want to accelerate science to keep up with the earth and human challenges we face
+- I will be asking you folks lots of questions about the effectiveness of Jupyter and how to work with such a diverse group of folks.
+- Should folks be trained on linux, python, jupyter, docker? – Can I help with that training?
+    - In many cases people are already skilled here. 
+    - Just need to increase the opportunities to exploit those skills on behalf of science
+- Techniques to reduce Data Wrangling?
+
+
+## What's Happening in Pangeo Land
+
+- Kevin Costinett's team fixing some of teh Collection-2 STAC rough spots
+- Rich Signell has been working on improving the Pangeo
+- We have a fledgeling DataLake in the dev-et-data - can access it from pangeo.cr.usgs.gov
+- Discussion with Neal, Dev, Logan on HLS, docker, mini-pangeo python GDAL upgrade
+- Steffi Kagone data validation tools - slicing xarrays as pixel drill time series
+- compositing Maine with clouds using Sentinel data in the cloud and pangeo.chs.usgs.gov
+    - deploying panel apps with usgs urls and docker - Rich Signell
+    - AI - it may be the future for better land characterization - lets use the cloud for that as well
+    - A quick look at the cloud buckets for ET and ECO
+- Guest Speakers Dahal, Devendra (Contractor) and Megard, Logan J on HLS
+    - Megard, Logan J on Logan's simple library of AWS Jupyter Examples - or how to really write tutorials.
+    - Tony will do a short intro to github and https://code.usgs.gov - and how to use SSH KEYS!
+
+
+
+# Data Wrangling Working Group
+
+- Tony to introduce the Data Wrangling Working Group DWWG Concept Only
+        
+- Team Members so far (Blue Sky)
+    - Danielson, Patrick (Contractor) - NLCD wrangle chair
+    - Megard, Logan J, Dahal, Devendra (Contractor) -- HLS1.5 cloud pipelines
+    - Boiko, Olena - Soil Data and Climate Data
+    - Tony  - infrastructure advisory and data lakes - plus COG  enthusiast - network tools/tecniques
+    
+Concepts:
+   - shared data - makes less wrangling
+   - shared python code - allows reuse
+   - cross-project communication - breaks silos and diverse teams build better solutions
+   - data deluge is coming - lets be ready to filter and use what we want
+        
+        
+    
+    
+        
 ---
 ![https://www.usgs.gov/center-news/doucette-discusses-future-eros-science-earthmap-new-branch-chief](https://www.usgs.gov/center-news/doucette-discusses-future-eros-science-earthmap-new-branch-chief)
 
