@@ -34,9 +34,25 @@
     - Megard, Logan J on Logan's simple library of AWS Jupyter Examples - or how to really write tutorials.
         - even smaller bites with no assembly required - just git clone and run
     - Tony will do a short intro to github and https://code.usgs.gov - and how to use SSH KEYS!
+- Evapotranspiration Demos coming next week
+    - How to slice Xarray data in multiple ways
 
 
-# Data Wrangling Working Group
+## Data Wrangling Working Group
+
+## Data Lake Work
+
+- Class A Data Assets
+    - Landsat Collection-2
+    - Sentinel Cogs
+    - Harmonized Landsat Sentinel (1.5)
+
+- Class B Data Assets
+    - NLCD
+    - LCMAP Products
+
+- Class C Data Assets
+    - Soil ...
 
 - Collaborative data wangling pipelines and datalakes of key science input datasets will reduce the burden of portals
 - AWS S3 > portals --- Google > Portals - Chris Holmes
@@ -106,6 +122,13 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDcy3arx6+bW7LIVtgRgkfB/1tGieIVt6Id90qMnve2
 - or in a github/gitlab - central repository  using settings --> keys ... 
 
 - 
+
+### SSH Use Cases
+
+- local laptop - to cloud ec2 instance
+- pangeo jupyter - to git repo - such as code.usgs.gov
+- ec2 instance --> denali or tallgrass
+- lots of scp scenarios
 
 
 ## Github and code.usgs.gov
