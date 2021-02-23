@@ -7,7 +7,9 @@
 ## Class Recap
 
 - I want to demystify the cloud.
+    - cost for CONUS Evapo is $100
 - I want to accelerate science to keep up with the earth and human challenges we face
+    - Early results are quite promising - more to come ...
 - I will be asking you folks lots of questions about the effectiveness of Jupyter and how to work with such a diverse group of folks.
 - Should folks be trained on linux, python, jupyter, docker? – Can I help with that training?
     - In many cases people are already skilled here. 
@@ -17,9 +19,10 @@
 
 ## What's Happening in Pangeo Land
 
-- Kevin Costinett's team fixing some of teh Collection-2 STAC rough spots
+- Kevin Costinett's team fixing some of the Collection-2 STAC rough spots
 - Rich Signell has been working on improving the Pangeo
 - We have a fledgeling DataLake in the dev-et-data - can access it from pangeo.cr.usgs.gov
+- LCMAP exploring AWS - they have an account and are playing with Xarray and Dask
 - Discussion with Neal, Dev, Logan on HLS, docker, mini-pangeo python GDAL upgrade
 - Steffi Kagone data validation tools - slicing xarrays as pixel drill time series
 - compositing Maine with clouds using Sentinel data in the cloud and pangeo.chs.usgs.gov
@@ -28,11 +31,14 @@
     - A quick look at the cloud buckets for ET and ECO
 - Guest Speakers Dahal, Devendra (Contractor) and Megard, Logan J on HLS
     - Megard, Logan J on Logan's simple library of AWS Jupyter Examples - or how to really write tutorials.
+        - even smaller bites with no assembly required - just git clone and run
     - Tony will do a short intro to github and https://code.usgs.gov - and how to use SSH KEYS!
 
 
-
 # Data Wrangling Working Group
+
+- Collaborative data wangling pipelines and datalakes of key science input datasets will reduce the burden of portals
+- AWS S3 > portals --- Google > Portals - Chris Holmes
 
 - Tony to introduce the Data Wrangling Working Group DWWG Concept Only
         
@@ -50,8 +56,12 @@ Concepts:
         
         
     
-    
+# Signell Reading List
+
+- https://github.com/pangeo-data/cog-best-practices
+- https://github.com/intake/intake-stac/tree/main/examples    
         
+
 ---
 ![https://www.usgs.gov/center-news/doucette-discusses-future-eros-science-earthmap-new-branch-chief](https://www.usgs.gov/center-news/doucette-discusses-future-eros-science-earthmap-new-branch-chief)
 
