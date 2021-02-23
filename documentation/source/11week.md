@@ -7,7 +7,7 @@
 ## Class Recap
 
 - I want to demystify the cloud.
-    - cost for CONUS Evapo is $100
+    - i.e. -- cost for CONUS Evapo is $100
 - I want to accelerate science to keep up with the earth and human challenges we face
     - Early results are quite promising - more to come ...
 - I will be asking you folks lots of questions about the effectiveness of Jupyter and how to work with such a diverse group of folks.
@@ -22,6 +22,7 @@
 - Kevin Costinett's team fixing some of the Collection-2 STAC rough spots
 - Rich Signell has been working on improving the Pangeo
 - We have a fledgeling DataLake in the dev-et-data - can access it from pangeo.cr.usgs.gov
+    - Now that Kristi Kline is on the case we may get more attention on a USGS cloud S3 based Data Lake.
 - LCMAP exploring AWS - they have an account and are playing with Xarray and Dask
 - Discussion with Neal, Dev, Logan on HLS, docker, mini-pangeo python GDAL upgrade
 - Steffi Kagone data validation tools - slicing xarrays as pixel drill time series
