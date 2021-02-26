@@ -8,6 +8,25 @@
 - people should get friendly with github/gitlab -- code.usgs.gov
 - 
 
+### References
+
+#### If the Mask fits .. understand it
+[https://rasterio.readthedocs.io/en/latest/topics/masks.html](https://rasterio.readthedocs.io/en/latest/topics/masks.html)
+
+### Nice Tutorials - Guest Teacher of the Week
+
+- https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/landsat-in-Python/
+    - Pat Danielson - volunteer
+
+## Projections and Geoviews
+[https://geoviews.org/user_guide/Projections.html](https://geoviews.org/user_guide/Projections.html)
+
+
+## Kelcy Notebook
+
+[https://code.usgs.gov/klsmith/pangeo-examples/-/blob/master/lcmap-time-series-ccd.ipynb](https://code.usgs.gov/klsmith/pangeo-examples/-/blob/master/lcmap-time-series-ccd.ipynb)
+
+
 
 ## What's Happening in Pangeo Land
 
