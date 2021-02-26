@@ -15,8 +15,8 @@
 
 ### Nice Tutorials - Guest Teacher of the Week
 
-- https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/landsat-in-Python/
-    - Pat Danielson - volunteer
+- [https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/landsat-in-Python/](https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/landsat-in-Python/)
+- Pat Danielson - volunteer
 
 ## Projections and Geoviews
 [https://geoviews.org/user_guide/Projections.html](https://geoviews.org/user_guide/Projections.html)
