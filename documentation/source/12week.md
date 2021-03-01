@@ -29,9 +29,18 @@ def open_dateset(ll_url: str):
     """
     with rasterio.open(convert_llurl(ll_url)) as f:
         return f
-#     return gdal.Open(path, gdal.ReadOnly)
-
+#     return gdal.Open(path, gdal.ReadOnly)---
 ```
+
+---
+---
+
+## Kelcy Notebook
+
+[https://code.usgs.gov/klsmith/pangeo-examples/-/blob/master/lcmap-time-series-ccd.ipynb](https://code.usgs.gov/klsmith/pangeo-examples/-/blob/master/lcmap-time-series-ccd.ipynb)
+
+
+---
 
 
 #### Nathan's less obvious method to cheat http using s3
@@ -46,6 +55,31 @@ swirs = pd.DataFrame("s3://usgs-landsat"+swirs['Swirs'])
 ```
 
 
+#### Sentinel COG Example
+
+```
+"href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/19/T/CJ/2020/10/S2A_19TCJ_20201014_0_L2A/B02.tif",
+```
+
+
+#### HLS Example
+- Buckets
+    - lp-prod-protected
+    - lp-prod-public
+
+```
+import rasterio as rio
+e='https://lpdaac.earthdata.nasa.gov/lp-prod-protected/HLSS30.015/HLS.S30.T18TYR.2020278T154121.v1.5.B04.tif'
+b04 = rio.open(e)
+
+#dir(b09)
+b04.shape
+
+
+'href': 'https://lpdaac.earthdata.nasa.gov/lp-prod-public/HLSS30.015/HLS.S30.T19TCM.2020278T154121.v1.5.jpg'
+```
+
+---
 ## What's Happening - Unstructired List
 
 - Opening new horizons:
@@ -100,11 +134,6 @@ HLS:
 
 ## Projections and Geoviews
 [https://geoviews.org/user_guide/Projections.html](https://geoviews.org/user_guide/Projections.html)
-
-
-## Kelcy Notebook
-
-[https://code.usgs.gov/klsmith/pangeo-examples/-/blob/master/lcmap-time-series-ccd.ipynb](https://code.usgs.gov/klsmith/pangeo-examples/-/blob/master/lcmap-time-series-ccd.ipynb)
 
 
 
