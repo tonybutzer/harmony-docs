@@ -125,6 +125,13 @@ b04.shape
 'href': 'https://lpdaac.earthdata.nasa.gov/lp-prod-public/HLSS30.015/HLS.S30.T19TCM.2020278T154121.v1.5.jpg'
 ```
 
+[https://cmr.earthdata.nasa.gov/search/concepts/G1969487860-LPCLOUD.umm_json](https://cmr.earthdata.nasa.gov/search/concepts/G1969487860-LPCLOUD.umm_json)
+```
+"https://lpdaac.earthdata.nasa.gov/s3credentials"
+
+Description:    "api endpoint to retrieve temporary credentials valid for same-region direct s3 access"
+```
+
 ---
 ## Everyone is moving to the cloud -- getting there is ________
 
