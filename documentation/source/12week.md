@@ -1,10 +1,16 @@
 ---
 # Week 12
 
-> "This consequently facilitates the conversion of space-based Earth Observation information into actionable knowledge for a better response to the complex global change processes we are currently dealing with.
-Technological advances happen quick and now with cloud infrastructures we have the unprecedented means to make such deep integration possible. However, transforming an established operational setup, such as was developed and used for the Global Land Service over the years, to another completely new and technological challenging cloud computing environment is not a trivial job. Especially considering that many production chains need to be decomposed into modular bits and pieces which then have to be newly forged into a smooth and fully integrated machinery to provide the user with a transparent, yet integrated, set of tools.
-The scope of this report is to tackle exactly this: providing clear suggestions for an efficient ‘cloudification’ of the Copernicus global land production lines and user interfaces, and investigating if there is a tangible benefit and what would be the effort involved." -- Opening new horizons: How to migrate
-the Copernicus Global Land Service to a Cloud environment
+
+- Opening new horizons:
+    - EU
+    - How to migrate the Copernicus Global Land Service to a Cloud environment
+
+- conversion of space-based Earth Observation information into actionable knowledge 
+- Moving Global Land Services to another completely new and technological challenging cloud computing environment is not a trivial job.
+- providing clear suggestions for an efficient ‘cloudification’ of the Copernicus global land production lines and user interfaces, 
+
+---
 
 ```
 --- 
