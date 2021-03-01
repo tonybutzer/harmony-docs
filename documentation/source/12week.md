@@ -6,8 +6,35 @@
 - Kelcy's notebook
 - HLS Notebooks for mosaic overlap issue
     - start with browse for less clouds and more coverage
+    - Look for these concepts in today's notebooks
+        - CMR - Common Metdata Repository
+        - UMM -- Unified Metadata Model
+        - Authentication
 - DAGs
 - Data Wrangling
+- Road to Reusable Code - How?
+    - Start with common goals
+        - Open Source Python
+        - In the cloud
+    - Use the same platform for sharing
+        - Jupyter Notebooks
+        - github and code.usgs.gov 
+    - Refine and Refactor your Code so people want to reuse it
+        - Self documented or well documented
+        - Clean Code -- eliminate code smells
+        - Make your code so simple people want to use it
+            - good examples
+                - xarray
+                - hvplot
+                - folium
+                - pandas
+        - Use opinionated approaches
+            - xarray, pandas, geopandas - all reinforce rigor and reusability
+    - good reusable code allows for lots of work done in few lines of code
+    - good code is always a journey
+    - Organize Science by common interests in addition to projects
+        - Promote non-silo Communication
+
 - Model Analysis work Olena Boiko is working on for evapo
     - We will showcase these notebooks in a future class
 - STAC Assets
