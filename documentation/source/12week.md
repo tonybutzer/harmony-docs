@@ -90,7 +90,7 @@ b04.shape
 ```
 
 ---
-## What's Happening - Unstructired List
+## Everyone is moving to the cloud -- getting there is ________
 
 - Opening new horizons:
     - EU
