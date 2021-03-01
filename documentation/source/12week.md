@@ -61,6 +61,16 @@ swirs = pd.DataFrame("s3://usgs-landsat"+swirs['Swirs'])
 "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/19/T/CJ/2020/10/S2A_19TCJ_20201014_0_L2A/B02.tif",
 ```
 
+```
+ubuntu@ip-10-12-69-188:~$ aws s3 ls sentinel-cogs
+                           PRE sentinel-s2-l2a-cogs/
+ubuntu@ip-10-12-69-188:~$ aws s3 ls sentinel-cogs/sentinel-s2-l2a-cogs/
+                           PRE 1/
+                           PRE 10/
+                           PRE 11/
+                            ...
+```
+
 
 #### HLS Example
 - Buckets
