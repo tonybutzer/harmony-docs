@@ -1,6 +1,52 @@
 ---
 # Week 12
 
+## Summary
+
+- Kelcy's notebook
+- HLS Notebooks for mosaic overlap issue
+    - start with browse for less clouds and more coverage
+- DAGs
+- Data Wrangling
+- Model Analysis work Olena Boiko is working on for evapo
+    - We will showcase these notebooks in a future class
+- STAC Assets
+    - http (portal like)
+    - s3://
+    - gdal virtual filesystem specifiers /vsicurl/ -- /vsis3/
+    - Kelcy and Nathan - map the http to s3 for collection2
+
+```
+def convert_llurl(ll_url: str) -> str:
+    """
+    Convert a landsat look url to an S3 url
+    """
+    return ll_url.replace('https://landsatlook.usgs.gov/data', 's3://usgs-landsat')
+
+def open_dateset(ll_url: str):
+    """
+    Open a file with gdal
+    """
+    with rasterio.open(convert_llurl(ll_url)) as f:
+        return f
+#     return gdal.Open(path, gdal.ReadOnly)
+
+```
+
+
+#### Nathan's less obvious method to cheat http using s3
+
+```
+#remove everything forward of /collection from the cloudfront object URL
+greens = pd.DataFrame(greens['Green'].str[33:])
+swirs = pd.DataFrame(swirs['Swirs'].str[33:])
+#append s3://usgs-landsat to the front of the URLs
+greens = pd.DataFrame("s3://usgs-landsat"+greens['Green'])
+swirs = pd.DataFrame("s3://usgs-landsat"+swirs['Swirs'])
+```
+
+
+## What's Happening - Unstructired List
 
 - Opening new horizons:
     - EU
