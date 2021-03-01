@@ -91,6 +91,8 @@ swirs = pd.DataFrame("s3://usgs-landsat"+swirs['Swirs'])
 ---
 #### Sentinel COG Example
 
+### Sentinel STAC gets this preference for direct S3 access correct
+
 ```
 "href": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/19/T/CJ/2020/10/S2A_19TCJ_20201014_0_L2A/B02.tif",
 ```
