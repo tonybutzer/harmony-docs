@@ -223,3 +223,9 @@ Concepts:
         - Suomi NPP is the first satellite mission to address the challenge of acquiring a wide range of land, ocean, and atmospheric measurements 
 - Synergies with google maps and geojson.io
 - NO LICENSE FEES
+
+---
+
+## END OF WEEK 12
+
+---
