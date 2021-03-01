@@ -6,6 +6,29 @@ Technological advances happen quick and now with cloud infrastructures we have t
 The scope of this report is to tackle exactly this: providing clear suggestions for an efficient ‘cloudification’ of the Copernicus global land production lines and user interfaces, and investigating if there is a tangible benefit and what would be the effort involved." -- Opening new horizons: How to migrate
 the Copernicus Global Land Service to a Cloud environment
 
+```
+--- 
+Group: "HLS Interest Group"
+HLS: 
+  - 
+    ECO: 
+      - "Sujan Parajuli"
+      - "Devandra Dahal"
+      - "Logan Megard"
+      - "Neal Pastick"
+      - "Mike Oimoen"
+    LCMAP: 
+      - "Kelcy Smith"
+    LPDAAC: 
+      - "Cole Krehbiel"
+      - "Aaron Friesz"
+    PANGEO: 
+      - "Tony Butzer"
+    VegDyn: 
+      - "Dinesh Shrestha"
+      - "Trenton Benedict"
+```
+
 
 ## Class Recap
 
