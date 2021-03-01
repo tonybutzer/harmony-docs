@@ -164,6 +164,9 @@ HLS:
 ## Direct acyclic Graphs
 
 - used in DASK
+- used in python code graphing/flow charting - dependency trees
+- graphviz and pyan3 # python analyzer
+    - [https://graphviz.org/](https://graphviz.org/)
 - consists of vertices and edges (also called arcs), with each edge directed from one vertex to another, such that following those directions will never form a closed loop.
 
 ![dag](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Tred-G.svg/440px-Tred-G.svg.png)
