@@ -43,6 +43,10 @@
     - gdal virtual filesystem specifiers /vsicurl/ -- /vsis3/
     - Kelcy and Nathan - map the http to s3 for collection2
 
+---
+
+### Some Folks Just Cannot Let Go of Portals https://landsatlook.usgs.gov/data
+
 ```
 def convert_llurl(ll_url: str) -> str:
     """
@@ -60,12 +64,14 @@ def open_dateset(ll_url: str):
 ```
 
 ---
----
 
 ## Kelcy Notebook
 
+
 [https://code.usgs.gov/klsmith/pangeo-examples/-/blob/master/lcmap-time-series-ccd.ipynb](https://code.usgs.gov/klsmith/pangeo-examples/-/blob/master/lcmap-time-series-ccd.ipynb)
 
+
+---
 
 ---
 
@@ -82,6 +88,7 @@ swirs = pd.DataFrame("s3://usgs-landsat"+swirs['Swirs'])
 ```
 
 
+---
 #### Sentinel COG Example
 
 ```
