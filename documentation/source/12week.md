@@ -6,9 +6,9 @@
     - EU
     - How to migrate the Copernicus Global Land Service to a Cloud environment
 
-- conversion of space-based Earth Observation information into actionable knowledge 
-- Moving Global Land Services to another completely new and technological challenging cloud computing environment is not a trivial job.
-- providing clear suggestions for an efficient ‘cloudification’ of the Copernicus global land production lines and user interfaces, 
+- conversion of space-based Earth Observation information into `actionable` knowledge 
+- Moving Global Land Services to another completely new and technological challenging cloud computing environment is `not a trivial job.`
+- providing `clear suggestions` for an efficient ‘cloudification’ of the Copernicus global land production lines and user interfaces, 
 
 ---
 
