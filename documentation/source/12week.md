@@ -193,6 +193,10 @@ HLS:
 ## Projections and Geoviews
 [https://geoviews.org/user_guide/Projections.html](https://geoviews.org/user_guide/Projections.html)
 
+- Managing Overlap in Albers 
+- pangeo demos
+- github albers-mosiac repo
+
 
 
 ## What's Happening in Pangeo Land
@@ -271,6 +275,8 @@ Concepts:
         - Suomi NPP is the first satellite mission to address the challenge of acquiring a wide range of land, ocean, and atmospheric measurements 
 - Synergies with google maps and geojson.io
 - NO LICENSE FEES
+- Jen Rover is in HPC school
+- Should be able to use notebooks in both environments - cloud and HPC
 
 ---
 
