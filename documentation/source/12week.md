@@ -16,6 +16,7 @@
     - Start with common goals
         - Open Source Python
         - In the cloud
+            - and in the HPC(s)
     - Use the same platform for sharing
         - Jupyter Notebooks
         - github and code.usgs.gov 
@@ -34,9 +35,13 @@
     - good code is always a journey
     - Organize Science by common interests in addition to projects
         - Promote non-silo Communication
+    - make it simple to install - advertise it
 
+## Future Classes
 - Model Analysis work Olena Boiko is working on for evapo
     - We will showcase these notebooks in a future class
+
+### Direct S3 or portal or something in between
 - STAC Assets
     - http (portal like)
     - s3://
@@ -76,9 +81,10 @@ def open_dateset(ll_url: str):
 ---
 
 
-#### Nathan's less obvious method to cheat http using s3
+#### Nathan's less obvious method to cheat http by using s3
 
 ```
+# remove 33 characters and replace them
 #remove everything forward of /collection from the cloudfront object URL
 greens = pd.DataFrame(greens['Green'].str[33:])
 swirs = pd.DataFrame(swirs['Swirs'].str[33:])
@@ -86,6 +92,8 @@ swirs = pd.DataFrame(swirs['Swirs'].str[33:])
 greens = pd.DataFrame("s3://usgs-landsat"+greens['Green'])
 swirs = pd.DataFrame("s3://usgs-landsat"+swirs['Swirs'])
 ```
+
+- kelcy's code is more readable IMHO
 
 
 ---
@@ -178,7 +186,7 @@ HLS:
 
 - Still attacking data wrangling
 - people should get friendly with github/gitlab -- code.usgs.gov
-- 
+- pangeo.chs.usgs.gov and other subsidized infrastructure platforms
 
 ### References
 
@@ -196,6 +204,7 @@ HLS:
 - Managing Overlap in Albers 
 - pangeo demos
 - github albers-mosiac repo
+    - https://github.com/tonybutzer/albers-mosaic
 
 
 
@@ -251,6 +260,10 @@ Concepts:
 
 - https://github.com/pangeo-data/cog-best-practices
 - https://github.com/intake/intake-stac/tree/main/examples    
+
+## Other
+
+- https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/landsat-in-Python/
         
 
 ---
