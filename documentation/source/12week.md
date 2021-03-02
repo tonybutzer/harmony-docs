@@ -3,7 +3,7 @@
 
 ## Summary
 
-- Kelcy's notebook
+- Kelcy's notebook -- Landsat Collection-2 and STAC
 - HLS Notebooks for mosaic overlap issue
     - start with browse for less clouds and more coverage
     - Look for these concepts in today's notebooks
