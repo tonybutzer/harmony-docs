@@ -143,6 +143,11 @@ Description:    "api endpoint to retrieve temporary credentials valid for same-r
 - Moving Global Land Services to another completely new and technological challenging cloud computing environment is `not a trivial job.`
 - providing `clear suggestions` for an efficient ‘cloudification’ of the Copernicus global land production lines and user interfaces, 
 
+- Benefits
+    - greater transparency and reproducibility of the data processing chains, enhancing trust
+    - better scalability to handle the large volume of data we expect from future satellites
+    - better integration with downstream processing chains and thus more value delivered to research and industry
+
 ---
 
 ```
