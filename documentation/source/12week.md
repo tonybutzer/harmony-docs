@@ -3,10 +3,10 @@
 
 ## Summary
 
-- Kelcy's notebook -- Landsat Collection-2 and STAC
-- HLS Notebooks for mosaic overlap issue
+- `Kelcy's notebook` -- Landsat Collection-2 and STAC
+- `HLS` Notebooks for mosaic overlap issue
     - start with browse for less clouds and more coverage
-    - Look for these concepts in today's notebooks
+    - Look for these NASA LPDAAC concepts in today's notebooks
         - CMR - Common Metdata Repository
         - UMM -- Unified Metadata Model
         - Authentication
