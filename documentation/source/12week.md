@@ -290,6 +290,7 @@ Concepts:
 - NO LICENSE FEES
 - Jen Rover is in HPC school
 - Should be able to use notebooks in both environments - cloud and HPC
+    - IF the python `version monster` does not get you!
 
 ---
 
