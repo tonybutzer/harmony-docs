@@ -12,6 +12,17 @@
 
 ### run the orchestration
 
+
+> two system engineers walk into a bar
+
+- ... the first one asks why can't we do that simple Kelvin conversion by friday on our current platform
+
+- ... the second eng says cause x and y suck
+
+- ... the next day the 2nd eng is explaining this converstion to his Govt Sponsor as:
+
+    - well you see the Netapp is bandwidth constrained and not really intended for large image data xfers and Microsoft has chosen Linux as its highly scalable platform for its Azure Cloud.
+
 ## Community Interest
 - Looking at Pangeo and Docker on HPC
     - Could support nice hybrid solutions between the cloud and HPC(s) Denali, Tallgrass
