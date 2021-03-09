@@ -53,5 +53,6 @@
             - simple docker image
             - basic orchestration 101
             - functional programming like `ds = ds - 273.15`
-8. Conver to pure Python - Olena and add argparse to replace hardcoded values
-9. Create an orchstration python wrapper - borrow an old one and customize this
+8. Convert to pure Python - Olena and add argparse to replace hardcoded values
+    - jupyter nbconvert --to script  my_ugly_notebook.ipynb
+9. Create an orchestration python wrapper - borrow an old one and customize this
