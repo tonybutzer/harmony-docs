@@ -35,6 +35,14 @@
         - Distributed Memory Systems
         - More difficult to parallelize
         - Requires a change in fundamental programming
+    - Kubernetes is well over 1 MILLION lines of code
+    - Slurm - the s stands for simple - is over 500,000 lines of code
+    - Simple Orchestration -  129 lines of code
+
+```
+ubuntu@ip-10-12-69-188:/opt/kelvin_celsius/api$ wc -l kelvin_*.py
+129 kelvin_orchestration.py
+```
 
 
 ## Community Case Studies
