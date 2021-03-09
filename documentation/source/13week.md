@@ -1,5 +1,17 @@
 # Week 13 - day in the life of ETa
 
+## Real World Scene
+
+- My boss - says I have to get Tmin, Tmax and Tavg - done for 150 years - converted to Celsius
+    - from that useless Kelvin data i gave her - she is not happy
+    - she says I have until COB Friday or look for another job
+    - The problem is it looks like golfing weather for Monday and Tuesday
+    - So I think use the cloud and docker - maybe this can be done 
+    - I spend a day figuring out the sophisticated algebra and try to play that up - But she is on to me.
+    - docker - container from jupyter to orchestration in 2 easy steps
+
+### run the orchestration
+
 ## Community Interest
 - Looking at Pangeo and Docker on HPC
     - Could support nice hybrid solutions between the cloud and HPC(s) Denali, Tallgrass
