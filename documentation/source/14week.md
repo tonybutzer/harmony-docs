@@ -3,6 +3,34 @@
 - notes here:
 
 ### Overview
+---
+
+```yaml
+--- 
+Abstractions: 
+  - openDataCube
+  - stac-intake
+Asset-Location: S3
+Deployment-Technology: docker-compose
+Format: COGS
+Metadata-Containers: 
+  - postgis-odc
+  - stac-json
+STAC-URL: ~
+Sandboxes: 
+  - cube-in-a-box
+  - pangeo.chs.usgs.gov
+  - etrocks-sandbox
+Satellite: Sentinel-2A-2B
+Topics: 
+  - "Sentinel SCL"
+  - ODC
+  - Masking
+  - Xarray-->netcdf
+  - finding-clouds-in-the-cloud
+```
+
+---
 
 - Olena and Steffi Model Verification
     - Significant as it directly and rapidly improves our scalable model code for Evapo
