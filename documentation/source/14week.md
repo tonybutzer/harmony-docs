@@ -14,6 +14,10 @@
 [https://www.usgs.gov/center-news/calibration-test-site-becomes-agricultural-hotspot?qt-news_science_products=2#qt-news_science_products](https://www.usgs.gov/center-news/calibration-test-site-becomes-agricultural-hotspot?qt-news_science_products=2#qt-news_science_products)
 
 
+
+![](Assets/sentenel-scene-classification-levels.PNG)
+
+
 ---
 ### Open Data Cube - glimpse
 
