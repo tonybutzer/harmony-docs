@@ -16,7 +16,9 @@ Format: COGS
 Metadata-Containers: 
   - postgis-odc
   - stac-json
-STAC-URL: ~
+STAC_API_URL:
+  - 'https://explorer.sandbox.dea.ga.gov.au/stac/'
+  - 'https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs'
 Sandboxes: 
   - cube-in-a-box
   - pangeo.chs.usgs.gov
