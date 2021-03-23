@@ -47,6 +47,14 @@
 ### Pangeo Jupyter Book - that Ryan Abernathey has Created -->
 - https://earth-env-data-science.github.io/intro
 
+
+### Scott Henderson Medium Article
+
+From
+
+- https://medium.com/pangeo/intake-stac-nasa-4cd78d6246b7
+- Scott Henderson - Dec 2020
+
 ### Overview
 ---
 
@@ -109,6 +117,7 @@ Topics:
 
 
 - [http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/00_tony_class_exhibit_learning_odc_claibration_site_Sentinel_2.ipynb](http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/00_tony_class_exhibit_learning_odc_claibration_site_Sentinel_2.ipynb)
+
 
 
 
