@@ -88,6 +88,12 @@ Topics:
 ---
 ### Open Data Cube - glimpse
 
+## Use Open Data Cube to extract Dwyer Cube from Sentinal S3 COGS
+
+## Then use the big pangeo to explore Compositing with (Bunde, Postma, Danielson
+
+- briefly understand cloud and shadow masking 
+
 
 http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/00_tony_class_exhibit_learning_odc_claibration_site_Sentinel_2.ipynb
 
