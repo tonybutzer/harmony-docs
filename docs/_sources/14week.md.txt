@@ -3,8 +3,10 @@
 ## Overview
 
 1. Introduction - Tony
-2. Evapo model avaluation landscape - Stefanie Kagone
-3. 
+2. Evapo model avaluation landscape - `Stefanie Kagone`
+3. Using Xarray slicing and Pandas to automate Spreadsheet Model Analysis - `Olena Boiko`
+4. Apply cloud solutions to HLS plipelines - `Logan Megard`
+5. Using Open Data Cube to allign pixels and then bigPangeo (netcdf ingest) to look at clouds in the cloud - tony
 
 ---
 # EROS Items of Interest
@@ -31,6 +33,7 @@
     - Rehearsing wrangling for Devandra and Sujan
 8. Open Data Cube - cube-in-a-box - (now a word from my sponsor)
     - higher level abstraction - hint at what is possible. - black box - black magic approach.
+    - Hey ODC don't make me index and learn Postgresql and PostGIS - my life is already disaggregated enough
 9. Tony wakes up and uses github.io
     - Using the cloud == FAIL!
     - Using Tony's homw server == FAIL
