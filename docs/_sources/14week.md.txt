@@ -17,7 +17,7 @@
 6. Evapo Actrivities
     - Next cloud model please - SSeBop - meets Modis meets cloud - Thanks Claudia, Olena and Steffi
     - Co-sponsor for NLCD data wrangling and emerging datalake prototype.
-        - Dinesh and Trenton to 
+        - Dinesh and Trenton to test NLCD data lake and HLS access
     - HUC12 - zonal stats - impress your stakeholder with a map-reduced spreadsheet
         - Data starts to inform as information
 7. HLS Activities Logan
@@ -25,6 +25,10 @@
     - Reheasring wrangling for Devandra and Sujan
 8. Open Data Cube - cube-in-a-box - (now a word from my sponsor)
     - higher level abstraction - hint at what is possible. - black box - black magic approach.
+9. Tony wakes up and uses github.io
+    - Using the cloud == FAIL!
+    - Using Tony's homw server == FAIL
+    - USING GITHUB.IO - I found Goldilocks - this one is just right!
 
 ## Favorite/Featured References
 
