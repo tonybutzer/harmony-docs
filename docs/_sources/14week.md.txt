@@ -1,5 +1,11 @@
 # Week 14 - Olena -- matplotlib and pandas
 
+## Overview
+
+1. Introduction - Tony
+2. Evapo model avaluation landscape - Stefanie Kagone
+3. 
+
 ---
 # EROS Items of Interest
 
@@ -9,8 +15,8 @@
 2. Aaron Friez (Pangeo/DAAC/Science - Workshop/Lecture)
     - Organized -- April 5?
 3. Cali - searching for an intern
-    - In charge of collating disparate/disaggragated training
-    - "Oh Cali" - "if the world could just be aggragated"
+    - In charge of collating disparate/disaggregated training
+    - "Oh Cali" - "if the world could just be aggregated"
 4. Summer Hours for AWS Onboarding - begin May 1. - 
     - Get Vaccinated - save a scientist we need them.
 5. Evapo - seeks partnership with Jim Rowland on project cloud account similar to Neal's and Kelcy's
@@ -22,7 +28,7 @@
         - Data starts to inform as information
 7. HLS Activities Logan
     - Tony still does not like Authentication nuances
-    - Reheasring wrangling for Devandra and Sujan
+    - Rehearsing wrangling for Devandra and Sujan
 8. Open Data Cube - cube-in-a-box - (now a word from my sponsor)
     - higher level abstraction - hint at what is possible. - black box - black magic approach.
 9. Tony wakes up and uses github.io
@@ -99,7 +105,7 @@ Topics:
 - briefly understand cloud and shadow masking 
 
 
-http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/00_tony_class_exhibit_learning_odc_claibration_site_Sentinel_2.ipynb
+[http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/00_tony_class_exhibit_learning_odc_claibration_site_Sentinel_2.ipynb](http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/00_tony_class_exhibit_learning_odc_claibration_site_Sentinel_2.ipynb]
 
 
 
