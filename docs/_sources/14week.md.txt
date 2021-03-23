@@ -122,6 +122,9 @@ maine_s2_all_bands.nc
 maine_s2_common_name_bands.nc
 ```
 
+## maine_masked_s2_all_bands.nc
+- main test nc file for compositing Maine - R&D only
+
 - briefly understand cloud and shadow masking 
 
 - [http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/2_tony_save_load_ard_all_bands.ipynb](http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/2_tony_save_load_ard_all_bands.ipynb)
