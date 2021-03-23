@@ -3,10 +3,10 @@
 ## Overview
 
 1. Introduction - Tony
-2. Evapo model avaluation landscape - `Stefanie Kagone`
+2. Evapo model evaluation landscape - `Stefanie Kagone`
 3. Using Xarray slicing and Pandas to automate Spreadsheet Model Analysis - `Olena Boiko`
 4. Apply cloud solutions to HLS plipelines - `Logan Megard`
-5. Using Open Data Cube to allign pixels and then bigPangeo (netcdf ingest) to look at clouds in the cloud - tony
+5. Using Open Data Cube to align pixels and then bigPangeo (netcdf ingest) to look at clouds in the cloud - tony
 
 ---
 # EROS Items of Interest
@@ -111,12 +111,15 @@ Topics:
 
 ## Use Open Data Cube to extract Dwyer Cube from Sentinal S3 COGS
 
-## Then use the big pangeo to explore Compositing with (Bunde, Postma, Danielson
+## Then use the big pangeo to explore Compositing with (Bunde, Postma, Danielson)
 
 - briefly understand cloud and shadow masking 
 
+- [http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/2_tony_save_load_ard_all_bands.ipynb](http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/2_tony_save_load_ard_all_bands.ipynb)
 
 - [http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/00_tony_class_exhibit_learning_odc_claibration_site_Sentinel_2.ipynb](http://10.12.68.246:8080/notebooks/composite/30-cubebox-helper/00_tony_class_exhibit_learning_odc_claibration_site_Sentinel_2.ipynb)
+
+
 
 
 
