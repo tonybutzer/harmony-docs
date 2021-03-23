@@ -107,13 +107,13 @@ Topics:
 
 
 ---
-### Open Data Cube - glimpse
+### Open Data Cube (ODC) - glimpse
 
 ## Use Open Data Cube to extract Dwyer Cube from Sentinal S3 COGS
 
 ## Then use the big pangeo to explore Compositing with (Bunde, Postma, Danielson)
 
-### Outputs
+### ODC Outputs (netcdf/nc files in S3)
 ```
 maine.nc
 maine_ard.nc
