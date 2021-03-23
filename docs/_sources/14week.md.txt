@@ -1,6 +1,38 @@
 # Week 14 - Olena -- matplotlib and pandas
 
-- notes here:
+---
+# EROS Items of Interest
+
+1. Science continues to elevate
+    - Pete Doucette  - Data Center Director
+    - Terry Sohl - Science Lead
+2. Aaron Friez (Pangeo/DAAC/Science - Workshop/Lecture)
+    - Organized -- April 5?
+3. Cali - searching for an intern
+    - In charge of collating disparate/disaggragated training
+    - "Oh Cali" - "if the world could just be aggragated"
+4. Summer Hours for AWS Onboarding - begin May 1. - 
+    - Get Vaccinated - save a scientist we need them.
+5. Evapo - seeks partnership with Jim Rowland on project cloud account similar to Neal's and Kelcy's
+6. Evapo Actrivities
+    - Next cloud model please - SSeBop - meets Modis meets cloud - Thanks Claudia, Olena and Steffi
+    - Co-sponsor for NLCD data wrangling and emerging datalake prototype.
+        - Dinesh and Trenton to 
+    - HUC12 - zonal stats - impress your stakeholder with a map-reduced spreadsheet
+        - Data starts to inform as information
+7. HLS Activities Logan
+    - Tony still does not like Authentication nuances
+    - Reheasring wrangling for Devandra and Sujan
+8. Open Data Cube - cube-in-a-box - (now a word from my sponsor)
+    - higher level abstraction - hint at what is possible. - black box - black magic approach.
+
+## Favorite/Featured References
+
+- http://gallery.pangeo.io/repos/pangeo-data/landsat-8-tutorial-gallery/landsat8.html
+- https://docs.dea.ga.gov.au/notebooks/Frequently_used_code/Masking_data.html
+
+### Pangeo Jupyter Book - that Ryan Abernathey has Created -->
+- https://earth-env-data-science.github.io/intro
 
 ### Overview
 ---
@@ -33,6 +65,11 @@ Topics:
 ```
 
 ---
+
+# Featured Instructors - Key Points
+
+- pandas, xarray, rasterio, matplotlib, holoviews - xarray.hvplot
+- Innovative_Fast_solutions = open source + brainPower
 
 - Olena and Steffi Model Verification
     - Significant as it directly and rapidly improves our scalable model code for Evapo
