@@ -36,7 +36,7 @@
     - Hey ODC don't make me index and learn Postgresql and PostGIS - my life is already disaggregated enough
 9. Tony wakes up and uses github.io
     - Using the cloud == FAIL!
-    - Using Tony's homw server == FAIL
+    - Using Tony's home server == FAIL
     - USING GITHUB.IO - I found Goldilocks - this one is just right!
 
 ## Favorite/Featured References
