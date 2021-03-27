@@ -33,9 +33,11 @@
 ```
 make salloc
 
-make run
+make shell
 
-```
+
+
+
 module load singularity
 
 singularity shell docker://ubuntu:latest
