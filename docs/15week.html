@@ -563,7 +563,14 @@
 <li class="toctree-l2"><a class="reference internal" href="14week.html#maine-masked-s2-all-bands-nc">maine_masked_s2_all_bands.nc</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 15 Singularity</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 15 Singularity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#hpc">HPC</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#i-like-tallgrass-vs-denali">I like Tallgrass vs. Denali</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#singularity-demo">Singularity Demo</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="01project_charter.html">ET Case Study Project Charter</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="01project_charter.html#prior-art">Prior Art</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="01project_charter.html#science-focused-detailed-training">Science Focused Detailed Training</a></li>
@@ -821,6 +828,42 @@
   <div class="section" id="week-15-singularity">
 <h1>Week 15 Singularity<a class="headerlink" href="#week-15-singularity" title="Permalink to this headline">¶</a></h1>
 <p><img alt="https://media0.giphy.com/media/3d8mZpR1z4NFy6gIBA/giphy.gif?cid=ecf05e47w26iqr23x2mo46f6qgiia0cx7v6bmpvtsfz49u9t&amp;rid=giphy.gif" src="https://media0.giphy.com/media/3d8mZpR1z4NFy6gIBA/giphy.gif?cid=ecf05e47w26iqr23x2mo46f6qgiia0cx7v6bmpvtsfz49u9t&amp;rid=giphy.gif" /></p>
+<hr class="docutils" />
+<hr class="docutils" />
+<div class="section" id="hpc">
+<h2>HPC<a class="headerlink" href="#hpc" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="i-like-tallgrass-vs-denali">
+<h3>I like Tallgrass vs. Denali<a class="headerlink" href="#i-like-tallgrass-vs-denali" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p>Because it has singularity for support of containers - more to come</p></li>
+</ol>
+</div>
+<div class="section" id="singularity-demo">
+<h3>Singularity Demo<a class="headerlink" href="#singularity-demo" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>module load singularity
+
+singularity shell docker://ubuntu:latest
+
+singularity run library://sylabsed/examples/lolcow
+
+### Singularity Features - why was it created?
+
+1. No Root Access in Containers
+2. Created for scientists on HPC
+3. Integrated volumes
+4. Job Scehduling integration with slurm
+
+&gt; For one, security. HPC environments are typically multi-user systems where users should only have access to their own data.
+
+&gt; For all practical purposes, docker gives superuser privileges. It’s hard to give someone limited Docker access.Sure there’s SELinux and the like, but Docker just wasn’t designed to keep users out of each other’s stuff. Singularity effectively runs as the running user and doesn’t result in elevated access.
+
+&gt; Another is scheduling. On my cluster we use slurm, and users submit jobs with CPU/memory/time requirements. The Docker command is just an API client that talks to the docker daemon, so the resource requests and actual usages don’t match. Singularity runs container processes without a daemon. They just run as child processes.
+
+### Singularity Versus pure Docker
+</pre></div>
+</div>
+</div>
+</div>
 </div>
 
 
