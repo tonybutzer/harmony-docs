@@ -17,6 +17,8 @@
 
 1. Because it has singularity for support of containers - more to come
 
+#### BUT -->  salloc: Job 1567397 has exceeded its time limit and its allocation has been revoked.
+
 
 #### Singularity Demo
 
