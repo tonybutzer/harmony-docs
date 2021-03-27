@@ -1,5 +1,13 @@
 # Week 15 Singularity
 
+## Around the Projects
+
+- Logan continues to improve his orchestrated docker containers for downloading H:S and creating NDVI.
+- Olena is working on Jupyter to explore the inverse relationship of NDVI and LST (temperature) for tuning Evaporation Models,
+- Steffi is looking at ways to do CONUS scale VegET with the cloud and/or HPC (PANGEO-based)
+- Tony is exploring Singularity and PANGEO on TALLGRASS - 
+- Pat Danielson - is looking at ways to do better, faster, cheaper composites with scalable hardware and linux open-source.
+
 
 ![](https://media0.giphy.com/media/3d8mZpR1z4NFy6gIBA/giphy.gif?cid=ecf05e47w26iqr23x2mo46f6qgiia0cx7v6bmpvtsfz49u9t&rid=giphy.gif)
 
