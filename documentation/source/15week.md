@@ -21,6 +21,11 @@
 #### Singularity Demo
 
 ```
+make salloc
+
+make run
+
+```
 module load singularity
 
 singularity shell docker://ubuntu:latest
@@ -93,3 +98,5 @@ Singularity lolcow_latest.sif:~> cowsay -f tux  hello there | lolcat -a
     /'\_   _/`\
     \___)=(___/
 ```
+
+- tony says - 'oh yeah what do you use your supercomputer for'

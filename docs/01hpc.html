@@ -567,14 +567,20 @@
 <li class="toctree-l2"><a class="reference internal" href="15week.html#hpc">HPC</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="15week.html#i-like-tallgrass-vs-denali">I like Tallgrass vs. Denali</a></li>
 <li class="toctree-l3"><a class="reference internal" href="15week.html#singularity-demo">Singularity Demo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="15week.html#singularity-features-why-was-it-created">Singularity Features - why was it created?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="15week.html#singularity-versus-pure-docker">Singularity Versus pure Docker</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="15week.html#hello-there">&lt; hello there &gt;</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">HPC Notes</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#login-nodes-and-transfer-nodes">Login Nodes and Transfer Nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pangeo-journey">PANGEO Journey</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#install-and-test-miniconda">Install and Test Miniconda</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#logon-your-hpc-system-now">Logon your hpc system now</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="01project_charter.html">ET Case Study Project Charter</a><ul>
@@ -835,6 +841,37 @@
 <h1>HPC Notes<a class="headerlink" href="#hpc-notes" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="login-nodes-and-transfer-nodes">
 <h2>Login Nodes and Transfer Nodes<a class="headerlink" href="#login-nodes-and-transfer-nodes" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="pangeo-journey">
+<h2>PANGEO Journey<a class="headerlink" href="#pangeo-journey" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="install-and-test-miniconda">
+<h3>Install and Test Miniconda<a class="headerlink" href="#install-and-test-miniconda" title="Permalink to this headline">¶</a></h3>
+<p>https://pangeo.io/setup_guides/hpc.html</p>
+<div class="section" id="logon-your-hpc-system-now">
+<h4>Logon your hpc system now<a class="headerlink" href="#logon-your-hpc-system-now" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>tallgrass - my favorite</p></li>
+<li><p>salloc and bash in new run node</p></li>
+<li><p>install miniconda</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="n">opt</span><span class="o">/</span><span class="n">mini</span>
+<span class="n">cd</span> <span class="n">opt</span><span class="o">/</span><span class="n">minu</span>
+
+<span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">repo</span><span class="o">.</span><span class="n">continuum</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">miniconda</span><span class="o">/</span><span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
+<span class="n">chmod</span> <span class="o">+</span><span class="n">x</span> <span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
+<span class="o">./</span><span class="n">Miniconda3</span><span class="o">-</span><span class="n">latest</span><span class="o">-</span><span class="n">Linux</span><span class="o">-</span><span class="n">x86_64</span><span class="o">.</span><span class="n">sh</span>
+
+<span class="n">conda</span> <span class="n">update</span> <span class="n">conda</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="c1">### Signell Help</span>
+
+</pre></div>
+</div>
+</div>
+</div>
 </div>
 </div>
 

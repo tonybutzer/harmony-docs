@@ -567,14 +567,20 @@
 <li class="toctree-l2"><a class="reference internal" href="#hpc">HPC</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#i-like-tallgrass-vs-denali">I like Tallgrass vs. Denali</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#singularity-demo">Singularity Demo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#singularity-features-why-was-it-created">Singularity Features - why was it created?</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#singularity-versus-pure-docker">Singularity Versus pure Docker</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#hello-there">&lt; hello there &gt;</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="01hpc.html">HPC Notes</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="01hpc.html#login-nodes-and-transfer-nodes">Login Nodes and Transfer Nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="01hpc.html#pangeo-journey">PANGEO Journey</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="01hpc.html#install-and-test-miniconda">Install and Test Miniconda</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="01hpc.html#logon-your-hpc-system-now">Logon your hpc system now</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="01project_charter.html">ET Case Study Project Charter</a><ul>
@@ -852,81 +858,72 @@
 </div>
 <div class="section" id="singularity-demo">
 <h3>Singularity Demo<a class="headerlink" href="#singularity-demo" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">module</span> <span class="n">load</span> <span class="n">singularity</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">salloc</span>
 
-<span class="n">singularity</span> <span class="n">shell</span> <span class="n">docker</span><span class="p">:</span><span class="o">//</span><span class="n">ubuntu</span><span class="p">:</span><span class="n">latest</span>
-
-<span class="n">singularity</span> <span class="n">run</span> <span class="n">library</span><span class="p">:</span><span class="o">//</span><span class="n">sylabsed</span><span class="o">/</span><span class="n">examples</span><span class="o">/</span><span class="n">lolcow</span>
+<span class="n">make</span> <span class="n">run</span>
 </pre></div>
+</div>
+<p>module load singularity</p>
+<p>singularity shell docker://ubuntu:latest</p>
+<p>singularity run library://sylabsed/examples/lolcow</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>---
+
+### Singularity Features - why was it created?
+
+1. No Root Access in Containers
+2. Created for scientists on HPC
+3. Integrated volumes
+4. Job Scehduling integration with slurm
+
+I was not happy that I had to learn - yet another orchestration tool - let alone two - singularity and slurm
+
+### Singularity Versus pure Docker
+&gt; For one, security. HPC environments are typically multi-user systems where users should only have access to their own data.
+
+&gt; For all practical purposes, docker gives superuser privileges. It’s hard to give someone limited Docker access.Sure there’s SELinux and the like, but Docker just wasn’t designed to keep users out of each other’s stuff. Singularity effectively runs as the running user and doesn’t result in elevated access.
+
+&gt; Another is scheduling. On my cluster we use slurm, and users submit jobs with CPU/memory/time requirements. The Docker command is just an API client that talks to the docker daemon, so the resource requests and actual usages don’t match. Singularity runs container processes without a daemon. They just run as child processes.
+</pre></div>
+</div>
+<p>[butzer&#64;ml-0001 ~]$ singularity shell library://sylabsed/examples/lolcow
+Singularity lolcow_latest.sif:~&gt; lolcat –help</p>
+<p>Usage: lolcat [OPTION]… [FILE]…</p>
+<p>Concatenate FILE(s), or standard input, to standard output.
+With no FILE, or when FILE is -, read standard input.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">--</span><span class="n">spread</span><span class="p">,</span> <span class="o">-</span><span class="n">p</span> <span class="o">&lt;</span><span class="n">f</span><span class="o">&gt;</span><span class="p">:</span>   <span class="n">Rainbow</span> <span class="n">spread</span> <span class="p">(</span><span class="n">default</span><span class="p">:</span> <span class="mf">3.0</span><span class="p">)</span>
+  <span class="o">--</span><span class="n">freq</span><span class="p">,</span> <span class="o">-</span><span class="n">F</span> <span class="o">&lt;</span><span class="n">f</span><span class="o">&gt;</span><span class="p">:</span>   <span class="n">Rainbow</span> <span class="n">frequency</span> <span class="p">(</span><span class="n">default</span><span class="p">:</span> <span class="mf">0.1</span><span class="p">)</span>
+  <span class="o">--</span><span class="n">seed</span><span class="p">,</span> <span class="o">-</span><span class="n">S</span> <span class="o">&lt;</span><span class="n">i</span><span class="o">&gt;</span><span class="p">:</span>   <span class="n">Rainbow</span> <span class="n">seed</span><span class="p">,</span> <span class="mi">0</span> <span class="o">=</span> <span class="n">random</span> <span class="p">(</span><span class="n">default</span><span class="p">:</span> <span class="mi">0</span><span class="p">)</span>
+   <span class="o">--</span><span class="n">animate</span><span class="p">,</span> <span class="o">-</span><span class="n">a</span><span class="p">:</span>   <span class="n">Enable</span> <span class="n">psychedelics</span>
+</pre></div>
+</div>
+<p>–duration, -d <i>:   Animation duration (default: 12)
+–speed, -s <f>:   Animation speed (default: 20.0)
+–force, -f:   Force color even when stdout is not a tty
+–version, -v:   Print version and exit
+–help, -h:   Show this message</p>
+<p>Examples:
+lolcat f - g      Output f’s contents, then stdin, then g’s contents.
+lolcat            Copy standard input to standard output.
+fortune | lolcat  Display a rainbow cookie.</p>
+<p>Report lolcat bugs to <a class="reference external" href="http://www.github.org/busyloop/lolcat/issues">http://www.github.org/busyloop/lolcat/issues</a>
+lolcat home page: <a class="reference external" href="http://www.github.org/busyloop/lolcat/">http://www.github.org/busyloop/lolcat/</a>
+Report lolcat translation bugs to <a class="reference external" href="http://speaklolcat.com/">http://speaklolcat.com/</a></p>
+<p>Singularity lolcow_latest.sif:~&gt; which lolcat
+/usr/games/lolcat
+Singularity lolcow_latest.sif:~&gt; cowsay -f tux  hello there | lolcat -a</p>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="singularity-features-why-was-it-created">
-<h3>Singularity Features - why was it created?<a class="headerlink" href="#singularity-features-why-was-it-created" title="Permalink to this headline">¶</a></h3>
-<ol class="simple">
-<li><p>No Root Access in Containers</p></li>
-<li><p>Created for scientists on HPC</p></li>
-<li><p>Integrated volumes</p></li>
-<li><p>Job Scehduling integration with slurm</p></li>
-</ol>
-<p>I was not happy that I had to learn - yet another orchestration tool - let alone two - singularity and slurm</p>
-</div>
-<div class="section" id="singularity-versus-pure-docker">
-<h3>Singularity Versus pure Docker<a class="headerlink" href="#singularity-versus-pure-docker" title="Permalink to this headline">¶</a></h3>
-<blockquote>
-<div><p>For one, security. HPC environments are typically multi-user systems where users should only have access to their own data.</p>
-</div></blockquote>
-<blockquote>
-<div><p>For all practical purposes, docker gives superuser privileges. It’s hard to give someone limited Docker access.Sure there’s SELinux and the like, but Docker just wasn’t designed to keep users out of each other’s stuff. Singularity effectively runs as the running user and doesn’t result in elevated access.</p>
-</div></blockquote>
-<blockquote>
-<div><p>Another is scheduling. On my cluster we use slurm, and users submit jobs with CPU/memory/time requirements. The Docker command is just an API client that talks to the docker daemon, so the resource requests and actual usages don’t match. Singularity runs container processes without a daemon. They just run as child processes.</p>
-</div></blockquote>
+<div class="section" id="hello-there">
+<h2>&lt; hello there &gt;<a class="headerlink" href="#hello-there" title="Permalink to this headline">¶</a></h2>
+<p><br /><br />.–.
+|o_o |
+|:_/ |
+//   \ <br />(|     | )
+/’_   <em>/`<br />_<strong>)=(</strong></em>/</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-[butzer@ml-0001 ~]$ singularity shell library://sylabsed/examples/lolcow
-Singularity lolcow_latest.sif:~&gt; lolcat --help
-
-Usage: lolcat [OPTION]... [FILE]...
-
-Concatenate FILE(s), or standard input, to standard output.
-With no FILE, or when FILE is -, read standard input.
-
-    --spread, -p &lt;f&gt;:   Rainbow spread (default: 3.0)
-      --freq, -F &lt;f&gt;:   Rainbow frequency (default: 0.1)
-      --seed, -S &lt;i&gt;:   Rainbow seed, 0 = random (default: 0)
-       --animate, -a:   Enable psychedelics
-  --duration, -d &lt;i&gt;:   Animation duration (default: 12)
-     --speed, -s &lt;f&gt;:   Animation speed (default: 20.0)
-         --force, -f:   Force color even when stdout is not a tty
-       --version, -v:   Print version and exit
-          --help, -h:   Show this message
-
-Examples:
-  lolcat f - g      Output f&#39;s contents, then stdin, then g&#39;s contents.
-  lolcat            Copy standard input to standard output.
-  fortune | lolcat  Display a rainbow cookie.
-
-Report lolcat bugs to &lt;http://www.github.org/busyloop/lolcat/issues&gt;
-lolcat home page: &lt;http://www.github.org/busyloop/lolcat/&gt;
-Report lolcat translation bugs to &lt;http://speaklolcat.com/&gt;
-
-Singularity lolcow_latest.sif:~&gt; which lolcat
-/usr/games/lolcat
-Singularity lolcow_latest.sif:~&gt; cowsay -f tux  hello there | lolcat -a
- _____________
-&lt; hello there &gt;
- -------------
-   \
-    \
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /&#39;\_   _/`\
-    \___)=(___/
+<span class="o">-</span> <span class="n">tony</span> <span class="n">says</span> <span class="o">-</span> <span class="s1">&#39;oh yeah what do you use your supercomputer for&#39;</span>
 </pre></div>
-</div>
 </div>
 </div>
 </div>
