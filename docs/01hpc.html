@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>BIG PANGEO HINTS &mdash; AWS PANGEO Jupyter Onboarding 1.0 documentation</title>
+  <title>HPC Notes &mdash; AWS PANGEO Jupyter Onboarding 1.0 documentation</title>
   
 
   
@@ -34,7 +34,9 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ET Case Study Project Charter" href="01project_charter.html" />
+    <link rel="prev" title="Week 15 Singularity" href="15week.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -79,7 +81,7 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="00define_ET.html">miniPangeo BUTTON</a></li>
 <li class="toctree-l1"><a class="reference internal" href="00define_ET.html#aws-on-boarding-overview">AWS On-boarding Overview</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="00define_ET.html#executive-summary">Executive Summary</a><ul>
@@ -571,8 +573,8 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="01hpc.html">HPC Notes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="01hpc.html#login-nodes-and-transfer-nodes">Login Nodes and Transfer Nodes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">HPC Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#login-nodes-and-transfer-nodes">Login Nodes and Transfer Nodes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="01project_charter.html">ET Case Study Project Charter</a><ul>
@@ -810,13 +812,13 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>BIG PANGEO HINTS</li>
+      <li>HPC Notes</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/99tricks.md.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/01hpc.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -829,68 +831,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="big-pangeo-hints">
-<h1>BIG PANGEO HINTS<a class="headerlink" href="#big-pangeo-hints" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="credential-tricks">
-<h2>Credential Tricks<a class="headerlink" href="#credential-tricks" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#!/bin/bash
-# get temporary keys for GDAL based on role using AWS CLI
-AWS_STS_RESPONSE=`aws sts assume-role-with-web-identity \
-        --role-arn arn:aws:iam::376067480372:role/eks-pangeo-node \
-        --role-session-name gdal-session-$(date +%s) \
-        --web-identity-token file:///var/run/secrets/eks.amazonaws.com/serviceaccount/token`
-# parse CLI response using jq and grep
-export AWS_ACCESS_KEY_ID=`echo ${AWS_STS_RESPONSE} | jq -r &#39;.Credentials.AccessKeyId&#39;`
-export AWS_SECRET_ACCESS_KEY=`echo ${AWS_STS_RESPONSE} | jq -r &#39;.Credentials.SecretAccessKey&#39;`
-export AWS_SESSION_TOKEN=`echo ${AWS_STS_RESPONSE} | jq -r &#39;.Credentials.SessionToken&#39;`
-export AWS_REGION=`echo ${AWS_STS_RESPONSE} | jq -r &#39;.Provider&#39; | grep -oP &#39;(?&lt;=eks.).*?(?=.amazo
-naws)&#39;`
-# for GDAL&lt;3.2
-export AWS_DEFAULT_REGION=$AWS_REGION
-
-export AWS_REQUEST_PAYER=requester
-</pre></div>
-</div>
-<div class="section" id="gdal">
-<h3>GDAL<a class="headerlink" href="#gdal" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="o">--</span><span class="n">config</span> <span class="n">AWS_REQUEST_PAYER</span> <span class="n">requester</span> <span class="o">/</span><span class="n">vsis3_streaming</span><span class="o">/</span><span class="n">dev</span><span class="o">-</span><span class="n">et</span><span class="o">-</span><span class="n">data</span><span class="o">/</span><span class="n">compressed</span><span class="o">/</span><span class="n">NDVI_filled</span><span class="o">/</span><span class="mi">2001</span><span class="o">/</span><span class="mf">2001001.250</span><span class="n">_m_NDVI</span><span class="o">.</span><span class="n">tif</span>
- 
-</pre></div>
-</div>
-</div>
-<div class="section" id="aws-requester-sure-does-pay">
-<h3>AWS requester - sure does pay!<a class="headerlink" href="#aws-requester-sure-does-pay" title="Permalink to this headline">¶</a></h3>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>(pangeo) jovyan:~$ alias awr=&#39;aws --request-payer=requester&#39;
-(pangeo) jovyan:~$ awr s3 ls dev-et-data/
-                           PRE 01drop/
-                           PRE NDVI_filled/
-                           PRE compressed/
-                           PRE etasw_2014/
-                           PRE etasw_2015/
-                           PRE greg_outputs/
-                           PRE level-1/
-                           PRE steff_2014/
-                           PRE steff_2015/
-                           PRE t50n-90e/
-                           PRE v1DRB_outputs/
-2020-05-05 23:59:59         62 Readme-bucket.md
-2020-05-05 23:50:00         13 tony.txt
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="section" id="stopping-tljh">
-<h1>Stopping TLJH<a class="headerlink" href="#stopping-tljh" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="services">
-<h2>Services<a class="headerlink" href="#services" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">systemctl</span> <span class="n">disable</span> <span class="n">jupyterhub</span><span class="o">.</span><span class="n">service</span>
-<span class="n">sudo</span> <span class="n">systemctl</span> <span class="n">disable</span> <span class="n">traefik</span><span class="o">.</span><span class="n">service</span>
-<span class="n">sudo</span> <span class="n">netstat</span> <span class="o">-</span><span class="n">anlp</span> <span class="o">|</span><span class="n">grep</span> <span class="mi">80</span>
-<span class="n">sudo</span> <span class="n">systemctl</span> <span class="n">stop</span> <span class="n">traefik</span><span class="o">.</span><span class="n">service</span>
-<span class="n">sudo</span> <span class="n">systemctl</span> <span class="n">stop</span> <span class="n">jupyterhub</span><span class="o">.</span><span class="n">service</span>
-</pre></div>
-</div>
+  <div class="section" id="hpc-notes">
+<h1>HPC Notes<a class="headerlink" href="#hpc-notes" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="login-nodes-and-transfer-nodes">
+<h2>Login Nodes and Transfer Nodes<a class="headerlink" href="#login-nodes-and-transfer-nodes" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -899,6 +843,15 @@ export AWS_REQUEST_PAYER=requester
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="01project_charter.html" class="btn btn-neutral float-right" title="ET Case Study Project Charter" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="15week.html" class="btn btn-neutral float-left" title="Week 15 Singularity" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
