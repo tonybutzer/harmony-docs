@@ -577,6 +577,8 @@
 <li class="toctree-l3"><a class="reference internal" href="#big-data-and-data-cubes">Big Data and Data Cubes</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#data-lake-discussion-demo">Data Lake Discussion - Demo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#show-stac-for-maine-and-clipping-and-crs-from-platecarree">Show STAC - for maine and clipping and crs from plateCarree</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="01hpc.html">HPC Notes</a><ul>
@@ -972,6 +974,35 @@ Singularity lolcow_latest.sif:~&gt; cowsay -f tux  hello there | lolcat -a
 <a class="reference external" href="https://www.tandfonline.com/doi/full/10.1080/17538947.2019.1585976">https://www.tandfonline.com/doi/full/10.1080/17538947.2019.1585976</a></p>
 </div></blockquote>
 </div>
+</div>
+<div class="section" id="data-lake-discussion-demo">
+<h2>Data Lake Discussion - Demo<a class="headerlink" href="#data-lake-discussion-demo" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>copied data from Neal’s bucket eco-w1 to Caldera</p></li>
+<li><p>copied anhb nlcd fro Caldera to a usgsOPEN-bucket … dev-et-data – aka Steffie’s bucket.</p></li>
+<li><p>demo access from Steffie’s private mini-pangeo - http:/10.12.68.246</p></li>
+<li><p>demo access from theBigPangeo – http://pangeo.chs.usgs.gov</p></li>
+<li><p>demo local Caldera access from Jupyter via Tallgrass</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tallgrass</span>
+
+<span class="n">make</span> <span class="n">salloc</span>
+
+<span class="n">make</span> <span class="n">shell</span>
+
+<span class="p">(</span><span class="n">start</span> <span class="n">jupyter</span><span class="p">)</span>
+
+<span class="n">tunnel</span> <span class="mi">8888</span>
+
+<span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">8888</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="show-stac-for-maine-and-clipping-and-crs-from-platecarree">
+<h2>Show STAC - for maine and clipping and crs from plateCarree<a class="headerlink" href="#show-stac-for-maine-and-clipping-and-crs-from-platecarree" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>find this demo - do it in the pangeo</p></li>
+</ul>
 </div>
 </div>
 

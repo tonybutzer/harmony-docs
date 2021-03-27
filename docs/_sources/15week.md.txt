@@ -123,3 +123,33 @@ Singularity lolcow_latest.sif:~> cowsay -f tux  hello there | lolcat -a
 
 > " Developments of sensing observations and producing information from it need to be accompanied by suitable storage, processing and retrieval systems. " - from ...
 [https://www.tandfonline.com/doi/full/10.1080/17538947.2019.1585976](https://www.tandfonline.com/doi/full/10.1080/17538947.2019.1585976)
+
+
+## Data Lake Discussion - Demo
+
+- copied data from Neal's bucket eco-w1 to Caldera
+- copied anhb nlcd fro Caldera to a usgsOPEN-bucket ... dev-et-data -- aka Steffie's bucket.
+
+- demo access from Steffie's private mini-pangeo - http:/10.12.68.246
+- demo access from theBigPangeo -- http://pangeo.chs.usgs.gov
+- demo local Caldera access from Jupyter via Tallgrass
+
+```
+tallgrass
+
+make salloc
+
+make shell
+
+(start jupyter)
+
+tunnel 8888
+
+http://localhost:8888
+
+```
+
+
+## Show STAC - for maine and clipping and crs from plateCarree
+
+- find this demo - do it in the pangeo
