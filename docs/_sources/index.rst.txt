@@ -21,6 +21,7 @@ Welcome to AWS -- PANGEO Onboarding Training
    12week.md
    13week.md
    14week.md
+   15week.md
    01project_charter.md
    02neal_case_study.md
    10project_plan
