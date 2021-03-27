@@ -37,4 +37,10 @@ conda update conda
 
 ### Signell Help
 
+Follow this recipe and let me know if it works for you: https://discourse.holoviz.org/t/setting-up-working-environment-for-tutorial/1794/4
+
+### from conda env base
+```
+conda install mamba
+```
 
