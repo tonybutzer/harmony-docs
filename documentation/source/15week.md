@@ -102,3 +102,8 @@ Singularity lolcow_latest.sif:~> cowsay -f tux  hello there | lolcat -a
 ```
 
 - tony says - 'oh yeah what do you use your supercomputer for'
+
+
+#### HPC DOC Walk Thru
+
+[https://hpcportal.cr.usgs.gov/hpc-user-docs/Resources/Cheat_Sheets.html](https://hpcportal.cr.usgs.gov/hpc-user-docs/Resources/Cheat_Sheets.html)
