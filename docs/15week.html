@@ -882,6 +882,51 @@
 <blockquote>
 <div><p>Another is scheduling. On my cluster we use slurm, and users submit jobs with CPU/memory/time requirements. The Docker command is just an API client that talks to the docker daemon, so the resource requests and actual usages don’t match. Singularity runs container processes without a daemon. They just run as child processes.</p>
 </div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+[butzer@ml-0001 ~]$ singularity shell library://sylabsed/examples/lolcow
+Singularity lolcow_latest.sif:~&gt; lolcat --help
+
+Usage: lolcat [OPTION]... [FILE]...
+
+Concatenate FILE(s), or standard input, to standard output.
+With no FILE, or when FILE is -, read standard input.
+
+    --spread, -p &lt;f&gt;:   Rainbow spread (default: 3.0)
+      --freq, -F &lt;f&gt;:   Rainbow frequency (default: 0.1)
+      --seed, -S &lt;i&gt;:   Rainbow seed, 0 = random (default: 0)
+       --animate, -a:   Enable psychedelics
+  --duration, -d &lt;i&gt;:   Animation duration (default: 12)
+     --speed, -s &lt;f&gt;:   Animation speed (default: 20.0)
+         --force, -f:   Force color even when stdout is not a tty
+       --version, -v:   Print version and exit
+          --help, -h:   Show this message
+
+Examples:
+  lolcat f - g      Output f&#39;s contents, then stdin, then g&#39;s contents.
+  lolcat            Copy standard input to standard output.
+  fortune | lolcat  Display a rainbow cookie.
+
+Report lolcat bugs to &lt;http://www.github.org/busyloop/lolcat/issues&gt;
+lolcat home page: &lt;http://www.github.org/busyloop/lolcat/&gt;
+Report lolcat translation bugs to &lt;http://speaklolcat.com/&gt;
+
+Singularity lolcow_latest.sif:~&gt; which lolcat
+/usr/games/lolcat
+Singularity lolcow_latest.sif:~&gt; cowsay -f tux  hello there | lolcat -a
+ _____________
+&lt; hello there &gt;
+ -------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /&#39;\_   _/`\
+    \___)=(___/
+</pre></div>
+</div>
 </div>
 </div>
 </div>

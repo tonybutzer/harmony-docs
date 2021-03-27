@@ -47,3 +47,49 @@ I was not happy that I had to learn - yet another orchestration tool - let alone
 > Another is scheduling. On my cluster we use slurm, and users submit jobs with CPU/memory/time requirements. The Docker command is just an API client that talks to the docker daemon, so the resource requests and actual usages don’t match. Singularity runs container processes without a daemon. They just run as child processes.
 
 
+
+```
+
+[butzer@ml-0001 ~]$ singularity shell library://sylabsed/examples/lolcow
+Singularity lolcow_latest.sif:~> lolcat --help
+
+Usage: lolcat [OPTION]... [FILE]...
+
+Concatenate FILE(s), or standard input, to standard output.
+With no FILE, or when FILE is -, read standard input.
+
+    --spread, -p <f>:   Rainbow spread (default: 3.0)
+      --freq, -F <f>:   Rainbow frequency (default: 0.1)
+      --seed, -S <i>:   Rainbow seed, 0 = random (default: 0)
+       --animate, -a:   Enable psychedelics
+  --duration, -d <i>:   Animation duration (default: 12)
+     --speed, -s <f>:   Animation speed (default: 20.0)
+         --force, -f:   Force color even when stdout is not a tty
+       --version, -v:   Print version and exit
+          --help, -h:   Show this message
+
+Examples:
+  lolcat f - g      Output f's contents, then stdin, then g's contents.
+  lolcat            Copy standard input to standard output.
+  fortune | lolcat  Display a rainbow cookie.
+
+Report lolcat bugs to <http://www.github.org/busyloop/lolcat/issues>
+lolcat home page: <http://www.github.org/busyloop/lolcat/>
+Report lolcat translation bugs to <http://speaklolcat.com/>
+
+Singularity lolcow_latest.sif:~> which lolcat
+/usr/games/lolcat
+Singularity lolcow_latest.sif:~> cowsay -f tux  hello there | lolcat -a
+ _____________
+< hello there >
+ -------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+```
