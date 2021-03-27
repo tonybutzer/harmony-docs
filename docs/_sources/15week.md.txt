@@ -117,3 +117,9 @@ Singularity lolcow_latest.sif:~> cowsay -f tux  hello there | lolcat -a
 #### HPC DOC Walk Thru
 
 [https://hpcportal.cr.usgs.gov/hpc-user-docs/Resources/Cheat_Sheets.html](https://hpcportal.cr.usgs.gov/hpc-user-docs/Resources/Cheat_Sheets.html)
+
+
+### Big Data and Data Cubes
+
+> " Developments of sensing observations and producing information from it need to be accompanied by suitable storage, processing and retrieval systems. " - from ...
+[https://www.tandfonline.com/doi/full/10.1080/17538947.2019.1585976](https://www.tandfonline.com/doi/full/10.1080/17538947.2019.1585976)
