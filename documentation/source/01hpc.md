@@ -3,6 +3,14 @@
 
 ## Useful References
 
+
+
+
+https://www.hpc.iastate.edu/guides/containers
+
+
+https://ioos.github.io/notebooks_demos/other_resources/
+
 https://www.usgs.gov/core-science-systems/sas/arc
 
 https://www.usgs.gov/mission-areas/core-science-systems
@@ -15,6 +23,18 @@ https://pubs.cray.com/bundle/XC_Series_Programming_Environment_User_Guide_1705_S
 ## Useless References
 
 https://hpcportal.cr.usgs.gov/hpc-user-docs/Resources/training_classes.html
+
+
+## Useful Videos
+
+- Slurm Basics
+    - https://www.youtube.com/watch?v=49DzPT9HFJM
+
+https://www.google.com/search?client=firefox-b-1-d&q=slurm+for+dummies+youtube+hpc
+
+
+## Useless Videos
+
 
 
 
