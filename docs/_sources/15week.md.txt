@@ -119,6 +119,11 @@ Singularity lolcow_latest.sif:~> cowsay -f tux  hello there | lolcat -a
 [https://hpcportal.cr.usgs.gov/hpc-user-docs/Resources/Cheat_Sheets.html](https://hpcportal.cr.usgs.gov/hpc-user-docs/Resources/Cheat_Sheets.html)
 
 
+[https://vim.rtorr.com/](https://vim.rtorr.com/)
+
+
+[https://cheatography.com/davechild/cheat-sheets/linux-command-line/](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
+
 ### Big Data and Data Cubes
 
 > " Developments of sensing observations and producing information from it need to be accompanied by suitable storage, processing and retrieval systems. " - from ...
