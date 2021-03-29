@@ -582,12 +582,16 @@
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">HPC Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#useful-references">Useful References</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#useless-references">Useless References</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#login-nodes-and-transfer-nodes">Login Nodes and Transfer Nodes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#pangeo-journey">PANGEO Journey</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#install-and-test-miniconda">Install and Test Miniconda</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#logon-your-hpc-system-now">Logon your hpc system now</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#signell-help">Signell Help</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#from-conda-env-base">from conda env base</a></li>
 </ul>
 </li>
 </ul>
@@ -848,6 +852,17 @@
             
   <div class="section" id="hpc-notes">
 <h1>HPC Notes<a class="headerlink" href="#hpc-notes" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="useful-references">
+<h2>Useful References<a class="headerlink" href="#useful-references" title="Permalink to this headline">¶</a></h2>
+<p>https://www.usgs.gov/core-science-systems/sas/arc</p>
+<p>https://www.usgs.gov/mission-areas/core-science-systems</p>
+<p>https://hpcportal.cr.usgs.gov/hpc-user-docs/jobs/best-practices.html</p>
+<p>https://pubs.cray.com/bundle/XC_Series_Programming_Environment_User_Guide_1705_S-2529/page/SLURM_in_Interactive_Mode.html</p>
+</div>
+<div class="section" id="useless-references">
+<h2>Useless References<a class="headerlink" href="#useless-references" title="Permalink to this headline">¶</a></h2>
+<p>https://hpcportal.cr.usgs.gov/hpc-user-docs/Resources/training_classes.html</p>
+</div>
 <div class="section" id="login-nodes-and-transfer-nodes">
 <h2>Login Nodes and Transfer Nodes<a class="headerlink" href="#login-nodes-and-transfer-nodes" title="Permalink to this headline">¶</a></h2>
 </div>
@@ -873,19 +888,22 @@
 <span class="n">conda</span> <span class="n">update</span> <span class="n">conda</span>
 </pre></div>
 </div>
+</div>
+</div>
 <hr class="docutils" />
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-<span class="c1">### Signell Help</span>
-
-<span class="n">Follow</span> <span class="n">this</span> <span class="n">recipe</span> <span class="ow">and</span> <span class="n">let</span> <span class="n">me</span> <span class="n">know</span> <span class="k">if</span> <span class="n">it</span> <span class="n">works</span> <span class="k">for</span> <span class="n">you</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">discourse</span><span class="o">.</span><span class="n">holoviz</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">t</span><span class="o">/</span><span class="n">setting</span><span class="o">-</span><span class="n">up</span><span class="o">-</span><span class="n">working</span><span class="o">-</span><span class="n">environment</span><span class="o">-</span><span class="k">for</span><span class="o">-</span><span class="n">tutorial</span><span class="o">/</span><span class="mi">1794</span><span class="o">/</span><span class="mi">4</span>
-
-<span class="c1">### from conda env base</span>
-</pre></div>
+<div class="section" id="signell-help">
+<h3>Signell Help<a class="headerlink" href="#signell-help" title="Permalink to this headline">¶</a></h3>
+<p>Follow this recipe and let me know if it works for you: https://discourse.holoviz.org/t/setting-up-working-environment-for-tutorial/1794/4</p>
 </div>
-<p>conda install mamba</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<div class="section" id="from-conda-env-base">
+<h3>from conda env base<a class="headerlink" href="#from-conda-env-base" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">butzer</span><span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">etscrum</span><span class="o">/</span><span class="mi">2</span><span class="n">_ET_HPC</span><span class="o">/</span><span class="n">signell</span>
+
+<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="o">--</span><span class="n">force</span>
+<span class="n">source</span> <span class="n">activate</span> <span class="n">base</span>
+<span class="n">conda</span> <span class="n">install</span> <span class="n">mamba</span> <span class="o">-</span><span class="n">y</span>
+<span class="n">mamba</span> <span class="n">env</span> <span class="n">create</span> <span class="o">-</span><span class="n">f</span> <span class="n">pangeo_env</span><span class="o">.</span><span class="n">yml</span>
 </pre></div>
-</div>
 </div>
 </div>
 </div>
