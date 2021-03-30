@@ -212,7 +212,18 @@ http://localhost:8888
 
 ![](https://raw.githubusercontent.com/tonybutzer/etscrum/a46efbe7884e936973cd7fe55162a295c700b02f/Attic/00-presentation/ard/datawrangling_is_real.PNG)
 
+---
+
+### DWWG next steps:
+
+1. Determine VegDyn NLCD Needs (Trenton, Dinesh)
+    - perhaps look at gridmet, daymet etc ...
+2. Refine Logan's NLCD wrngling pipeline - add orchestration
+3. Wrangle some more NLCD and test with VegDyn-centric notebooks
+4. Move some of the VegET wrangling to the cloud - with branch to Caldera
+
 ## Show STAC - for maine and clipping and crs from plateCarree
 - time permitting?
 
 - find this demo - do it in the pangeo
+- https://pangeo.chs.usgs.gov/user/butzer@contractor.usgs.gov/notebooks/opt/composite/40-intake-stac-henderson/1-just-aoi-intake-stac-egypt-calibration.ipynb
