@@ -4,6 +4,7 @@
 - so no class on next tuesday
     - No class on next tuesday?
         - that's right no class next week -tony
+- Tony's summer hiatus coming soon
 
 ## Overview
 - around the projects
@@ -76,9 +77,9 @@ singularity run library://sylabsed/examples/lolcow
 
 ### Singularity Features - why was it created?
 
-1. No Root Access in Containers
+1. No Root Access in Containers - you run as butzer 
 2. Created for scientists on HPC
-3. Integrated volumes
+3. Integrated volumes - your home directory /home/butzer and Caldera are just there
 4. Job Scehduling integration with slurm
 
 I was not happy that I had to learn - yet another orchestration tool - let alone two - singularity and slurm
