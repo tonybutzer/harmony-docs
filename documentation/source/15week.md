@@ -1,4 +1,24 @@
-# Week 15 Singularity
+# Week 15 HPC Edition Pangeo + Singularity
+
+## Overview
+- around the projects
+- datalake experiment
+- hpc - denali and tallgrass
+    - very similar to cloud 
+    - different approach
+    - sponsored $$$
+        - compute
+        - data storage
+        - scaling - both have batch
+        - rescale?
+- pangeo demo on:
+    - bigPangeo
+    - miniPangeo
+    - Tallgrass
+- 
+
+https://www.usgs.gov/center-news/denali-tallgrass-eros-launch-new-era-high-performance-computing-capabilities
+
 
 ## Around the Projects
 
@@ -15,6 +35,10 @@
 
 > “HPC is just another tool in the toolbox,” he said. “So, what we’re trying to do is get people more comfortable with running large-scale simulations of data analytics and modeling. We want to make that a fabric within USGS so that it changes the culture within the Survey. We don’t want people having to deal with things on their own. We want to make sure everybody has the right tools, or at least good enough tools, to get their jobs done.” - Falgout
 
+- the right tools
+- don't have people try to go this alone - collaborate
+- get scientists comfortable with these disruptive scalable environments
+- Falgout is on to something here
 
 - https://www.usgs.gov/center-news/denali-tallgrass-eros-launch-new-era-high-performance-computing-capabilities
 ---
