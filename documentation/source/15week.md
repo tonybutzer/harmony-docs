@@ -1,5 +1,10 @@
 # Week 15 HPC Edition Pangeo + Singularity
 
+# NEXT WEEK - Aaron Friesz - Teaches class on Monday 
+- so no class on next tuesday
+    - No class on next tuesday?
+        - that's right no class next week -tony
+
 ## Overview
 - around the projects
 - datalake experiment
@@ -58,8 +63,6 @@ https://www.usgs.gov/center-news/denali-tallgrass-eros-launch-new-era-high-perfo
 make salloc
 
 make shell
-
-
 
 
 module load singularity
@@ -171,14 +174,45 @@ make salloc
 make shell
 
 (start jupyter)
+./launch(TAB)
 
 tunnel 8888
+# cut/paste the ssh tunnel 8888
+
 
 http://localhost:8888
 
 ```
 
+## Two HPC Pangeo notebooks demos
+
+- http://localhost:8888/notebooks/opt/etscrum/2_ET_HPC/00-notebooks/0_HPC_for_dummies_like_tony.ipynb
+- http://localhost:8888/notebooks/opt/etscrum/3_nlcd_datalake/1_HPC_anhb-viewer.ipynb
+
+
+### Steffi's mini pangeo 
+- http://10.12.68.246/user/butzer/notebooks/opt/nlcd-datalake/scp-tools/1_nlcd-anhb-viewer.ipynb
+
+### bigPangeo
+- exact same notebook runs here 
+- how is that possible
+    - datalake!
+    - notice caldera and home directory are ubiqutous accross - denali and tallgrasss
+    - datalakes will be accessible world wide - the opposite of dark repositories of data
+- notebook url HERE
+
+# Data Lake
+
+#### approach
+
+1. model a data lake in the dev-et-data bucket - USGS-wide access
+2. infiltrate the CHS leaders and elevate the priority of a USGS datalake
+3. find common data needs and practice wrangling them vis the Data Wrangling Working Group
+    - remember data wrangling is still a real thing
+
+![](https://raw.githubusercontent.com/tonybutzer/etscrum/a46efbe7884e936973cd7fe55162a295c700b02f/Attic/00-presentation/ard/datawrangling_is_real.PNG)
 
 ## Show STAC - for maine and clipping and crs from plateCarree
+- time permitting?
 
 - find this demo - do it in the pangeo

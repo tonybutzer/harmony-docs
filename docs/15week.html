@@ -563,7 +563,8 @@
 <li class="toctree-l2"><a class="reference internal" href="14week.html#maine-masked-s2-all-bands-nc">maine_masked_s2_all_bands.nc</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 15 HPC Edition Pangeo + Singularity</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 15 HPC Edition Pangeo + Singularity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#next-week-aaron-friesz-teaches-class-on-monday">NEXT WEEK - Aaron Friesz - Teaches class on Monday</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#around-the-projects">Around the Projects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#hpc">HPC</a><ul>
@@ -579,6 +580,15 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#data-lake-discussion-demo">Data Lake Discussion - Demo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#two-hpc-pangeo-notebooks-demos">Two HPC Pangeo notebooks demos</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steffi-s-mini-pangeo">Steffi’s mini pangeo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bigpangeo">bigPangeo</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#data-lake">Data Lake</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#approach">approach</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#show-stac-for-maine-and-clipping-and-crs-from-platecarree">Show STAC - for maine and clipping and crs from plateCarree</a></li>
 </ul>
 </li>
@@ -857,6 +867,20 @@
             
   <div class="section" id="week-15-hpc-edition-pangeo-singularity">
 <h1>Week 15 HPC Edition Pangeo + Singularity<a class="headerlink" href="#week-15-hpc-edition-pangeo-singularity" title="Permalink to this headline">¶</a></h1>
+</div>
+<div class="section" id="next-week-aaron-friesz-teaches-class-on-monday">
+<h1>NEXT WEEK - Aaron Friesz - Teaches class on Monday<a class="headerlink" href="#next-week-aaron-friesz-teaches-class-on-monday" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>so no class on next tuesday</p>
+<ul>
+<li><p>No class on next tuesday?</p>
+<ul>
+<li><p>that’s right no class next week -tony</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <div class="section" id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
@@ -1036,16 +1060,62 @@ Singularity lolcow_latest.sif:~&gt; cowsay -f tux  hello there | lolcat -a
 <span class="n">make</span> <span class="n">shell</span>
 
 <span class="p">(</span><span class="n">start</span> <span class="n">jupyter</span><span class="p">)</span>
+<span class="o">./</span><span class="n">launch</span><span class="p">(</span><span class="n">TAB</span><span class="p">)</span>
 
 <span class="n">tunnel</span> <span class="mi">8888</span>
+<span class="c1"># cut/paste the ssh tunnel 8888</span>
 
 <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">8888</span>
 </pre></div>
 </div>
 </div>
+<div class="section" id="two-hpc-pangeo-notebooks-demos">
+<h2>Two HPC Pangeo notebooks demos<a class="headerlink" href="#two-hpc-pangeo-notebooks-demos" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>http://localhost:8888/notebooks/opt/etscrum/2_ET_HPC/00-notebooks/0_HPC_for_dummies_like_tony.ipynb</p></li>
+<li><p>http://localhost:8888/notebooks/opt/etscrum/3_nlcd_datalake/1_HPC_anhb-viewer.ipynb</p></li>
+</ul>
+<div class="section" id="steffi-s-mini-pangeo">
+<h3>Steffi’s mini pangeo<a class="headerlink" href="#steffi-s-mini-pangeo" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>http://10.12.68.246/user/butzer/notebooks/opt/nlcd-datalake/scp-tools/1_nlcd-anhb-viewer.ipynb</p></li>
+</ul>
+</div>
+<div class="section" id="bigpangeo">
+<h3>bigPangeo<a class="headerlink" href="#bigpangeo" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>exact same notebook runs here</p></li>
+<li><p>how is that possible</p>
+<ul>
+<li><p>datalake!</p></li>
+<li><p>notice caldera and home directory are ubiqutous accross - denali and tallgrasss</p></li>
+<li><p>datalakes will be accessible world wide - the opposite of dark repositories of data</p></li>
+</ul>
+</li>
+<li><p>notebook url HERE</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="data-lake">
+<h1>Data Lake<a class="headerlink" href="#data-lake" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="approach">
+<h2>approach<a class="headerlink" href="#approach" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>model a data lake in the dev-et-data bucket - USGS-wide access</p></li>
+<li><p>infiltrate the CHS leaders and elevate the priority of a USGS datalake</p></li>
+<li><p>find common data needs and practice wrangling them vis the Data Wrangling Working Group</p>
+<ul class="simple">
+<li><p>remember data wrangling is still a real thing</p></li>
+</ul>
+</li>
+</ol>
+<p><img alt="https://raw.githubusercontent.com/tonybutzer/etscrum/a46efbe7884e936973cd7fe55162a295c700b02f/Attic/00-presentation/ard/datawrangling_is_real.PNG" src="https://raw.githubusercontent.com/tonybutzer/etscrum/a46efbe7884e936973cd7fe55162a295c700b02f/Attic/00-presentation/ard/datawrangling_is_real.PNG" /></p>
+</div>
 <div class="section" id="show-stac-for-maine-and-clipping-and-crs-from-platecarree">
 <h2>Show STAC - for maine and clipping and crs from plateCarree<a class="headerlink" href="#show-stac-for-maine-and-clipping-and-crs-from-platecarree" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
+<li><p>time permitting?</p></li>
 <li><p>find this demo - do it in the pangeo</p></li>
 </ul>
 </div>
