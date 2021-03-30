@@ -80,7 +80,7 @@ singularity run library://sylabsed/examples/lolcow
 1. No Root Access in Containers - you run as butzer 
 2. Created for scientists on HPC
 3. Integrated volumes - your home directory /home/butzer and Caldera are just there
-4. Job Scehduling integration with slurm
+4. Job Scheduling integration with slurm
 
 I was not happy that I had to learn - yet another orchestration tool - let alone two - singularity and slurm
 
@@ -201,6 +201,7 @@ http://localhost:8888
     - notice caldera and home directory are ubiqutous accross - denali and tallgrasss
     - datalakes will be accessible world wide - the opposite of dark repositories of data
 - notebook url HERE
+- https://pangeo.chs.usgs.gov/user/butzer@contractor.usgs.gov/notebooks/nlcd-datalake/scp-tools/1_nlcd-anhb-viewer.ipynb
 
 # Data Lake
 
