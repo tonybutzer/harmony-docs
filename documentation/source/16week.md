@@ -150,7 +150,7 @@ function git_sparse_clone() (
 
 ### use wget for single notebooks
 
-1. find the raw link in gethub 
+1. find the raw link in github 
     - https://raw.githubusercontent.com/tonybutzer/composite/main/01-danielson/1_LANDSAT_ALBERS_MAINE/0_maine_landsat_albers.ipynb
 
 ```
