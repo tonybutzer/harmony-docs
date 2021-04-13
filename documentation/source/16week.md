@@ -20,6 +20,18 @@ Today we welcome the Landfire, FireScience team to this community of best practi
     - Sentinel-2-COGs
     - Hamonized Landsat Sentinel
 
+## Teams
+1. Evapotranspiration -- Water - Steffi, Olena
+2. Land Cover - Brett, Pat, Kory
+3. LCMAP - Kelcy
+4. Invasive - Sujan, Devandra, Logan, Neal
+5. Web Development Team - Claudia, Maxwell, Michelle, Balu ...
+6. VegDyn - Trent, Dinesh
+7. Emerging AI experts ...
+
+
+> Basically, ostensibly- lots of superior TALENT
+
 ## A group of experts 
 
 - here are just a few - there are many i have not enumerated and some i have not yet discovered
@@ -46,6 +58,7 @@ Nathan Roberts and Rich Signell are both presenting Pangeo/OpenDataCube papers a
 So the folks attending this class are Early Adopters of technology and infrastructure stacks that will revolutionize science in the next few years.
 
 # Prepare the Pangeo - release the kracken
+# start the pangeo tony START IT
 - [https://pangeo.cr.usgs.gov](https://pangeo.cr.usgs.gov)
  
 
@@ -86,4 +99,8 @@ Say you’re sorry when you hurt somebody.
 
 Wash your hands before you eat.
 ```
+
+
+## Landsat Albers by way of BT detour.
+
 
