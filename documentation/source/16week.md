@@ -19,6 +19,16 @@ Today we welcome the Landfire, FireScience team to this community of best practi
     - Landsat - utm/albers/ ---> ARD tiles
     - Sentinel-2-COGs
     - Hamonized Landsat Sentinel
+4. Makeing birds-f-a-feather connections in science
+5. focus on TRAINING - lets have a highly TRAINED Science team and a world class data center
+    - start with simple get togethers - this class
+    - jot some disorganized notes
+    - share some draft notebooks
+    - stuff code and docs in github
+    - hire an intern to organize and collate this stuff
+    - repitition
+    - learn how to use git search in the meantime
+    - reach out and ask for help - connectors include Rich Signell, Nathan, Aaron Friesz, tony ....
 
 ## Teams
 1. Evapotranspiration -- Water - Steffi, Olena
