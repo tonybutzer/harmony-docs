@@ -74,6 +74,7 @@ So the folks attending this class are Early Adopters of technology and infrastru
 - so far many have come up to speed with Jupyter Lab/Notebook quickly
     - The ability to share snippets of code, concepts, visualizations - is a gamechanger
     - Jupyter is not a full-blown IDE - i say so what!
+- these few weeks will look at composites with HLS, sentinel and Landsat - starting with data discover via STAC.
 
 ## Make friends with git
 - https:/code.usgs.gov
