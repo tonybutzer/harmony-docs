@@ -615,6 +615,10 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#landsat-albers-by-way-of-bt-detour">Landsat Albers by way of BT detour.</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-transfer-how-do-i-get-my-data-to-and-from-the-cloud">Data transfer - how do I get my data to and from the cloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#question-of-the-week-partial-git-clones">Question of the Week - Partial Git Clones</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#use-wget-for-single-notebooks">use wget for single notebooks</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="01hpc.html">HPC Notes</a><ul>
@@ -1069,6 +1073,35 @@ Wash your hands before you eat.
 </ul>
 </li>
 </ul>
+</div>
+<div class="section" id="question-of-the-week-partial-git-clones">
+<h2>Question of the Week - Partial Git Clones<a class="headerlink" href="#question-of-the-week-partial-git-clones" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#! /bin/bash</span>
+
+<span class="k">function</span> git_sparse_clone<span class="o">()</span> <span class="o">(</span>
+  <span class="nv">rurl</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$1</span><span class="s2">&quot;</span> <span class="nv">localdir</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$2</span><span class="s2">&quot;</span> <span class="o">&amp;&amp;</span> <span class="nb">shift</span> <span class="m">2</span>
+
+  mkdir -p <span class="s2">&quot;</span><span class="nv">$localdir</span><span class="s2">&quot;</span>
+  git config core.sparseCheckout <span class="nb">true</span>
+
+  <span class="c1"># Loops over remaining args</span>
+  <span class="k">for</span> i<span class="p">;</span> <span class="k">do</span>
+    <span class="nb">echo</span> <span class="s2">&quot;</span><span class="nv">$i</span><span class="s2">&quot;</span> &gt;&gt; .git/info/sparse-checkout
+</pre></div>
+</div>
+<div class="section" id="use-wget-for-single-notebooks">
+<h3>use wget for single notebooks<a class="headerlink" href="#use-wget-for-single-notebooks" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p>find the raw link in gethub</p>
+<ul class="simple">
+<li><p>https://raw.githubusercontent.com/tonybutzer/composite/main/01-danielson/1_LANDSAT_ALBERS_MAINE/0_maine_landsat_albers.ipynb</p></li>
+</ul>
+</li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">raw</span><span class="o">.</span><span class="n">githubusercontent</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">tonybutzer</span><span class="o">/</span><span class="n">composite</span><span class="o">/</span><span class="n">main</span><span class="o">/</span><span class="mi">01</span><span class="o">-</span><span class="n">danielson</span><span class="o">/</span><span class="mi">1</span><span class="n">_LANDSAT_ALBERS_MAINE</span><span class="o">/</span><span class="mi">0</span><span class="n">_maine_landsat_albers</span><span class="o">.</span><span class="n">ipynb</span>
+</pre></div>
+</div>
+</div>
 </div>
 </div>
 

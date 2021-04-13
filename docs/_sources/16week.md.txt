@@ -130,3 +130,29 @@ Wash your hands before you eat.
 - we have played with many fileTransfer agents
     - tony's favorites are scp and rclone and perhaps some of their derivatives - like lftp
     - more to come - more help available ....
+
+
+## Question of the Week - Partial Git Clones
+
+```bash
+#! /bin/bash
+
+function git_sparse_clone() (
+  rurl="$1" localdir="$2" && shift 2
+
+  mkdir -p "$localdir"
+  git config core.sparseCheckout true
+
+  # Loops over remaining args
+  for i; do
+    echo "$i" >> .git/info/sparse-checkout
+```
+
+### use wget for single notebooks
+
+1. find the raw link in gethub 
+    - https://raw.githubusercontent.com/tonybutzer/composite/main/01-danielson/1_LANDSAT_ALBERS_MAINE/0_maine_landsat_albers.ipynb
+
+```
+wget https://raw.githubusercontent.com/tonybutzer/composite/main/01-danielson/1_LANDSAT_ALBERS_MAINE/0_maine_landsat_albers.ipynb
+```
