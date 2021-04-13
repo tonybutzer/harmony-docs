@@ -207,3 +207,5 @@ For Using On-premises
 - s3 tricks and traps
 - docker
 - ec2 and costs
+
+## Prior videos are available in M$-stream
