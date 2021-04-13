@@ -156,3 +156,24 @@ function git_sparse_clone() (
 ```
 wget https://raw.githubusercontent.com/tonybutzer/composite/main/01-danielson/1_LANDSAT_ALBERS_MAINE/0_maine_landsat_albers.ipynb
 ```
+
+### Costs
+
+```
+ubuntu@ip-10-12-68-246:~$ docker run tbutzer/aws-price python awsprice.py butzer
+['awsprice.py', 'butzer']
+butzer
+     state                     name            ip       i_type  monthly_cost
+0  running  butzer-et-mini-pangeo-0  10.12.68.246  t3a.2xlarge       219.584
+1  stopped        butzer-bigsship-0   10.12.69.45  m5a.4xlarge       502.240
+2  running       butzer-tendollar-a  10.12.68.236     t2.micro         8.468
+==========================================================================================
+==========================================================================================
+     state                     name            ip       i_type  monthly_cost
+0  running  butzer-et-mini-pangeo-0  10.12.68.246  t3a.2xlarge       219.584
+2  running       butzer-tendollar-a  10.12.68.236     t2.micro         8.468
+========================================================================================================================
+=====================================================================
+```
+
+[Harry House on Cost - The truthful answer to this question is “it’s complex, and it depends.](https://support.chs.usgs.gov/pages/viewpage.action?pageId=40370588)

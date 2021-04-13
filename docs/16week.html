@@ -617,6 +617,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#data-transfer-how-do-i-get-my-data-to-and-from-the-cloud">Data transfer - how do I get my data to and from the cloud</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#question-of-the-week-partial-git-clones">Question of the Week - Partial Git Clones</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#use-wget-for-single-notebooks">use wget for single notebooks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#costs">Costs</a></li>
 </ul>
 </li>
 </ul>
@@ -1101,6 +1102,26 @@ Wash your hands before you eat.
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">raw</span><span class="o">.</span><span class="n">githubusercontent</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">tonybutzer</span><span class="o">/</span><span class="n">composite</span><span class="o">/</span><span class="n">main</span><span class="o">/</span><span class="mi">01</span><span class="o">-</span><span class="n">danielson</span><span class="o">/</span><span class="mi">1</span><span class="n">_LANDSAT_ALBERS_MAINE</span><span class="o">/</span><span class="mi">0</span><span class="n">_maine_landsat_albers</span><span class="o">.</span><span class="n">ipynb</span>
 </pre></div>
 </div>
+</div>
+<div class="section" id="costs">
+<h3>Costs<a class="headerlink" href="#costs" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ubuntu@ip-10-12-68-246:~$ docker run tbutzer/aws-price python awsprice.py butzer
+[&#39;awsprice.py&#39;, &#39;butzer&#39;]
+butzer
+     state                     name            ip       i_type  monthly_cost
+0  running  butzer-et-mini-pangeo-0  10.12.68.246  t3a.2xlarge       219.584
+1  stopped        butzer-bigsship-0   10.12.69.45  m5a.4xlarge       502.240
+2  running       butzer-tendollar-a  10.12.68.236     t2.micro         8.468
+==========================================================================================
+==========================================================================================
+     state                     name            ip       i_type  monthly_cost
+0  running  butzer-et-mini-pangeo-0  10.12.68.246  t3a.2xlarge       219.584
+2  running       butzer-tendollar-a  10.12.68.236     t2.micro         8.468
+========================================================================================================================
+=====================================================================
+</pre></div>
+</div>
+<p><a class="reference external" href="https://support.chs.usgs.gov/pages/viewpage.action?pageId=40370588">Harry House on Cost - The truthful answer to this question is “it’s complex, and it depends.</a></p>
 </div>
 </div>
 </div>
