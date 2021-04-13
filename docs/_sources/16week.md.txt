@@ -46,11 +46,12 @@ Today we welcome the Landfire, FireScience team to this community of best practi
 
 - here are just a few - there are many i have not enumerated and some i have not yet discovered
 
-1. Logan Megard - HLS
+1. Logan Megard - HLS -- DevOps
 2. Steffi Kagone - Converting Models from ARCPY to rasterio
 3. Olena Boiko - Data Wrangling Expert - MOdel QA Expert - Jupyter/matplotlib
 4. Kelcy Smith - Python Expert, Jupyter Expert, time-series expert - STAC expert
 5. Nathan Roberts - user service - data management 
+6. tony - DevOps and OpenDataCube, docker, code portability, networking and file transfers
 
 ## Today
 Today I am privileged to have guest instructors:
