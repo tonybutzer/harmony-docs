@@ -177,3 +177,25 @@ butzer
 ```
 
 [Harry House on Cost - The truthful answer to this question is “it’s complex, and it depends.](https://support.chs.usgs.gov/pages/viewpage.action?pageId=40370588)
+
+> One would presume that most private companies would be aware of the total cost of ownership within their borders and may well be more likely to adopt the Cloud sooner from a cost perspective if nothing else. 
+
+Here is a list of considerations when contemplating the Cloud or on-premises from the viewpoint of comparable expenses: 
+
+For Using On-premises
+
+    Cost to purchase the on-premises equipment
+
+    Cost to configure and manage the on-premises equipment
+
+    Cost to maintain the power and air conditioning in the computer room
+
+    Cost of the system administrators to support the computer room and all the devices therein
+
+    Cost of the floor space (rented or owned but not usable for other purposes) for the on-premises system
+
+    Cost of on-site backups
+
+    Cost of network connectivity
+
+    Cost of meeting security controls related to the facility
