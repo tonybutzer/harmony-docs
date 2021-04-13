@@ -593,11 +593,22 @@
 <li class="toctree-l2"><a class="reference internal" href="15week.html#show-stac-for-maine-and-clipping-and-crs-from-platecarree">Show STAC - for maine and clipping and crs from plateCarree</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 16 - Welcome Landfire</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Week 16 - Welcome Landfire</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-this-class">What is this class?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#a-group-of-experts">A group of experts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#today">Today</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="#prepare-the-pangeo-release-the-kracken">Prepare the Pangeo - release the kracken</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#overview">Overview</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#steffi-and-olena">Steffi and Olena</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#modis-derived-ndvi-an-land-surface-temperature">Modis derived NDVI an Land Surface Temperature</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pat-and-kory">Pat and Kory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#make-friends-with-git">Make friends with git</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quit-hiding-your-code-and-data">quit hiding your code and data -</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#from-kindergarten">From Kindergarten</a></li>
 </ul>
 </li>
 </ul>
@@ -878,6 +889,54 @@
   <div class="section" id="week-16-welcome-landfire">
 <h1>Week 16 - Welcome Landfire<a class="headerlink" href="#week-16-welcome-landfire" title="Permalink to this headline">¶</a></h1>
 <p>Today we welcome the Landfire, FireScience team to this community of best practices and this community of sharing, notebooks, concepts, code , data and most importantly - non-silo-ed talent. Welcome Tolk, Brian (Contractor) L  – and Degaga, Erica J</p>
+<div class="section" id="what-is-this-class">
+<h2>What is this class?<a class="headerlink" href="#what-is-this-class" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>A community of cloud based Scientists that:</p>
+<ul class="simple">
+<li><p>use the cloud</p></li>
+<li><p>some have custom cloud accounts</p></li>
+<li><p>some use the Landsat account</p></li>
+<li><p>some use thebigPangeo</p></li>
+<li><p>some have their own mini-Pangeos/jupyterHubs/sandboxes</p></li>
+<li></li>
+</ul>
+</li>
+<li><p>Notable technologies</p>
+<ul class="simple">
+<li><p>Python</p></li>
+<li><p>Open Source</p></li>
+<li><p>Image Processing and GIS</p>
+<ul>
+<li><p>xarray, pandas, matplotlib, holoviews, geoviews, geopandas, rasterio, GDAL</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Remote Sensing Cloud Stored assets</p>
+<ul class="simple">
+<li><p>Landsat - utm/albers/ —&gt; ARD tiles</p></li>
+<li><p>Sentinel-2-COGs</p></li>
+<li><p>Hamonized Landsat Sentinel</p></li>
+</ul>
+</li>
+</ol>
+</div>
+<div class="section" id="a-group-of-experts">
+<h2>A group of experts<a class="headerlink" href="#a-group-of-experts" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>here are just a few - there are many i have not enumerated and some i have not yet discovered</p></li>
+</ul>
+<ol class="simple">
+<li><p>Logan Megard - HLS</p></li>
+<li><p>Steffi Kagone - Converting Models from ARCPY to rasterio</p></li>
+<li><p>Olena Boiko - Data Wrangling Expert - MOdel QA Expert - Jupyter/matplotlib</p></li>
+<li><p>Kelcy Smith - Python Expert, Jupyter Expert, time-series expert - STAC expert</p></li>
+<li><p>Nathan Roberts - user service - data management</p></li>
+</ol>
+</div>
+<div class="section" id="today">
+<h2>Today<a class="headerlink" href="#today" title="Permalink to this headline">¶</a></h2>
 <p>Today I am privileged to have guest instructors:
 Kagone, Stefanie (Contractor) – and – Boiko, Olena are back for an encore lesson on how to use the bigPangeo - pangeo.chs.usgs.gov to look at refining the sophistication of the model by improving the fidelity of NDVI.</p>
 <p>also …
@@ -886,6 +945,7 @@ Danielson, Patrick (Contractor) – and – Postma, Kory (Contractor) will give 
 <p>And we can talk about finding Albers Scenes for Landsat Compositing using the young, immature Landsat Stac Catalog.</p>
 <p>Nathan Roberts and Rich Signell are both presenting Pangeo/OpenDataCube papers at conferences this month.</p>
 <p>So the folks attending this class are Early Adopters of technology and infrastructure stacks that will revolutionize science in the next few years.</p>
+</div>
 </div>
 <div class="section" id="prepare-the-pangeo-release-the-kracken">
 <h1>Prepare the Pangeo - release the kracken<a class="headerlink" href="#prepare-the-pangeo-release-the-kracken" title="Permalink to this headline">¶</a></h1>
@@ -901,9 +961,49 @@ Danielson, Patrick (Contractor) – and – Postma, Kory (Contractor) will give 
 <h3>Modis derived NDVI an Land Surface Temperature<a class="headerlink" href="#modis-derived-ndvi-an-land-surface-temperature" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>Uses the big pangeo</p></li>
-<li><p>uses R**2 to eveluate hypothesis</p></li>
+<li><p>uses R**2 to evaluate hypothesis</p></li>
 <li><p>ran in a $200 mini-pangeo - now runs in the freeFREEfree https://pangeo.chs.usgs.gov</p></li>
 </ul>
+</div>
+</div>
+<div class="section" id="pat-and-kory">
+<h2>Pat and Kory<a class="headerlink" href="#pat-and-kory" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>so far many have come up to speed with Jupyter Lab/Notebook quickly</p>
+<ul>
+<li><p>The ability to share snippets of code, concepts, visualizations - is a gamechanger</p></li>
+<li><p>Jupyter is not a full-blown IDE - i say so what!</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="make-friends-with-git">
+<h2>Make friends with git<a class="headerlink" href="#make-friends-with-git" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>https:/code.usgs.gov</p></li>
+</ul>
+</div>
+<div class="section" id="quit-hiding-your-code-and-data">
+<h2>quit hiding your code and data -<a class="headerlink" href="#quit-hiding-your-code-and-data" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="from-kindergarten">
+<h3>From Kindergarten<a class="headerlink" href="#from-kindergarten" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Share everything.
+
+Play fair.
+
+Don’t hit people.
+
+Put things back where you found them.
+
+Clean up your own mess.
+
+Don’t take things that aren’t yours.
+
+Say you’re sorry when you hurt somebody.
+
+Wash your hands before you eat.
+</pre></div>
+</div>
 </div>
 </div>
 </div>
