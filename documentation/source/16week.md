@@ -116,3 +116,17 @@ Wash your hands before you eat.
 ## Landsat Albers by way of BT detour.
 
 
+
+## Data transfer - how do I get my data to and from the cloud 
+- to is always free
+- from can come with egress costs unless
+    - you use rclone or some other sneaky method
+
+- we were able to get these rates
+    - 40 MBytes per second from cladera --> s3
+    - 2 Mbytes per second using VDI machines for most transfers
+    - .5 Mbytes when using windows and the VPN/PulseSecure
+
+- we have played with many fileTransfer agents
+    - tony's favorites are scp and rclone and perhaps some of their derivatives - like lftp
+    - more to come - more help available ....

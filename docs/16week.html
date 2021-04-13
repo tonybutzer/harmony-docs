@@ -614,6 +614,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#landsat-albers-by-way-of-bt-detour">Landsat Albers by way of BT detour.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-transfer-how-do-i-get-my-data-to-and-from-the-cloud">Data transfer - how do I get my data to and from the cloud</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="01hpc.html">HPC Notes</a><ul>
@@ -1044,6 +1045,30 @@ Wash your hands before you eat.
 </div>
 <div class="section" id="landsat-albers-by-way-of-bt-detour">
 <h2>Landsat Albers by way of BT detour.<a class="headerlink" href="#landsat-albers-by-way-of-bt-detour" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="data-transfer-how-do-i-get-my-data-to-and-from-the-cloud">
+<h2>Data transfer - how do I get my data to and from the cloud<a class="headerlink" href="#data-transfer-how-do-i-get-my-data-to-and-from-the-cloud" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>to is always free</p></li>
+<li><p>from can come with egress costs unless</p>
+<ul>
+<li><p>you use rclone or some other sneaky method</p></li>
+</ul>
+</li>
+<li><p>we were able to get these rates</p>
+<ul>
+<li><p>40 MBytes per second from cladera –&gt; s3</p></li>
+<li><p>2 Mbytes per second using VDI machines for most transfers</p></li>
+<li><p>.5 Mbytes when using windows and the VPN/PulseSecure</p></li>
+</ul>
+</li>
+<li><p>we have played with many fileTransfer agents</p>
+<ul>
+<li><p>tony’s favorites are scp and rclone and perhaps some of their derivatives - like lftp</p></li>
+<li><p>more to come - more help available ….</p></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 
