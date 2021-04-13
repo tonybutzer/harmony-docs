@@ -72,6 +72,7 @@ So the folks attending this class are Early Adopters of technology and infrastru
 # start the pangeo tony START IT
 - [https://pangeo.cr.usgs.gov](https://pangeo.cr.usgs.gov)
  
+---
 
 # Overview
 
@@ -86,6 +87,10 @@ So the folks attending this class are Early Adopters of technology and infrastru
     - The ability to share snippets of code, concepts, visualizations - is a gamechanger
     - Jupyter is not a full-blown IDE - i say so what!
 - these few weeks will look at composites with HLS, sentinel and Landsat - starting with data discover via STAC.
+---
+
+
+---
 
 ## Make friends with git
 - https:/code.usgs.gov
@@ -209,3 +214,8 @@ For Using On-premises
 - ec2 and costs
 
 ## Prior videos are available in M$-stream
+- you can watch these in 2x speed and skip around.
+
+## Rich SigNELL hidden gem
+BTW, I don't know if you think this is cool, but I found out something new about fsspec this morning... .It's more than just for s3!   
+https://nbviewer.jupyter.org/gist/rsignell-usgs/8e3051974d0e3a1722369cafe9e0005e
