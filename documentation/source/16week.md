@@ -199,3 +199,11 @@ For Using On-premises
     Cost of network connectivity
 
     Cost of meeting security controls related to the facility
+
+
+## DevOps Consulting - tony
+
+- terraform
+- s3 tricks and traps
+- docker
+- ec2 and costs
