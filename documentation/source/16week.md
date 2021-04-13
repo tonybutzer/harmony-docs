@@ -137,6 +137,12 @@ Wash your hands before you eat.
     - more to come - more help available ....
 
 
+
+```
+ rclone copy -P et-data:/dev-et-data/in/DelawareRiverBasin/PPT/2000/ tallgrass:/caldera/projects/usgs/water/impd/butzer/PPT/2000/
+```
+
+
 ## Question of the Week - Partial Git Clones
 
 ```bash
