@@ -2,7 +2,29 @@
 
 - so many technical options and choices - so little time.
 
+## Future Classes
+1. Logan - HLS experiments for ECO-invasive
+2. Aaron - s3 direct access LPDAAC HLS
+3. Kelcy - time series landsat
+
+
+## Demo Overview
+
+1. Look at google cloud bucket assets - ssebop
+2. demo how to replicate/sync/copy those to our AWS DataLake
+3. demo using docker to build an image for gsutil -- google utility
+4. demo running the container on AWS
+5. demo running the container/sif on Tallgrass
+6. demo looking at the tif file with Pangeo on tallgrass via ssh tunnel of port 8888
+
+---
+1. redo Nate's Waubay for albers and rgb
+    - composite repo?
+
+- https://console.cloud.google.com/storage/browser/ssebop-modis/Annual
 ## Rclone Examples
+
+- tony --> umyssh minipangeo
 
 ```
  1984  cat Dockerfile
