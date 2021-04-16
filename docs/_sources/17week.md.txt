@@ -81,9 +81,12 @@ services:
 5. A world or universe view
 6. fosters the right CULTURE
     - sharing and confidence
-    - respects each othere expertise
-    - has each others back
+    - respects each other's expertise
+    - has each other's back
     - has fun at work
     - rejects management styles that don't inspire
 
 ## These classes propose PANGEO as a way for science
+- Open Data Cube - is an instance of PANGEO
+    - its database for me represents an barrier to entry
+    - that said its a cool and powerful abstraction for building xarray timeseries applications that run in Pangeos
