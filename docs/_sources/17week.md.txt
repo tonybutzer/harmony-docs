@@ -110,5 +110,5 @@ services:
 
 ## These classes propose PANGEO as a way for science
 - Open Data Cube - is an instance of PANGEO
-    - its database for me represents an barrier to entry
+    - its database for me represents a barrier to entry
     - that said its a cool and powerful abstraction for building xarray timeseries applications that run in Pangeos
