@@ -6,9 +6,12 @@
 1. Logan - HLS experiments for ECO-invasive
 2. Aaron - s3 direct access LPDAAC HLS
 3. Kelcy - time series landsat
+4. Pat Danielson, Kory, Brett, Brian Tolk -- Compositing - NLCD and FireScience
 
 
 [https://github.com/tonybutzer/et/blob/master/docs/source/00status.md](https://github.com/tonybutzer/et/blob/master/docs/source/00status.md)
+
+- [https://github.com/tonybutzer/et/blob/master/docs/source/00status.md
 
 ## Demo Overview
 
