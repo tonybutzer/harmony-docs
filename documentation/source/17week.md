@@ -11,7 +11,7 @@
 
 [https://github.com/tonybutzer/et/blob/master/docs/source/00status.md](https://github.com/tonybutzer/et/blob/master/docs/source/00status.md)
 
-- [https://github.com/tonybutzer/et/blob/master/docs/source/00status.md
+- https://github.com/tonybutzer/et/blob/master/docs/source/00status.md
 
 ## Demo Overview
 
