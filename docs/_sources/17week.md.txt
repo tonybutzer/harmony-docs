@@ -45,9 +45,22 @@ K:\90daytemp\butzer\AWS_PANGEO_VIDEOS\2020_12_08_AWS_PANGEO On-boarding with Ton
 - https://taskmgr.chs.usgs.gov/servicedesk/customer/portal/10
 
 
+
+### Evapo Cartoon
 [https://github.com/tonybutzer/et/blob/master/docs/source/00status.md](https://github.com/tonybutzer/et/blob/master/docs/source/00status.md)
 
 - https://github.com/tonybutzer/et/blob/master/docs/source/00status.md
+
+## Class Context
+
+1. Projects that use mutiple modern compute resources
+2. CHS AWS development accounts - EC2 elastic, ephemeral computer -- with S3 and git for persistence
+3. HPC - especially Tallgrass - cause its availabkle and has GPUs
+4. Part of our model family SSEBop is computed/modeled using Google Cloud Platform and GEE
+5. GSUTIL and RCLONE featured
+6. Refresher on DOCKER and SINGULARITY
+7. using pangeo.chs.usgs.gov for displaying ssebop
+8. Open Data Cube abstractions BUT with PANGEO for Landsat Albers Scenes
 
 ## Demo Overview
 
