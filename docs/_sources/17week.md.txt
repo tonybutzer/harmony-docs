@@ -2,6 +2,16 @@
 
 - so many technical options and choices - so little time.
 
+## What does this class teach again?
+
+1. How to exploit the AWS Cloud via CHS
+2. PANGEO - Xarray, Pandas, Holoviews ...
+3. DevOps for the science guys
+4. Moving, Wrangling Data with less effort and less time
+4. Don't MOVE your data - teleport to Oregon - us-west-2
+5. Jupyter and Python - easy to write - easy to run
+6. Docker its in there
+
 ## Future Classes
 1. Logan - HLS experiments for ECO-invasive
 2. Aaron - s3 direct access LPDAAC HLS
@@ -10,6 +20,7 @@
 5. Simson --> Jupyter Quick Start
 6. Erica Degagga --> Landfire Initiatives in the Cloud
 7. Tony --> Searching disorganized git repos
+8. Neal CoP presentation on using Cloud + Cloud + HPC + AI/ML/DL
 
 
 ## Past Videos
@@ -21,6 +32,11 @@
 - Game of Thrones is 67 hours -- this is less than 20 so far
 
 ### K 90daytemp
+
+- k:/90daytemp/butzer/AWS_PANGEO_VIDEOS 
+
+#### Featured Video
+K:\90daytemp\butzer\AWS_PANGEO_VIDEOS\2020_12_08_AWS_PANGEO On-boarding with Tony and Neal.mp4
 
 
 ## Pangeo Access
