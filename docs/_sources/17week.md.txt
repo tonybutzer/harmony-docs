@@ -7,6 +7,26 @@
 2. Aaron - s3 direct access LPDAAC HLS
 3. Kelcy - time series landsat
 4. Pat Danielson, Kory, Brett, Brian Tolk -- Compositing - NLCD and FireScience
+5. Simson --> Jupyter Quick Start
+6. Erica Degagga --> Landfire Initiatives in the Cloud
+7. Tony --> Searching disorganized git repos
+
+
+## Past Videos
+
+- teams does not make it easy to share for new users
+    - past channel is not available
+    - test with Simson negative result
+
+- Game of Thrones is 67 hours -- this is less than 20 so far
+
+### K 90daytemp
+
+
+## Pangeo Access
+
+- https://taskmgr.chs.usgs.gov/servicedesk/customer/portal/10/create/251
+- https://taskmgr.chs.usgs.gov/servicedesk/customer/portal/10
 
 
 [https://github.com/tonybutzer/et/blob/master/docs/source/00status.md](https://github.com/tonybutzer/et/blob/master/docs/source/00status.md)
