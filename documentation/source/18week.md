@@ -24,6 +24,9 @@
         - UTM to Albers to Merging of cross zone tiles - Sujan
     - Dealing with HDF4 until there are COGs
 
+## "COGs good!" - says OG (the caveman).
+![](https://kokoalberti.com/articles/geotiff-compression-optimization-guide/tiled_vs_stripped.png)
+
 
 ![](https://billingsgazette.com/content/tncms/live/#1)
 
