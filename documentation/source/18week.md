@@ -39,3 +39,22 @@
 
 - K:\90daytemp\butzer\AWS_PANGEO_VIDEOS
 
+### In other news - don't get your NADs mixed up
+
+```
+
+Subject: REGISTER for 2021 Geospatial Summit, NGS/NOAA - May 4-5 - status for replacement of NAD 83 & NAVD 88 in 2022 
+ 
+To all --
+
+The National Geodetic Survey/NOAA plans to replace the North American Datum of 1983 (NAD 83) and the North American Vertical Datum of 1988 (NAVD 88) as part of modernizing the National Spatial Reference System (NSRS).
+
+
+The purpose of the Geospatial Summit is to learn about the status and schedule for replacement of NAD 83 and NAVD 88, and the impact the transition to the modernized NSRS will have on USGS georeferenced products.
+
+
+Below is a link to a draft agenda and to documents for background information.
+
+
+```
+
