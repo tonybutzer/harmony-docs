@@ -29,7 +29,10 @@
 ![](https://kokoalberti.com/articles/geotiff-compression-optimization-guide/tiled_vs_stripped.png)
 
 
-![](https://billingsgazette.com/content/tncms/live/#1)
+
+## Campfire Anyone?
+
+![](https://www.inforum.com/incoming/6976312-fkwbls-47-badlands-images.jpeg/alternates/BASE_FREE/47%20badlands%20images.jpeg)
 
 
 ### Past Pangeo Videos Here
