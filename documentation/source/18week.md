@@ -23,6 +23,7 @@
     - Update from Devandra
         - UTM to Albers to Merging of cross zone tiles - Sujan
     - Dealing with HDF4 until there are COGs
+    - Zonal stats - be careful with some of the libraries - to be continued ...
 
 ## "COGs good!" - says OG (the caveman).
 ![](https://kokoalberti.com/articles/geotiff-compression-optimization-guide/tiled_vs_stripped.png)
