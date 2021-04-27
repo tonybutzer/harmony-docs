@@ -41,8 +41,6 @@
 
 ### In other news - don't get your NADs mixed up
 
-```
-
 Subject: REGISTER for 2021 Geospatial Summit, NGS/NOAA - May 4-5 - status for replacement of NAD 83 & NAVD 88 in 2022 
  
 To all --
@@ -56,5 +54,4 @@ The purpose of the Geospatial Summit is to learn about the status and schedule f
 Below is a link to a draft agenda and to documents for background information.
 
 
-```
 
