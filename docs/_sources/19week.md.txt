@@ -39,3 +39,9 @@
 
 
 ## Class Moving to Mondays at Noon
+
+
+### Composites
+
+- This week was a quick detour into Fires with Albers Landsat Scenes
+- In two weeks we will look at time series and composites in Maine
