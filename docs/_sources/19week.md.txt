@@ -5,6 +5,7 @@
 
 ### Aaron Friesz - Lake Isabella Fire 2016 Animations
 
+- Start with git
 - Pangeo
 - STAC and COGS
 - Albers Scenes
