@@ -63,3 +63,7 @@ sudo systemctl stop jupyterhub.service
 
 ```
 
+
+### Debugging
+
+https://github.com/khuyentran1401/Data-science/tree/master/python/debug_tools
